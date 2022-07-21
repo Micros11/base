@@ -1,0 +1,1758 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "179a8916-3b1e-4363-92c4-c27e038ff6c6",
+  "Name": "EssPlatform",
+  "AsyncHandlers": [
+    {
+      "NameGuid": "3c639b5b-cbea-4c2a-9518-2664be64371e",
+      "Name": "ChangeEmployeeEssStatus",
+      "DelayPeriod": 15,
+      "DelayStrategy": "ExponentialDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "00b0a675-9fb8-4bd4-a8c9-793640501c5b",
+          "Name": "EssStatus",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "8bdd6065-f0cd-4308-a5a5-61e04cc12492",
+          "Name": "EmployeeId",
+          "ParameterType": "Integer"
+        }
+      ]
+    },
+    {
+      "NameGuid": "b440e7c9-ea6d-48a9-adcd-3e0504db378f",
+      "Name": "ActivateESSUsers",
+      "DelayPeriod": 15,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "33ac0184-42b8-4e74-8356-0c5ded42d2ba",
+          "Name": "departmentIds",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "cbaa5edc-d9ca-4ab9-8d7f-764225cb20b4",
+          "Name": "employeeIds",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "e45a7565-2ca8-48c6-98e5-5174cfc7a2fc",
+          "Name": "businessUnitIds",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "fa87625c-eccf-4c15-86dd-79e60658e40a",
+          "Name": "userId",
+          "ParameterType": "Integer"
+        }
+      ]
+    },
+    {
+      "NameGuid": "bb2065e8-9a81-4c87-bea1-9b104a135d29",
+      "Name": "SendSms",
+      "DelayPeriod": 5,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "0d01de02-614a-4171-ab8e-b76e36dd4541",
+          "Name": "messageText",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "112d6c02-baac-4592-9557-8d0ba931d975",
+          "Name": "userid",
+          "ParameterType": "Integer"
+        }
+      ]
+    },
+    {
+      "NameGuid": "873bcd17-913f-4fce-83b5-66474fe0f665",
+      "Name": "SendEmail",
+      "DelayPeriod": 5,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "1af63b3f-f9e2-4e9d-a239-ea774b6d83ac",
+          "Name": "messageSubject",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "4fb165e6-ba3b-47c5-acb1-b6f815d6e14a",
+          "Name": "messageText",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "e0328bf8-e179-4a96-81a7-e72adabb4ac8",
+          "Name": "userid",
+          "ParameterType": "Integer"
+        }
+      ]
+    },
+    {
+      "NameGuid": "d6ed7d27-4323-4ea7-bc12-c9acf0cb8cca",
+      "Name": "SendMessageToViber",
+      "DelayPeriod": 5,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "65b6c070-976f-456e-9e7f-b22c1f528f25",
+          "Name": "messageText",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "c520aa12-16c8-41ea-947a-bf7c3449ba00",
+          "Name": "userid",
+          "ParameterType": "Integer"
+        }
+      ]
+    },
+    {
+      "NameGuid": "6b7b3f5d-09ea-4f1d-9f31-3050b488f4d3",
+      "Name": "SynchronizeEmployee",
+      "DelayPeriod": 5,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "08d85736-d6f2-44fb-87a0-d97f8fffaf75",
+          "Name": "employeeId",
+          "ParameterType": "Integer"
+        },
+        {
+          "NameGuid": "0c65e591-1766-4fcd-b036-b14e97c6510b",
+          "Name": "personalPhone",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "2ccd3ca1-d507-48fe-a055-5576534877bd",
+          "Name": "smsNotification",
+          "ParameterType": "Boolean"
+        },
+        {
+          "NameGuid": "75149e64-cefd-49e7-beba-72c72cdce313",
+          "Name": "personalAccountStatus",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "9f2d43de-4827-401b-b5d8-ad28b73a655a",
+          "Name": "messagesEmail",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "a4b64d70-13d6-4361-8842-07fc40ed0f12",
+          "Name": "viberNotification",
+          "ParameterType": "Boolean"
+        },
+        {
+          "NameGuid": "dfd6e5a9-7443-4059-9f2c-d8b57128efb6",
+          "Name": "emailNotification",
+          "ParameterType": "Boolean"
+        }
+      ]
+    }
+  ],
+  "ClientAssemblyName": "DirRX.EssPlatform.Client",
+  "ClientBaseAssemblyName": "DirRX.EssPlatform.ClientBase",
+  "ClientBaseNamespace": "DirRX.EssPlatform.ClientBase",
+  "ClientNamespace": "DirRX.EssPlatform.Client",
+  "Code": "EssPl",
+  "CompanyCode": "DirRX",
+  "Cover": {
+    "NameGuid": "1792afc7-517a-473b-87c5-e1f89e6a81ee",
+    "Actions": [
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "03184e5c-cf49-4fce-abac-f2150164bd09",
+        "Name": "ShowRoles",
+        "FunctionName": "ShowEssRoles",
+        "GroupId": "17321695-2946-4e5c-8fd9-6c502fa5a667",
+        "PreviousItemGuid": "3aa3a937-1b55-4476-b2ce-991d02a3bda9"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "3aa3a937-1b55-4476-b2ce-991d02a3bda9",
+        "Name": "InviteUsers",
+        "FunctionName": "InviteUsers",
+        "GroupId": "17321695-2946-4e5c-8fd9-6c502fa5a667",
+        "PreviousItemGuid": "465b4e32-44b0-4ffb-a34b-33feb3df28d4"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "465b4e32-44b0-4ffb-a34b-33feb3df28d4",
+        "Name": "ShowEssSettings",
+        "FunctionName": "ShowEssSettings",
+        "GroupId": "17321695-2946-4e5c-8fd9-6c502fa5a667"
+      }
+    ],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "aad5baf1-fd8b-4bcd-b832-e3d56fbed643",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [
+      {
+        "NameGuid": "17321695-2946-4e5c-8fd9-6c502fa5a667",
+        "Name": "AdminGroup",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconAdminGroup_1732169529464e5c8fd96c502fa5a667.png"
+      }
+    ],
+    "Header": {
+      "NameGuid": "511b1752-84da-423c-b5ee-81d8608e2edb",
+      "BackgroundPosition": "Stretch",
+      "IconName": "HeaderIcon_511b175284da423cb5ee81d8608e2edb.png"
+    }
+  },
+  "Dependencies": [
+    {
+      "Id": "2f09c48b-3c08-4de0-b64c-9db6276da985",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    },
+    {
+      "Id": "ec7b606a-21ee-4f16-aba8-ab8c2af76d12",
+      "MaxVersion": "",
+      "MinVersion": "0.0.1.0"
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "1a2342f2-7783-4b6a-9bb8-618b47b4cecc",
+      "PreviousItemId": "efa34174-7bf9-4407-b4cb-0136f032576d"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "DirRX.EssPlatform",
+  "Libraries": [
+    {
+      "NameGuid": "1706103c-e559-400c-a52e-5f9e264d5a98",
+      "Name": "Json",
+      "Scope": "Both"
+    },
+    {
+      "NameGuid": "030818e7-09b8-4d87-bcfa-71a1d91e8f72",
+      "Name": "Http",
+      "Scope": "Both"
+    },
+    {
+      "NameGuid": "684dbdcb-0631-4def-93a7-eae3ea57f94f",
+      "Name": "Aspose",
+      "Scope": "Both"
+    },
+    {
+      "NameGuid": "cc0dad94-a012-4096-b5a8-09ef6c78803e",
+      "Name": "AsposeExtensions",
+      "Scope": "Both"
+    }
+  ],
+  "Overridden": [
+    "Importance"
+  ],
+  "PublicConstants": [
+    {
+      "Name": "PhonePattern",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "@\"\\+[0-9] \\([0-9]{3}\\) [0-9]{3}-[0-9]{2}-[0-9]{2}\""
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "AbortTask",
+      "Parameters": [
+        {
+          "Name": "taskId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void",
+      "WebApiRequestType": "Post"
+    },
+    {
+      "Name": "ActivateESSUser",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::DirRX.EssPlatformSolution.IEmployee",
+          "ParameterTypeFullName": "DirRX.EssPlatformSolution.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ActivateESSUsers",
+      "Parameters": [
+        {
+          "Name": "businessUnitIds",
+          "ParameterType": "global::System.Collections.Generic.List<global::System.String>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "departmentIds",
+          "ParameterType": "global::System.Collections.Generic.List<global::System.String>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "employeeIds",
+          "ParameterType": "global::System.Collections.Generic.List<global::System.String>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "ReturnType": "global::DirRX.EssPlatform.Structures.Module.ICreateEssUsersResults",
+      "ReturnTypeFullName": "DirRX.EssPlatform.Structures.Module.ICreateEssUsersResults"
+    },
+    {
+      "Name": "AddAssignmentActiveText",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "аctiveText",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void",
+      "WebApiRequestType": "Post"
+    },
+    {
+      "Name": "AddSignature",
+      "Parameters": [
+        {
+          "Name": "documentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "versionNumber",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "signatureType",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "signedByEmployeeId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "base64Signature",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void",
+      "WebApiRequestType": "Post"
+    },
+    {
+      "Name": "AddStamp",
+      "Parameters": [
+        {
+          "Name": "documentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean",
+      "WebApiRequestType": "Post"
+    },
+    {
+      "Name": "AttachDocuments",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "entityType",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "entityId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "documents",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void",
+      "WebApiRequestType": "Post"
+    },
+    {
+      "Name": "ChangePersonalAccountStatusToInviteAccepted",
+      "Parameters": [
+        {
+          "Name": "employeeId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void",
+      "WebApiRequestType": "Post"
+    },
+    {
+      "Name": "ChangePersonalAccountStatusToInviteSent",
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::DirRX.EssPlatformSolution.IEmployee",
+          "ParameterTypeFullName": "DirRX.EssPlatformSolution.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CheckESSConnection",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "EssUrl",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "CheckMessageBrokerConnection",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "MBUrl",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "CheckPersonalPhoneNumber",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "phoneNumber",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "employee",
+          "ParameterType": "global::DirRX.EssPlatformSolution.IEmployee",
+          "ParameterTypeFullName": "DirRX.EssPlatformSolution.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Collections.Generic.List<global::System.String>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "CompleteAssignment",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "performResult",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void",
+      "WebApiRequestType": "Post"
+    },
+    {
+      "Name": "CreateAttachmentNotification",
+      "Parameters": [
+        {
+          "Name": "title",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "id",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::DirRX.EssPlatform.Structures.Module.IMessageBrokerNotificationAttachment",
+      "ReturnTypeFullName": "DirRX.EssPlatform.Structures.Module.IMessageBrokerNotificationAttachment"
+    },
+    {
+      "Name": "CreateEmptyEssNotification",
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::DirRX.EssPlatformSolution.IEmployee",
+          "ParameterTypeFullName": "DirRX.EssPlatformSolution.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::DirRX.EssPlatform.Structures.Module.IMessageBrokerNotification",
+      "ReturnTypeFullName": "DirRX.EssPlatform.Structures.Module.IMessageBrokerNotification"
+    },
+    {
+      "Name": "DisconnectEssUser",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::DirRX.EssPlatformSolution.IEmployee",
+          "ParameterTypeFullName": "DirRX.EssPlatformSolution.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "FindIdsUser",
+      "Parameters": [
+        {
+          "Name": "searchParam",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "Structures.Module.IdSUserInfo"
+    },
+    {
+      "Name": "GetAgreementUrl",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetAnAuthenticationToken",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "login",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "password",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "serviceName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "idsUrl",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetAnAuthenticationToken",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "serviceName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetAnAuthenticationTokenCurrentSystem",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetAnAuthenticationTokenMessageBroker",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetAttachments",
+      "Parameters": [
+        {
+          "Name": "entityType",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "entityId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetEmployeeByUniqueId",
+      "Parameters": [
+        {
+          "Name": "uniqueId",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.Int32",
+      "ReturnTypeFullName": "System.Int32",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetEmployeePosition",
+      "Parameters": [
+        {
+          "Name": "employeeId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "declensionCase",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetEmployeesWithoutPersonalAccountRegistred",
+      "Parameters": [
+        {
+          "Name": "employees",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Company.IEmployee>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.Company.IEmployee>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetEmployeesWithPersonalAccountRegistred",
+      "Parameters": [
+        {
+          "Name": "employees",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Company.IEmployee>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.Company.IEmployee>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetJSON4WidgetStatementMock",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetPerformerInfo",
+      "Parameters": [
+        {
+          "Name": "entityId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "entityType",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetPersonEmployeeIds",
+      "Parameters": [
+        {
+          "Name": "personId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::System.Int32>",
+      "ReturnTypeFullName": "System.Collections.Generic.List",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetPersonMainEmployee",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "personId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "filterBusinessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.EssPlatformSolution.IEmployee",
+      "ReturnTypeFullName": "DirRX.EssPlatformSolution.IEmployee, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetPostListByPerson",
+      "Parameters": [
+        {
+          "Name": "personId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetSignatures",
+      "Parameters": [
+        {
+          "Name": "documentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetSignificantSymbolsFromPhoneNumber",
+      "Parameters": [
+        {
+          "Name": "phone",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetUidPerson",
+      "Parameters": [
+        {
+          "Name": "person",
+          "ParameterType": "global::Sungero.Parties.IPerson",
+          "ParameterTypeFullName": "Sungero.Parties.IPerson, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "HasEmployeeNotInESS",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employees",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Company.IEmployee>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "HasEmployeePersonalAccountRegistred",
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "InviteUsers",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "IsSingleActivePersonEmployee",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "oldStatus",
+          "ParameterType": "global::System.Nullable<global::Sungero.Core.Enumeration>",
+          "ParameterTypeFullName": "System.Nullable"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "PatchEssUser",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::DirRX.EssPlatformSolution.IEmployee",
+          "ParameterTypeFullName": "DirRX.EssPlatformSolution.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "PhoneNumberLengthIsValid",
+      "Parameters": [
+        {
+          "Name": "phone",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "needElevenDigits",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "PhoneNumberToUniversalFormat",
+      "Parameters": [
+        {
+          "Name": "phone",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "RunDeleteRequest",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "baseUri",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "requestApi",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "token",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.EssPlatform.Structures.Module.IHttpRequestResult",
+      "ReturnTypeFullName": "DirRX.EssPlatform.Structures.Module.IHttpRequestResult"
+    },
+    {
+      "Name": "RunGetRequest",
+      "Parameters": [
+        {
+          "Name": "baseUri",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "requestUri",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "token",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "Structures.Module.HttpRequestResult"
+    },
+    {
+      "Name": "RunPatchRequest",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "baseUri",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "requestUri",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "jsonContent",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "token",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.EssPlatform.Structures.Module.IHttpRequestResult",
+      "ReturnTypeFullName": "DirRX.EssPlatform.Structures.Module.IHttpRequestResult"
+    },
+    {
+      "Name": "RunPostRequest",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "baseUri",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "requestApi",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "jsonContent",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "token",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.EssPlatform.Structures.Module.IHttpRequestResult",
+      "ReturnTypeFullName": "DirRX.EssPlatform.Structures.Module.IHttpRequestResult"
+    },
+    {
+      "Name": "SendEMail",
+      "Parameters": [
+        {
+          "Name": "email",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "subject",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "text",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SendEssNotification",
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::DirRX.EssPlatformSolution.IEmployee",
+          "ParameterTypeFullName": "DirRX.EssPlatformSolution.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "title",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "content",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "workProcess",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "workItem",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Content.IElectronicDocument",
+          "ParameterTypeFullName": "Sungero.Content.IElectronicDocument, Sungero.Content.Shared"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SendEssNotification",
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::DirRX.EssPlatformSolution.IEmployee",
+          "ParameterTypeFullName": "DirRX.EssPlatformSolution.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "title",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "content",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "workProcess",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "workItem",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Content.IElectronicDocument",
+          "ParameterTypeFullName": "Sungero.Content.IElectronicDocument, Sungero.Content.Shared"
+        },
+        {
+          "Name": "priority",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SendEssNotification",
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::DirRX.EssPlatformSolution.IEmployee",
+          "ParameterTypeFullName": "DirRX.EssPlatformSolution.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "title",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "content",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "workProcess",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "workItem",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "documents",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Content.IElectronicDocument>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SendEssNotification",
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::DirRX.EssPlatformSolution.IEmployee",
+          "ParameterTypeFullName": "DirRX.EssPlatformSolution.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "title",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "content",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "workProcess",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "workItem",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "documents",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Content.IElectronicDocument>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "priority",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SendEssNotification",
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::DirRX.EssPlatformSolution.IEmployee",
+          "ParameterTypeFullName": "DirRX.EssPlatformSolution.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "title",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "content",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "priority",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "properties",
+          "ParameterType": "System.Collections.Generic.Dictionary<global::System.String, global::System.String>"
+        },
+        {
+          "Name": "attachments",
+          "ParameterType": "System.Collections.Generic.Dictionary<global::System.String, global::System.Int32>"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SendEssNotification",
+      "Parameters": [
+        {
+          "Name": "message",
+          "ParameterType": "global::DirRX.EssPlatform.Structures.Module.IMessageBrokerNotification",
+          "ParameterTypeFullName": "DirRX.EssPlatform.Structures.Module.IMessageBrokerNotification"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SendMessageToViber",
+      "Parameters": [
+        {
+          "Name": "phoneNumber",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "message",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SendNewNotification",
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "isNotice",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SendNoticeAboutInvite",
+      "Parameters": [
+        {
+          "Name": "userId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "text",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SendSMS",
+      "Parameters": [
+        {
+          "Name": "phoneNumber",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "sms",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SerializedToJson",
+      "Parameters": [
+        {
+          "Name": "obj",
+          "ParameterType": "System.Object"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "StartTask",
+      "Parameters": [
+        {
+          "Name": "taskId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void",
+      "WebApiRequestType": "Post"
+    },
+    {
+      "Name": "UpdateEssUser",
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::DirRX.EssPlatformSolution.IEmployee",
+          "ParameterTypeFullName": "DirRX.EssPlatformSolution.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "oldPhoneNumber",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    }
+  ],
+  "PublicStructures": [
+    {
+      "Name": "AttachDocumentsInfo",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "EntityId",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Group",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "DirRX.EssPlatform.Structures.Module"
+    },
+    {
+      "Name": "AttachmentInfo",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "EntityId",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Title",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "EntityType",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Name",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Group",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Modified",
+          "IsNullable": true,
+          "TypeFullName": "global::System.Nullable<global::System.DateTime>"
+        },
+        {
+          "Name": "Extension",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Size",
+          "IsNullable": true,
+          "TypeFullName": "global::System.Nullable<global::System.Int64>"
+        }
+      ],
+      "StructureNamespace": "DirRX.EssPlatform.Structures.Module"
+    },
+    {
+      "Name": "Claim",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "DirectumRX_PersonId",
+          "TypeFullName": "global::System.Int32"
+        }
+      ],
+      "StructureNamespace": "DirRX.EssPlatform.Structures.Module"
+    },
+    {
+      "Name": "CreateEssUsersResults",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "Error",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "InvitedUsersCount",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "WithoutPhoneUsersCount",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "AlreadyInvitedUsersCount",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "AlreadyAcceptedUsersCount",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "CatchErrorUsersCount",
+          "TypeFullName": "global::System.Int32"
+        }
+      ],
+      "StructureNamespace": "DirRX.EssPlatform.Structures.Module"
+    },
+    {
+      "Name": "HttpRequestResult",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "StatusCode",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "RequestMessage",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "DirRX.EssPlatform.Structures.Module"
+    },
+    {
+      "Name": "IdSUserInfo",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "Id",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Name",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "FullName",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "ShortName",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Email",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "PhoneNumber",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "AuthenticationMethod",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "DirRX.EssPlatform.Structures.Module"
+    },
+    {
+      "Name": "MessageBrokerNotification",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "Identity",
+          "IsNullable": true,
+          "TypeFullName": "global::DirRX.EssPlatform.Structures.Module.IMessageBrokerNotificationIdentity"
+        },
+        {
+          "Name": "Title",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Content",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Priority",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "DeliveryMethod",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "Properties",
+          "IsNullable": true,
+          "TypeFullName": "global::System.Collections.Generic.Dictionary<global::System.String, global::System.String>"
+        },
+        {
+          "Name": "Attachments",
+          "IsList": true,
+          "IsNullable": true,
+          "TypeFullName": "global::System.Collections.Generic.List<global::DirRX.EssPlatform.Structures.Module.IMessageBrokerNotificationAttachment>"
+        }
+      ],
+      "StructureNamespace": "DirRX.EssPlatform.Structures.Module"
+    },
+    {
+      "Name": "MessageBrokerNotificationAttachment",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "Title",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Url",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "DirRX.EssPlatform.Structures.Module"
+    },
+    {
+      "Name": "MessageBrokerNotificationIdentity",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "CredentialType",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "CredentialValue",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "DirRX.EssPlatform.Structures.Module"
+    },
+    {
+      "Name": "PerformerInfo",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "FullName",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Organization",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Department",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Position",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "DirRX.EssPlatform.Structures.Module"
+    },
+    {
+      "Name": "PersonPostInfo",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "id",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "organization",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "department",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "title",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "isPrimary",
+          "TypeFullName": "global::System.Boolean"
+        }
+      ],
+      "StructureNamespace": "DirRX.EssPlatform.Structures.Module"
+    },
+    {
+      "Name": "PersonPostListInfo",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "positions",
+          "IsList": true,
+          "IsNullable": true,
+          "TypeFullName": "global::System.Collections.Generic.List<global::DirRX.EssPlatform.Structures.Module.IPersonPostInfo>"
+        }
+      ],
+      "StructureNamespace": "DirRX.EssPlatform.Structures.Module"
+    },
+    {
+      "Name": "UserActivateJson",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "name",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "fullName",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "email",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "phoneNumber",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "authenticationProvider",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "claims",
+          "IsNullable": true,
+          "TypeFullName": "global::DirRX.EssPlatform.Structures.Module.IClaim"
+        }
+      ],
+      "StructureNamespace": "DirRX.EssPlatform.Structures.Module"
+    }
+  ],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "DirRX.EssPlatform",
+  "ResourcesKeys": [
+    "ConfirmDeleteEssUser",
+    "ParameterIsForceSave",
+    "BulkSendInvantions",
+    "BusinessUnit",
+    "SelectBusinessUnits",
+    "Department",
+    "SelectDepartments",
+    "Employee",
+    "SelectEmployees",
+    "PersonalPhoneRequired",
+    "ParameterOldPhoneEmpForUpdate",
+    "ESSInviteSent",
+    "ErrorESSInvite",
+    "LoginError",
+    "ErrorWhileConnectToIds",
+    "ErrorESSInvites",
+    "InvitesSend",
+    "CreateEssUsers",
+    "MessageBrokerCheckConnectionError",
+    "FindEssUserException",
+    "GetAnAuthenticationTokenError",
+    "SendSMSError",
+    "AuthenticationRightsErrorText",
+    "AuthenticationErrorText",
+    "ActivateESSUserException",
+    "EmptyIdentityServiceField",
+    "ActivateEssUserError",
+    "NoEssSettings",
+    "DisconnectEssUserError",
+    "UpdateEssuserError",
+    "ESSInviteSentToAsync",
+    "ESSNoticeSubject",
+    "ActivateEssUsersMaxRetryCount",
+    "UserNotAdministrator",
+    "InviteSendWithErrors",
+    "SendEMailError",
+    "SendViberError",
+    "NewAssignmentNotificationText",
+    "NewAssignmentNotificationSubject",
+    "NewNoticeNotificationText",
+    "NewNoticeNotificationSubject",
+    "ESSCheckConnectionError",
+    "CheckConnectionError",
+    "SendMessagesErrorSubject",
+    "SendMessageToViberNoticeError",
+    "SendEmailNoticeError",
+    "SendSmsNoticeError",
+    "PAUsersWithPasswordAuthenticationRoleName",
+    "EmployeePhoneCheckErrorsList",
+    "ParameterPersonPhoneCheckError",
+    "ErrorPhoneNumberDigits"
+  ],
+  "ServerAssemblyName": "DirRX.EssPlatform.Server",
+  "ServerNamespace": "DirRX.EssPlatform.Server",
+  "SharedAssemblyName": "DirRX.EssPlatform.Shared",
+  "SharedNamespace": "DirRX.EssPlatform.Shared",
+  "SpecialFolders": [],
+  "Version": "1.4.4227.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

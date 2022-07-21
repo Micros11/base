@@ -1,0 +1,73 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "2f09c48b-3c08-4de0-b64c-9db6276da985",
+  "Name": "EssPlatformSolution",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "DirRX.EssPlatformSolution.Client",
+  "ClientBaseAssemblyName": "DirRX.EssPlatformSolution.ClientBase",
+  "ClientBaseNamespace": "DirRX.EssPlatformSolution.ClientBase",
+  "ClientNamespace": "DirRX.EssPlatformSolution.Client",
+  "Code": "EssPlS",
+  "CompanyCode": "DirRX",
+  "Cover": {
+    "NameGuid": "6356590a-548c-4b71-94df-9f214ccd8ea2",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "a55551fe-08a6-425b-aa05-ec574be2dff5",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "770a9fda-6300-4b25-96cd-93df9e9c93b3",
+      "BackgroundPosition": "Stretch"
+    }
+  },
+  "Dependencies": [
+    {
+      "Id": "d534e107-a54d-48ec-85ff-bc44d731a82f",
+      "MaxVersion": "",
+      "MinVersion": "4.0.36.0"
+    }
+  ],
+  "DesktopViews": [],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "1468bbec-9eaa-483c-b708-a5802c595997"
+    },
+    {
+      "ItemId": "c503de31-5b72-4e37-836a-a95577c22e59",
+      "PreviousItemId": "1468bbec-9eaa-483c-b708-a5802c595997"
+    }
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "DirRX.EssPlatformSolution",
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "DirRX.EssPlatformSolution",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "DirRX.EssPlatformSolution.Server",
+  "ServerNamespace": "DirRX.EssPlatformSolution.Server",
+  "SharedAssemblyName": "DirRX.EssPlatformSolution.Shared",
+  "SharedNamespace": "DirRX.EssPlatformSolution.Shared",
+  "SpecialFolders": [],
+  "Version": "1.3.4036.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

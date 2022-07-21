@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConfirmDeleteEssUser" xml:space="preserve">
+    <value>After you set the employee's status to "Closed", his or her account in Employee Self Service will be deleted.</value>
+  </data>
+  <data name="ParameterIsForceSave" xml:space="preserve">
+    <value>IsForceSave:{0}</value>
+  </data>
+  <data name="BulkSendInvantions" xml:space="preserve">
+    <value>Send invitations to employees</value>
+  </data>
+  <data name="BusinessUnit" xml:space="preserve">
+    <value>Business units</value>
+  </data>
+  <data name="SelectBusinessUnits" xml:space="preserve">
+    <value>Select business units</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Departments</value>
+  </data>
+  <data name="SelectDepartments" xml:space="preserve">
+    <value>Select departments</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="SelectEmployees" xml:space="preserve">
+    <value>Select employees</value>
+  </data>
+  <data name="PersonalPhoneRequired" xml:space="preserve">
+    <value>Phone numbers of some employees are not specified:
+{0}
+Specify phone numbers in the the employees' cards in the "Employee Self Service" group.</value>
+  </data>
+  <data name="ParameterOldPhoneEmpForUpdate" xml:space="preserve">
+    <value>OldPhoneEmpForUpdate:{0}</value>
+  </data>
+  <data name="ESSInviteSent" xml:space="preserve">
+    <value>Invitation sent.</value>
+  </data>
+  <data name="ErrorESSInvite" xml:space="preserve">
+    <value>An error occurred when sending the invitation. Contact your system administrator. </value>
+  </data>
+  <data name="LoginError" xml:space="preserve">
+    <value>Authentication error. Make sure that the login and password are correct. </value>
+  </data>
+  <data name="ErrorWhileConnectToIds" xml:space="preserve">
+    <value>An error occurred when connecting to the Identity Service. Check the connection parameters.</value>
+  </data>
+  <data name="ErrorESSInvites" xml:space="preserve">
+    <value>An error occurred when sending invitations. Contact your system administrator.</value>
+  </data>
+  <data name="InvitesSend" xml:space="preserve">
+    <value>Employee cards processed: {0}.
+Invitations sent: {1}.
+Number of employees whose personal phone number is not specified: {2}.
+Number of employees to whom invitations are already sent: {3}.
+Number or employees connected to Employee Self Service: {4}.</value>
+  </data>
+  <data name="CreateEssUsers" xml:space="preserve">
+    <value>Invitation to ESS</value>
+  </data>
+  <data name="MessageBrokerCheckConnectionError" xml:space="preserve">
+    <value>Message broker: {0}.</value>
+  </data>
+  <data name="FindEssUserException" xml:space="preserve">
+    <value>An error occurred when searching for the account in Employee Self Service: {0}, {1}. Contact your sysem administrator.</value>
+  </data>
+  <data name="GetAnAuthenticationTokenError" xml:space="preserve">
+    <value>An error occurred when connecting to the Identity Service. Contact your system administrator.</value>
+  </data>
+  <data name="SendSMSError" xml:space="preserve">
+    <value>An error occurred when sending an SMS message: {0}, {1}. Contact you system administrator.</value>
+  </data>
+  <data name="AuthenticationRightsErrorText" xml:space="preserve">
+    <value>Unable to Authentication: no rights granted</value>
+  </data>
+  <data name="AuthenticationErrorText" xml:space="preserve">
+    <value>Unable to Authentication: wrong login or password</value>
+  </data>
+  <data name="ActivateESSUserException" xml:space="preserve">
+    <value>An error has occurred while executing EssPlatform.ModuleServerFunctions.ActivateESSUser(). {0}: {1}</value>
+  </data>
+  <data name="EmptyIdentityServiceField" xml:space="preserve">
+    <value>An error occurred. The value of field "{0}" is not specified in the settings of connection to Employee Self Service. Contact your system administrator.</value>
+  </data>
+  <data name="ActivateEssUserError" xml:space="preserve">
+    <value>An error occurred when sending the invitation - {0}. Contact your system administrator.</value>
+  </data>
+  <data name="NoEssSettings" xml:space="preserve">
+    <value>Employee Self Service is not enabled iin the system. Contact your system administrator.</value>
+  </data>
+  <data name="DisconnectEssUserError" xml:space="preserve">
+    <value>An error occurred when disconnecting the employee from Employee Self Service. Contact your system administrator.</value>
+  </data>
+  <data name="UpdateEssuserError" xml:space="preserve">
+    <value>An error occurred when updating the employee's personal phone number. Contact your system administrator.</value>
+  </data>
+  <data name="ESSInviteSentToAsync" xml:space="preserve">
+    <value>Sending invitations has started. The result of sending will be received in a notification.</value>
+  </data>
+  <data name="ESSNoticeSubject" xml:space="preserve">
+    <value>Invite sending result</value>
+  </data>
+  <data name="ActivateEssUsersMaxRetryCount" xml:space="preserve">
+    <value>The number of attempts to send invitations is more than {0}.</value>
+  </data>
+  <data name="UserNotAdministrator" xml:space="preserve">
+    <value>Only employees included in the "Administrators" role can send bulk invitations.</value>
+  </data>
+  <data name="InviteSendWithErrors" xml:space="preserve">
+    <value>Number of employees who have not received invitation due to sending errors: {0}.</value>
+  </data>
+  <data name="SendEMailError" xml:space="preserve">
+    <value>An error occurred when sending an email. Contact your system administrator.
+{0}: {1}.</value>
+  </data>
+  <data name="SendViberError" xml:space="preserve">
+    <value>An error occurred when sending a message in Viber. Contact your system administrator.
+{0}: {1}.</value>
+  </data>
+  <data name="NewAssignmentNotificationText" xml:space="preserve">
+    <value>You have a new assignment in Employee Self Service. Click the link to open it: {0}</value>
+  </data>
+  <data name="NewAssignmentNotificationSubject" xml:space="preserve">
+    <value>New assignment in Employee Self Service</value>
+  </data>
+  <data name="NewNoticeNotificationText" xml:space="preserve">
+    <value>You have a new notification in Employee Self Service. Click the link to open it: {0}</value>
+  </data>
+  <data name="NewNoticeNotificationSubject" xml:space="preserve">
+    <value>New notification in Employee Self Service</value>
+  </data>
+  <data name="ESSCheckConnectionError" xml:space="preserve">
+    <value>Cannot connect to ESS: {0}.</value>
+  </data>
+  <data name="CheckConnectionError" xml:space="preserve">
+    <value>Error {0}</value>
+  </data>
+  <data name="SendMessagesErrorSubject" xml:space="preserve">
+    <value>Cannot send message to ESS user</value>
+  </data>
+  <data name="SendMessageToViberNoticeError" xml:space="preserve">
+    <value>An error occurred when sending a message in Viber to employee {0}. Employee ID: {1}.</value>
+  </data>
+  <data name="SendEmailNoticeError" xml:space="preserve">
+    <value>An error occurred when sending an email to employee {0}. Employee ID: {1}.</value>
+  </data>
+  <data name="SendSmsNoticeError" xml:space="preserve">
+    <value>An error occurred when sending an SMS to employee {0}. Employee ID: {1}.</value>
+  </data>
+  <data name="PAUsersWithPasswordAuthenticationRoleName" xml:space="preserve">
+    <value>Employee Self Service users with password authentication</value>
+  </data>
+  <data name="EmployeePhoneCheckErrorsList" xml:space="preserve">
+    <value>Errors occurred when verifying the phone number: {0}</value>
+  </data>
+  <data name="ParameterPersonPhoneCheckError" xml:space="preserve">
+    <value>PersonPhoneCheckError:{0}</value>
+  </data>
+  <data name="ErrorPhoneNumberDigits" xml:space="preserve">
+    <value>Incorrect digits count in the phoneNumber {0} for formatting</value>
+  </data>
+</root>
