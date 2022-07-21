@@ -1,0 +1,3249 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "857518ef-9a4d-4c25-99d7-20e20d05cfc4",
+  "Name": "HRManagement",
+  "AsyncHandlers": [
+    {
+      "NameGuid": "7eb6e314-ee4a-4756-8741-39cae6b7eb79",
+      "Name": "ChangeSubstitution",
+      "DelayPeriod": 15,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "2d82d9d0-8e78-41c6-9a8e-ca29dfb07f48",
+          "Name": "TaskID",
+          "ParameterType": "Integer"
+        },
+        {
+          "NameGuid": "5ff74a45-ec4b-45a8-9a80-d41f405d7db0",
+          "Name": "NewSubstituteID",
+          "ParameterType": "Integer"
+        },
+        {
+          "NameGuid": "aca0a92c-1240-4755-a34c-70246b215aa5",
+          "Name": "SubstitutionID",
+          "ParameterType": "Integer"
+        }
+      ]
+    },
+    {
+      "NameGuid": "e66f0700-89a6-4c93-b9a8-22dfd37cca34",
+      "Name": "CreateSubstitution",
+      "DelayPeriod": 15,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "4dc737a3-bcba-4787-bf90-45d4c662768e",
+          "Name": "From",
+          "ParameterType": "DateTime"
+        },
+        {
+          "NameGuid": "726e6215-8309-4cc5-9496-6e5f6f8bec0e",
+          "Name": "EmployeeID",
+          "ParameterType": "Integer"
+        },
+        {
+          "NameGuid": "a1cac211-c36e-4dde-8653-f3b805658deb",
+          "Name": "To",
+          "ParameterType": "DateTime"
+        },
+        {
+          "NameGuid": "b95ee69b-e16e-4bca-8566-f0fd61b04379",
+          "Name": "TaskID",
+          "ParameterType": "Integer"
+        },
+        {
+          "NameGuid": "d3958370-64e9-4f2d-a3e5-a725d90b0dd1",
+          "Name": "SubstituteID",
+          "ParameterType": "Integer"
+        },
+        {
+          "NameGuid": "d9aebc6b-7af3-4ad7-9e75-b99b9a70b5ed",
+          "Name": "Comment",
+          "ParameterType": "String"
+        }
+      ]
+    },
+    {
+      "NameGuid": "f0fe0f45-e16c-4000-90de-ae2a4a3d3262",
+      "Name": "DeleteSubstitution",
+      "DelayPeriod": 15,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "af6944b5-f479-48ff-8710-ed0c283e1596",
+          "Name": "TaskID",
+          "ParameterType": "Integer"
+        },
+        {
+          "NameGuid": "d2c3e848-5259-4f14-8df6-b79c5d7861c0",
+          "Name": "SubstitutionID",
+          "ParameterType": "Integer"
+        }
+      ]
+    },
+    {
+      "NameGuid": "71698e22-ee58-447e-82a5-22a2c1adbd04",
+      "Name": "SetApprovedVacationStatus",
+      "DelayPeriod": 15,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "07d66e3e-e118-4c1d-b2b7-24aaea1013f9",
+          "Name": "Year",
+          "ParameterType": "Integer"
+        },
+        {
+          "NameGuid": "cfc3df5b-e0a9-4cd9-818b-621c7a6b1e72",
+          "Name": "DepartmentID",
+          "ParameterType": "Integer"
+        }
+      ]
+    },
+    {
+      "NameGuid": "c1611523-9336-44da-946f-d0d58d4b3567",
+      "Name": "AbortDepartmentScheduling",
+      "DelayPeriod": 15,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "5b3b4d17-ea0f-4789-961e-9e14c30b6be9",
+          "Name": "MainTaskID",
+          "ParameterType": "Integer"
+        },
+        {
+          "NameGuid": "8f117ca7-3a27-4c52-b30c-9547f575e462",
+          "Name": "AbortReason",
+          "ParameterType": "String"
+        }
+      ]
+    },
+    {
+      "NameGuid": "eed6d88e-9a75-4efb-88ff-c1680b1b6279",
+      "Name": "EmployeesConsentUpdate",
+      "DelayPeriod": 15,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "c93df642-b581-49ad-b688-a077e4142b45",
+          "Name": "EmployeesIds",
+          "ParameterType": "String"
+        }
+      ]
+    }
+  ],
+  "ClientAssemblyName": "DirRX.HRManagement.Client",
+  "ClientBaseAssemblyName": "DirRX.HRManagement.ClientBase",
+  "ClientBaseNamespace": "DirRX.HRManagement.ClientBase",
+  "ClientNamespace": "DirRX.HRManagement.Client",
+  "Code": "HRManag",
+  "CompanyCode": "DirRX",
+  "Cover": {
+    "NameGuid": "72e86e70-c700-4f07-aeb6-b34107f70b29",
+    "Actions": [
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "17982db0-6d0f-464c-82eb-cfb1aa7fba98",
+        "Name": "StartTransferTaskAsEmployee",
+        "FunctionName": "StartTransferTaskAsEmployee",
+        "GroupId": "69ccdeee-d9fb-4e8a-b2da-e8e69a72fcd7"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "194ca94a-b1c2-4c55-8812-2eb651959fc4",
+        "Name": "StartHiringTask",
+        "FunctionName": "CreateNewHiringTask",
+        "GroupId": "33b4ab28-728c-4727-a1ee-05768f009717",
+        "PreviousItemGuid": "8412216c-4f21-478e-a7ac-5f50bf60dcd5"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "2d1a7d2d-3174-42e9-941e-16442b3b47f4",
+        "Name": "Aspirant",
+        "EntityTypeId": "f1538561-d1eb-429f-966e-f5e72e4dc4df",
+        "GroupId": "33b4ab28-728c-4727-a1ee-05768f009717",
+        "IsVisible": false
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "4a59f82e-71a6-4200-8e83-de2a2555748d",
+        "Name": "ExportDocuments",
+        "FunctionName": "ExportDocuments",
+        "GroupId": "7dbec782-141f-498c-99cb-5e1c0a791425"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "7afde8ed-20f7-4ef7-9e26-5288e26d8035",
+        "Name": "StartDismissalTask",
+        "FunctionName": "CreateNewDismissalTask",
+        "GroupId": "69ccdeee-d9fb-4e8a-b2da-e8e69a72fcd7",
+        "PreviousItemGuid": "17982db0-6d0f-464c-82eb-cfb1aa7fba98"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "809a97f9-5734-4693-80c0-2b0921113da9",
+        "Name": "ModuleSettings",
+        "EntityTypeId": "ca65e0f4-759e-4056-9ed5-6f2990ed839c",
+        "GroupId": "4e87df15-9569-4aab-a3cd-30707c417e62"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "8412216c-4f21-478e-a7ac-5f50bf60dcd5",
+        "Name": "AspirantReview",
+        "FunctionName": "CreateNewRecruitmentTask",
+        "GroupId": "33b4ab28-728c-4727-a1ee-05768f009717",
+        "IsVisible": false,
+        "PreviousItemGuid": "2d1a7d2d-3174-42e9-941e-16442b3b47f4"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "e4259a54-70f7-4911-bc48-c89fe8757ec4",
+        "Name": "StartTransferTaskAsManager",
+        "FunctionName": "StartTransferTaskAsManager",
+        "GroupId": "33b4ab28-728c-4727-a1ee-05768f009717",
+        "PreviousItemGuid": "194ca94a-b1c2-4c55-8812-2eb651959fc4"
+      }
+    ],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "281b1c9b-9e86-4832-bc22-fbd0e846e13a",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [
+      {
+        "NameGuid": "69ccdeee-d9fb-4e8a-b2da-e8e69a72fcd7",
+        "Name": "PersonnelChanges",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconPersonnelChanges_69ccdeeed9fb4e8ab2dae8e69a72fcd7.png"
+      },
+      {
+        "NameGuid": "33b4ab28-728c-4727-a1ee-05768f009717",
+        "Name": "Recruitment",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconRecruitment_33b4ab28728c4727a1ee05768f009717.png",
+        "PreviousItemGuid": "69ccdeee-d9fb-4e8a-b2da-e8e69a72fcd7"
+      },
+      {
+        "NameGuid": "7dbec782-141f-498c-99cb-5e1c0a791425",
+        "Name": "ExportDocument",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconExportDocument_7dbec782141f498c99cb5e1c0a791425.png",
+        "PreviousItemGuid": "33b4ab28-728c-4727-a1ee-05768f009717"
+      },
+      {
+        "NameGuid": "4e87df15-9569-4aab-a3cd-30707c417e62",
+        "Name": "Setting",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconSetting_4e87df1595694aaba3cd30707c417e62.png",
+        "PreviousItemGuid": "7dbec782-141f-498c-99cb-5e1c0a791425"
+      }
+    ],
+    "Header": {
+      "NameGuid": "d330082e-9c55-437e-b95b-1661584b1ca1",
+      "BackgroundPosition": "Stretch",
+      "IconName": "HeaderIcon_d330082e9c55437eb95b1661584b1ca1.png"
+    }
+  },
+  "Dependencies": [
+    {
+      "Id": "5dec8ad1-8148-4d42-a54b-3f9a04e68cf0",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "ec1b64f6-82e4-46e1-a5a5-dd3dd6be0456"
+    },
+    {
+      "ItemId": "2c2ba1b0-795a-455d-b400-8081f401fce9",
+      "PreviousItemId": "ec1b64f6-82e4-46e1-a5a5-dd3dd6be0456"
+    },
+    {
+      "ItemId": "3477018b-af38-4369-908c-390a250625ba",
+      "PreviousItemId": "2c2ba1b0-795a-455d-b400-8081f401fce9"
+    },
+    {
+      "ItemId": "b2ada4b8-f9f3-46cd-b833-57dd815219d8",
+      "PreviousItemId": "3477018b-af38-4369-908c-390a250625ba"
+    },
+    {
+      "ItemId": "93cdf2c0-adaf-43f7-9ecc-e42374a4822c",
+      "PreviousItemId": "b2ada4b8-f9f3-46cd-b833-57dd815219d8"
+    },
+    {
+      "ItemId": "c135fb43-9561-45ad-9628-85459f8cf26e",
+      "PreviousItemId": "93cdf2c0-adaf-43f7-9ecc-e42374a4822c"
+    },
+    {
+      "ItemId": "0d279f0b-8cd2-4dda-be34-85aacd7b8b93",
+      "PreviousItemId": "c135fb43-9561-45ad-9628-85459f8cf26e"
+    },
+    {
+      "ItemId": "01940621-365a-4767-a824-1e240b2db781",
+      "PreviousItemId": "0d279f0b-8cd2-4dda-be34-85aacd7b8b93"
+    },
+    {
+      "ItemId": "1fa1f465-47e7-406f-b99d-3fcb5d66dd93",
+      "PreviousItemId": "01940621-365a-4767-a824-1e240b2db781"
+    },
+    {
+      "ItemId": "ae6f2c18-cabf-499b-9f0b-0d3e3c053682",
+      "PreviousItemId": "1fa1f465-47e7-406f-b99d-3fcb5d66dd93"
+    },
+    {
+      "ItemId": "e8152887-2567-4394-96ad-cf2418dd63e2",
+      "PreviousItemId": "ae6f2c18-cabf-499b-9f0b-0d3e3c053682"
+    },
+    {
+      "ItemId": "a924853e-1a05-4ea7-86fb-c04ac581e018",
+      "PreviousItemId": "e8152887-2567-4394-96ad-cf2418dd63e2"
+    },
+    {
+      "ItemId": "aa53b02d-af0e-42ad-bef8-83c41dd6ff85",
+      "PreviousItemId": "a924853e-1a05-4ea7-86fb-c04ac581e018"
+    },
+    {
+      "ItemId": "6549d3b6-cc34-42ff-b7d8-b66e28038bd4",
+      "PreviousItemId": "aa53b02d-af0e-42ad-bef8-83c41dd6ff85"
+    },
+    {
+      "ItemId": "612e552a-d0fc-45e1-978b-9e2783e9bf22",
+      "PreviousItemId": "6549d3b6-cc34-42ff-b7d8-b66e28038bd4"
+    },
+    {
+      "ItemId": "80b00b42-9a80-4c0a-947d-1d64363fb6b7",
+      "PreviousItemId": "612e552a-d0fc-45e1-978b-9e2783e9bf22"
+    },
+    {
+      "ItemId": "b32ee489-f3f9-4389-8ffd-f6e345398af7",
+      "PreviousItemId": "80b00b42-9a80-4c0a-947d-1d64363fb6b7"
+    },
+    {
+      "ItemId": "e9716199-d89f-47c0-9d3c-40b78afd22e9",
+      "PreviousItemId": "b32ee489-f3f9-4389-8ffd-f6e345398af7"
+    },
+    {
+      "ItemId": "4b6e5d34-800b-41d2-a56d-02c48a04d420",
+      "PreviousItemId": "e9716199-d89f-47c0-9d3c-40b78afd22e9"
+    },
+    {
+      "ItemId": "8ed3a36e-1aa2-4287-9378-1960be1f3e73",
+      "PreviousItemId": "4b6e5d34-800b-41d2-a56d-02c48a04d420"
+    },
+    {
+      "ItemId": "ae897c1e-212f-49f3-83dd-b04f5012f06b",
+      "PreviousItemId": "8ed3a36e-1aa2-4287-9378-1960be1f3e73"
+    },
+    {
+      "ItemId": "cdbe3f36-59cd-45c9-958d-131b2958b2f4",
+      "PreviousItemId": "ae897c1e-212f-49f3-83dd-b04f5012f06b"
+    },
+    {
+      "ItemId": "3ba38920-c254-4a40-a69a-87d76589efe7",
+      "PreviousItemId": "cdbe3f36-59cd-45c9-958d-131b2958b2f4"
+    },
+    {
+      "ItemId": "11b30034-2602-4dee-9d15-fcdb6ed33057",
+      "PreviousItemId": "3ba38920-c254-4a40-a69a-87d76589efe7"
+    },
+    {
+      "ItemId": "68cb7a90-87d3-4952-a35f-7fbac75d13e0",
+      "PreviousItemId": "11b30034-2602-4dee-9d15-fcdb6ed33057"
+    },
+    {
+      "ItemId": "a6b12dda-d81a-4a93-920d-17560aad527e",
+      "PreviousItemId": "68cb7a90-87d3-4952-a35f-7fbac75d13e0"
+    },
+    {
+      "ItemId": "49f18d7c-bd12-411b-b16e-ce44228d8bf2",
+      "PreviousItemId": "a6b12dda-d81a-4a93-920d-17560aad527e"
+    },
+    {
+      "ItemId": "934a01c4-8733-4571-9058-e07c7dec1892",
+      "PreviousItemId": "49f18d7c-bd12-411b-b16e-ce44228d8bf2"
+    },
+    {
+      "ItemId": "81b36148-f6b6-4b44-bd52-c12076d3fe93",
+      "PreviousItemId": "934a01c4-8733-4571-9058-e07c7dec1892"
+    },
+    {
+      "ItemId": "f1538561-d1eb-429f-966e-f5e72e4dc4df",
+      "PreviousItemId": "81b36148-f6b6-4b44-bd52-c12076d3fe93"
+    },
+    {
+      "ItemId": "ac6b2553-7d49-468e-a28b-e005fb65ee03",
+      "PreviousItemId": "f1538561-d1eb-429f-966e-f5e72e4dc4df"
+    },
+    {
+      "ItemId": "a348f628-6057-4514-908a-d9c7e6b6bbe6",
+      "PreviousItemId": "ac6b2553-7d49-468e-a28b-e005fb65ee03"
+    },
+    {
+      "ItemId": "8245b402-53be-426b-ac1c-fbfee5727f2d",
+      "PreviousItemId": "a348f628-6057-4514-908a-d9c7e6b6bbe6"
+    },
+    {
+      "ItemId": "a22e00f3-e064-4ed3-b580-2ff95b2bf944",
+      "PreviousItemId": "8245b402-53be-426b-ac1c-fbfee5727f2d"
+    },
+    {
+      "ItemId": "ca65e0f4-759e-4056-9ed5-6f2990ed839c",
+      "PreviousItemId": "a22e00f3-e064-4ed3-b580-2ff95b2bf944"
+    },
+    {
+      "ItemId": "46d21cdd-d7f9-4a32-be0e-07f21769037d",
+      "PreviousItemId": "ca65e0f4-759e-4056-9ed5-6f2990ed839c"
+    },
+    {
+      "ItemId": "c4d246fe-bd71-4cdf-a488-1395d72a824c",
+      "PreviousItemId": "46d21cdd-d7f9-4a32-be0e-07f21769037d"
+    },
+    {
+      "ItemId": "decaa0fe-a511-4b50-bc7d-cac8b8a7455c",
+      "PreviousItemId": "c4d246fe-bd71-4cdf-a488-1395d72a824c"
+    },
+    {
+      "ItemId": "4a0621d8-e8a3-4d21-bb7d-de0a0dcb831c",
+      "PreviousItemId": "decaa0fe-a511-4b50-bc7d-cac8b8a7455c"
+    },
+    {
+      "ItemId": "6103c687-e605-4579-beaf-ab9c0af62299",
+      "PreviousItemId": "4a0621d8-e8a3-4d21-bb7d-de0a0dcb831c"
+    },
+    {
+      "ItemId": "a84e9f66-32c5-4773-a039-4da179a3f10f",
+      "PreviousItemId": "6103c687-e605-4579-beaf-ab9c0af62299"
+    },
+    {
+      "ItemId": "e45eb79f-e3ef-44c9-b17b-549e61dfcf2f",
+      "PreviousItemId": "a84e9f66-32c5-4773-a039-4da179a3f10f"
+    },
+    {
+      "ItemId": "f1abe646-8f93-4623-b943-f3232849c870",
+      "PreviousItemId": "e45eb79f-e3ef-44c9-b17b-549e61dfcf2f"
+    },
+    {
+      "ItemId": "4bc5e5d8-33e7-4d07-8c7c-a0f4b62dcfe1",
+      "PreviousItemId": "f1abe646-8f93-4623-b943-f3232849c870"
+    },
+    {
+      "ItemId": "53ebde82-6a0d-4b0e-8aca-c0ebd732c6a7",
+      "PreviousItemId": "4bc5e5d8-33e7-4d07-8c7c-a0f4b62dcfe1"
+    },
+    {
+      "ItemId": "619e74ec-fcd5-4c9d-8e9e-c57ade19614d",
+      "PreviousItemId": "53ebde82-6a0d-4b0e-8aca-c0ebd732c6a7"
+    },
+    {
+      "ItemId": "9ae12eb7-b0b1-4769-b5b0-8a5e2c3838b2",
+      "PreviousItemId": "619e74ec-fcd5-4c9d-8e9e-c57ade19614d"
+    },
+    {
+      "ItemId": "55f5563b-231c-4ac8-8732-eda2fe6ddfd0",
+      "PreviousItemId": "9ae12eb7-b0b1-4769-b5b0-8a5e2c3838b2"
+    },
+    {
+      "IsVisible": false,
+      "ItemId": "5236c6f5-9620-46bf-afdd-61448633a93d",
+      "PreviousItemId": "55f5563b-231c-4ac8-8732-eda2fe6ddfd0"
+    },
+    {
+      "IsVisible": false,
+      "ItemId": "2cd5ea54-3094-4378-afd1-901e8c200847",
+      "PreviousItemId": "5236c6f5-9620-46bf-afdd-61448633a93d"
+    },
+    {
+      "IsVisible": false,
+      "ItemId": "156d4e17-7996-4ed8-97ae-7e650c431b26",
+      "PreviousItemId": "2cd5ea54-3094-4378-afd1-901e8c200847"
+    },
+    {
+      "ItemId": "6afc460e-8582-457d-a277-05e1a533fa03",
+      "PreviousItemId": "156d4e17-7996-4ed8-97ae-7e650c431b26"
+    },
+    {
+      "ItemId": "96109801-6fa9-42d8-aeaf-91d32316bc15",
+      "PreviousItemId": "6afc460e-8582-457d-a277-05e1a533fa03"
+    },
+    {
+      "ItemId": "a9fd91ca-befe-4cad-9387-4d635bad56fd",
+      "PreviousItemId": "96109801-6fa9-42d8-aeaf-91d32316bc15"
+    },
+    {
+      "ItemId": "0fcd604f-0d39-4bb5-a912-ecf084fba6a7",
+      "PreviousItemId": "a9fd91ca-befe-4cad-9387-4d635bad56fd"
+    },
+    {
+      "ItemId": "30058f88-58d4-4105-a2b2-803b463404c4",
+      "PreviousItemId": "0fcd604f-0d39-4bb5-a912-ecf084fba6a7"
+    },
+    {
+      "ItemId": "ae8d8be3-96fd-498e-8bab-30d017498374",
+      "PreviousItemId": "30058f88-58d4-4105-a2b2-803b463404c4"
+    },
+    {
+      "ItemId": "c01d9460-780b-4b05-af81-2964919c326a",
+      "PreviousItemId": "ae8d8be3-96fd-498e-8bab-30d017498374"
+    },
+    {
+      "ItemId": "a2ee1f7f-400e-4f34-bca0-1f2077cc623b",
+      "PreviousItemId": "c01d9460-780b-4b05-af81-2964919c326a"
+    },
+    {
+      "ItemId": "352630cc-5b23-4c9b-83e6-2292fa715165",
+      "PreviousItemId": "a2ee1f7f-400e-4f34-bca0-1f2077cc623b"
+    },
+    {
+      "ItemId": "efa292d8-7c8a-444d-a7d4-111acbbfab28",
+      "PreviousItemId": "352630cc-5b23-4c9b-83e6-2292fa715165"
+    },
+    {
+      "ItemId": "ecd3700b-eadc-4c55-80fd-fffda0cbd56e",
+      "PreviousItemId": "efa292d8-7c8a-444d-a7d4-111acbbfab28"
+    },
+    {
+      "ItemId": "ecc050a6-4b24-4fc3-99cf-ac73b340e12a",
+      "PreviousItemId": "ecd3700b-eadc-4c55-80fd-fffda0cbd56e"
+    },
+    {
+      "ItemId": "8bcda50d-1aad-4a60-90bd-bfb2f169cb8a",
+      "PreviousItemId": "ecc050a6-4b24-4fc3-99cf-ac73b340e12a"
+    },
+    {
+      "ItemId": "c49b4b79-ca2a-47eb-9f21-40c2fdc9f36f",
+      "PreviousItemId": "8bcda50d-1aad-4a60-90bd-bfb2f169cb8a"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "DirRX.HRManagement",
+  "IsVisible": false,
+  "Jobs": [
+    {
+      "NameGuid": "0619414e-b0ba-425f-90dd-c5221cc0e8d9",
+      "Name": "VacationMonitoring",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "StartAt": "1753-01-01T08:30:00"
+    },
+    {
+      "NameGuid": "4cc23d27-54e3-4d5c-9611-bd1628e05078",
+      "Name": "DocumentDeleteJob",
+      "Daily": "Repeat",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "TimePeriod": 10
+    },
+    {
+      "NameGuid": "e70dbad2-52ab-4399-9fc8-44d019d6ff3b",
+      "Name": "AutoExecutionVacationApprovalAssignment",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "StartAt": "1753-01-01T08:30:00"
+    },
+    {
+      "NameGuid": "3a1401b0-10eb-48fa-aee1-a2614b67ca41",
+      "Name": "VacationSwitchStatus",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "StartAt": "1753-01-01T08:30:00"
+    },
+    {
+      "NameGuid": "6fad5d68-9e31-4b57-a62e-63c4772ef839",
+      "Name": "SchedulingTaskStart",
+      "DaysOfMonthSchedule": "1-14",
+      "GenerateHandler": true,
+      "Monthly": "DaysOfMonth",
+      "MonthSchedule": "October",
+      "StartAt": "1753-01-01T08:00:00"
+    },
+    {
+      "NameGuid": "ba283b6c-0359-4501-ad97-867155097fae",
+      "Name": "AutoExecutionSchedulingAssignment",
+      "GenerateHandler": true,
+      "MonthSchedule": "October, November",
+      "StartAt": "1753-01-01T08:30:00"
+    },
+    {
+      "NameGuid": "4d5a8db3-1719-4f19-aa04-e9360ff3e47d",
+      "Name": "JobSendNotificationToWhoSubstitute",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "StartAt": "1753-01-01T08:30:00"
+    }
+  ],
+  "Libraries": [
+    {
+      "NameGuid": "b30d6237-8748-4260-bdd8-947d6725899c",
+      "Name": "Aspose",
+      "Scope": "Server"
+    },
+    {
+      "NameGuid": "16573ab9-1b53-47f3-946d-b8771377ea0a",
+      "Name": "AsposeExtensions",
+      "Scope": "Server"
+    },
+    {
+      "NameGuid": "bc615ded-49d6-4c53-a469-ffbe63134b82",
+      "Name": "Json",
+      "Scope": "Both"
+    }
+  ],
+  "Overridden": [
+    "IsLicensed",
+    "IsVisible"
+  ],
+  "PublicConstants": [
+    {
+      "Name": "Accounter",
+      "ParentClasses": [
+        "Module",
+        "HRRoles"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"776a0864-3df4-4c7d-83cf-851c0b3f7065\")"
+    },
+    {
+      "Name": "AlertMonitoringTimeKey",
+      "ParentClasses": [
+        "Module",
+        "ParamKey"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"DirRX.HRSolution.AlertMonitoringTime\""
+    },
+    {
+      "Name": "AllUsers",
+      "ParentClasses": [
+        "Module",
+        "HRRoles"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"440103EA-A766-47A8-98AD-5260CA32DE46\")"
+    },
+    {
+      "Name": "Closed",
+      "ParentClasses": [
+        "Module",
+        "DateStatus"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Исполнен\""
+    },
+    {
+      "Name": "Dismissal",
+      "ParentClasses": [
+        "Module",
+        "HRTasksActualVersion"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"V2\""
+    },
+    {
+      "Name": "Hiring",
+      "ParentClasses": [
+        "Module",
+        "HRTasksActualVersion"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"\""
+    },
+    {
+      "Name": "HRAdministrator",
+      "ParentClasses": [
+        "Module",
+        "HRRoles"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"5c5de8e6-d00a-48d6-9d15-725928a25572\")"
+    },
+    {
+      "Name": "HRDebugUsers",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"5d401c0c-7184-411a-afa8-cbaf1ed70782\")"
+    },
+    {
+      "Name": "HRDocExportManager",
+      "ParentClasses": [
+        "Module",
+        "HRRoles"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"9353351b-c7b4-47bc-82f0-84e04a08b432\")"
+    },
+    {
+      "Name": "HRProUsers",
+      "ParentClasses": [
+        "Module",
+        "HRRoles"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"B98D07AA-D9D6-42A4-BA22-855B8918A7D0\")"
+    },
+    {
+      "Name": "HRSettingsManager",
+      "ParentClasses": [
+        "Module",
+        "HRRoles"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"5f78ca21-c717-4b5e-9329-721664125b80\")"
+    },
+    {
+      "Name": "ITResponsible",
+      "ParentClasses": [
+        "Module",
+        "HRRoles"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"141c7c6f-7dee-41e2-95df-e52e8a71bb84\")"
+    },
+    {
+      "Name": "New",
+      "ParentClasses": [
+        "Module",
+        "DateStatus"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Новый\""
+    },
+    {
+      "Name": "PersonalAccountUser",
+      "ParentClasses": [
+        "Module",
+        "ParamKey"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"DirRX.HRSolution.PersonalAccountUser\""
+    },
+    {
+      "Name": "PersonnelFlowUsers",
+      "ParentClasses": [
+        "Module",
+        "HRRoles"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"9F05A697-45F9-4395-BD5C-CF47828F67D0\")"
+    },
+    {
+      "Name": "Planned",
+      "ParentClasses": [
+        "Module",
+        "DateStatus"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Запланирован\""
+    },
+    {
+      "Name": "Recruitment",
+      "ParentClasses": [
+        "Module",
+        "HRTasksActualVersion"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"\""
+    },
+    {
+      "Name": "ScheduledVacationNoticeKind",
+      "ParentClasses": [
+        "Module",
+        "DocumentKind"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"b9ed8ff3-3bf5-4064-833b-8f07494df0b6\")"
+    },
+    {
+      "Name": "SchedulingKeyBusinessUnit",
+      "ParentClasses": [
+        "Module",
+        "ParamKey"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"DirRX.HRSolution.SchedulingBusinessUnit.{0}\""
+    },
+    {
+      "Name": "SchedulingKeyDepartment",
+      "ParentClasses": [
+        "Module",
+        "ParamKey"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"DirRX.HRSolution.SchedulingDepartment.{0}\""
+    },
+    {
+      "Name": "SchedulingMonitoringTimeKey",
+      "ParentClasses": [
+        "Module",
+        "ParamKey"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"DirRX.HRSolution.SchedulingMonitoringTime\""
+    },
+    {
+      "Name": "SecurityResponsible",
+      "ParentClasses": [
+        "Module",
+        "HRRoles"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"b33b3b69-e9a6-4826-999a-e40129cbfd7e\")"
+    },
+    {
+      "Name": "StaffChief",
+      "ParentClasses": [
+        "Module",
+        "HRRoles"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"1affd20c-f352-485a-81c8-9b4845ab2756\")"
+    },
+    {
+      "Name": "SupplyResponsible",
+      "ParentClasses": [
+        "Module",
+        "HRRoles"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"e2eb093c-c21f-4e5a-9e19-d273379a5dc7\")"
+    },
+    {
+      "Name": "Transfer",
+      "ParentClasses": [
+        "Module",
+        "HRTasksActualVersion"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"\""
+    },
+    {
+      "Name": "VacationAlert",
+      "ParentClasses": [
+        "Module",
+        "HRTasksActualVersion"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"\""
+    },
+    {
+      "Name": "VacationApproval",
+      "ParentClasses": [
+        "Module",
+        "HRTasksActualVersion"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"\""
+    },
+    {
+      "Name": "VacationDepartmentScheduling",
+      "ParentClasses": [
+        "Module",
+        "HRTasksActualVersion"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"\""
+    },
+    {
+      "Name": "VacationManagers",
+      "ParentClasses": [
+        "Module",
+        "HRRoles"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"ce8b0749-b6f8-4ebf-9b3f-525bf84921f1\")"
+    },
+    {
+      "Name": "VacationOrderKind",
+      "ParentClasses": [
+        "Module",
+        "DocumentKind"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"df0867e9-3743-4d20-b99e-460098091b1b\")"
+    },
+    {
+      "Name": "VacationResponsible",
+      "ParentClasses": [
+        "Module",
+        "HRRoles"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"8b84aa9c-85ce-448c-8816-2a687c307d48\")"
+    },
+    {
+      "Name": "VacationScheduleKind",
+      "ParentClasses": [
+        "Module",
+        "DocumentKind"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"325b0c52-Cbb7-494e-8af5-0f509bd0f73d\")"
+    },
+    {
+      "Name": "VacationScheduling",
+      "ParentClasses": [
+        "Module",
+        "HRTasksActualVersion"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"\""
+    },
+    {
+      "Name": "VacationShift",
+      "ParentClasses": [
+        "Module",
+        "HRTasksActualVersion"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"\""
+    },
+    {
+      "Name": "VacationsUsers",
+      "ParentClasses": [
+        "Module",
+        "HRRoles"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"0FD036D7-0959-42AB-9E32-342E7B4F2117\")"
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "BuildApproveVacationScheduleByYear",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "vacations",
+          "ParameterType": "global::System.Collections.Generic.List<global::DirRX.HRManagement.IVacation>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "year",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.Docflow.ISimpleDocument",
+      "ReturnTypeFullName": "Sungero.Docflow.ISimpleDocument, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "BuildSettingsReport",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.Docflow.ISimpleDocument",
+      "ReturnTypeFullName": "Sungero.Docflow.ISimpleDocument, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CheckDateInReport",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "year",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Collections.Generic.List<global::System.String>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "CheckModuleLicense",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "moduleGuid",
+          "ParameterType": "global::System.Guid",
+          "ParameterTypeFullName": "System.Guid"
+        },
+        {
+          "Name": "checkKeys",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "CheckPersonnelModuleLicense",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CheckVacatinDatesMatchDuration",
+      "Parameters": [
+        {
+          "Name": "vacationDates",
+          "ParameterType": "global::System.Collections.Generic.List<global::DirRX.HRManagement.Structures.Vacation.IVacationDates>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::System.String>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "CheckVacationDateInCalendarYear",
+      "Parameters": [
+        {
+          "Name": "vacationDates",
+          "ParameterType": "global::System.Collections.Generic.List<global::DirRX.HRManagement.Structures.Vacation.IVacationDates>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "year",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        },
+        {
+          "Name": "hintText",
+          "ParameterType": "CommonLibrary.LocalizedString"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "CheckVacationDateInCalendarYearForSingleSchedule",
+      "Parameters": [
+        {
+          "Name": "vacationDates",
+          "ParameterType": "global::System.Collections.Generic.List<global::DirRX.HRManagement.Structures.Vacation.IVacationDates>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "year",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        },
+        {
+          "Name": "hintText",
+          "ParameterType": "CommonLibrary.LocalizedString"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "CheckVacationDatesRange",
+      "Parameters": [
+        {
+          "Name": "vacationDates",
+          "ParameterType": "global::System.Collections.Generic.List<global::DirRX.HRManagement.Structures.Vacation.IVacationDates>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::System.String>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "CheckVacationEndBeforeWeekendOrHoliday",
+      "Parameters": [
+        {
+          "Name": "vacationDate",
+          "ParameterType": "global::DirRX.HRManagement.Structures.Vacation.IVacationDates",
+          "ParameterTypeFullName": "DirRX.HRManagement.Structures.Vacation.IVacationDates"
+        },
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "CheckVacationIntersections",
+      "Parameters": [
+        {
+          "Name": "vacationDates",
+          "ParameterType": "global::System.Collections.Generic.List<global::DirRX.HRManagement.Structures.Vacation.IVacationDates>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::System.String>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "CheckVacationRequiredDuration",
+      "Parameters": [
+        {
+          "Name": "vacationDates",
+          "ParameterType": "global::System.Collections.Generic.List<global::DirRX.HRManagement.Structures.Vacation.IVacationDates>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "recipient",
+          "ParameterType": "global::Sungero.CoreEntities.IRecipient",
+          "ParameterTypeFullName": "Sungero.CoreEntities.IRecipient, Sungero.Domain.Shared"
+        },
+        {
+          "Name": "year",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "CheckVacationsDates",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "vacationDates",
+          "ParameterType": "global::System.Collections.Generic.List<global::DirRX.HRManagement.Structures.Vacation.IVacationDates>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "year",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Collections.Generic.List<global::System.String>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "CheckVacationsInterval",
+      "Parameters": [
+        {
+          "Name": "vacationDates",
+          "ParameterType": "global::System.Collections.Generic.List<global::DirRX.HRManagement.Structures.Vacation.IVacationDates>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::System.String>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "CheckVacationsModuleLicense",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CheckVacationsTotalDuration",
+      "Parameters": [
+        {
+          "Name": "vacationDates",
+          "ParameterType": "global::System.Collections.Generic.List<global::DirRX.HRManagement.Structures.Vacation.IVacationDates>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "vacationKind",
+          "ParameterType": "global::DirRX.HRManagement.IVacationKind",
+          "ParameterTypeFullName": "DirRX.HRManagement.IVacationKind, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "limit",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "ConfigureRolesByCompany",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ConvertToPdfWithSignatureMarks",
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Docflow.IOfficialDocument",
+          "ParameterTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "employees",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Company.IEmployee>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "employeeAnchors",
+          "ParameterType": "global::System.Collections.Generic.List<global::System.String>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "ReturnType": "global::DirRX.HRManagement.Structures.Module.IСonversionToPdfResult",
+      "ReturnTypeFullName": "DirRX.HRManagement.Structures.Module.IСonversionToPdfResult"
+    },
+    {
+      "Name": "ConvertToPdfWithSignatureMarks",
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Docflow.IOfficialDocument",
+          "ParameterTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "employees",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Company.IEmployee>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "employeeAnchors",
+          "ParameterType": "global::System.Collections.Generic.List<global::System.String>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "ourSignatories",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Company.IEmployee>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "ourSignatorAnchors",
+          "ParameterType": "global::System.Collections.Generic.List<global::System.String>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "ReturnType": "global::DirRX.HRManagement.Structures.Module.IСonversionToPdfResult",
+      "ReturnTypeFullName": "DirRX.HRManagement.Structures.Module.IСonversionToPdfResult"
+    },
+    {
+      "Name": "CreateActualVacationReport",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateAndStartDocumentApprovalSubtask",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "mainTask",
+          "ParameterType": "global::Sungero.Workflow.ITask",
+          "ParameterTypeFullName": "Sungero.Workflow.ITask, Sungero.Workflow.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateNewDismissalTask",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateNewHiringTask",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateNewHRDocument",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "docKindGuid",
+          "ParameterType": "global::System.Guid",
+          "ParameterTypeFullName": "System.Guid"
+        },
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.HRManagement.IHRDocument",
+      "ReturnTypeFullName": "DirRX.HRManagement.IHRDocument, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateNewRecallVacationTask",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateNewShiftVacationTask",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateNewVacationAcquaintanceList",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "department",
+          "ParameterType": "global::Sungero.Company.IDepartment",
+          "ParameterTypeFullName": "Sungero.Company.IDepartment, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "year",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "reportDate",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        },
+        {
+          "Name": "reportNumber",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.HRManagement.IHRDocument",
+      "ReturnTypeFullName": "DirRX.HRManagement.IHRDocument, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateNewVacationApprovalTask",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateNewVacationScheduleDocument",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "year",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        },
+        {
+          "Name": "document",
+          "ParameterType": "global::DirRX.HRManagement.IHRDocument",
+          "ParameterTypeFullName": "DirRX.HRManagement.IHRDocument, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.HRManagement.IHRDocument",
+      "ReturnTypeFullName": "DirRX.HRManagement.IHRDocument, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateNewVacationScheduleTask",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateNewVacationShiftTask",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "vacations",
+          "ParameterType": "global::System.Collections.Generic.List<global::DirRX.HRManagement.IVacation>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "assignment",
+          "ParameterType": "global::Sungero.Workflow.IAssignment",
+          "ParameterTypeFullName": "Sungero.Workflow.IAssignment, Sungero.Workflow.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.Workflow.ITask",
+      "ReturnTypeFullName": "Sungero.Workflow.ITask, Sungero.Workflow.Interfaces"
+    },
+    {
+      "Name": "CreateNewVacationShiftTask",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.Workflow.ITask",
+      "ReturnTypeFullName": "Sungero.Workflow.ITask, Sungero.Workflow.Interfaces"
+    },
+    {
+      "Name": "CreateSettingsReport",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateSingleScheduling",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateStatement",
+      "Parameters": [
+        {
+          "Name": "docKindGuid",
+          "ParameterType": "global::System.Guid",
+          "ParameterTypeFullName": "System.Guid"
+        },
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "date",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        },
+        {
+          "Name": "year",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "ReturnType": "global::DirRX.HRManagement.IHRDocument",
+      "ReturnTypeFullName": "DirRX.HRManagement.IHRDocument, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateStatement",
+      "Parameters": [
+        {
+          "Name": "docKindGuid",
+          "ParameterType": "global::System.Guid",
+          "ParameterTypeFullName": "System.Guid"
+        },
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "date",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "ReturnType": "global::DirRX.HRManagement.IHRDocument",
+      "ReturnTypeFullName": "DirRX.HRManagement.IHRDocument, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateVacationDateStructure",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "beginDate",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        },
+        {
+          "Name": "endDate",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.HRManagement.Structures.Vacation.IVacationDates",
+      "ReturnTypeFullName": "DirRX.HRManagement.Structures.Vacation.IVacationDates"
+    },
+    {
+      "Name": "CreateVacationDateStructure",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "year",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Collections.Generic.List<global::DirRX.HRManagement.Structures.Vacation.IVacationDates>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "DocumentDelete",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Docflow.IOfficialDocument",
+          "ParameterTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "DurationInCalendarDaysWihtOutHoliday",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "startDate",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        },
+        {
+          "Name": "endDate",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        },
+        {
+          "Name": "recipient",
+          "ParameterType": "global::Sungero.CoreEntities.IRecipient",
+          "ParameterTypeFullName": "Sungero.CoreEntities.IRecipient, Sungero.Domain.Shared"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Int32",
+      "ReturnTypeFullName": "System.Int32"
+    },
+    {
+      "Name": "EnqueueDocumentDeleteJob",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Docflow.IOfficialDocument",
+          "ParameterTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ExportDocuments",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ExportVacationDocuments",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "FillVacations",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "vacationKindIds",
+          "ParameterType": "global::System.Collections.Generic.List<global::System.Nullable<global::System.Int32>>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "vacationBeginDates",
+          "ParameterType": "global::System.Collections.Generic.List<global::System.Nullable<global::System.DateTime>>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "vacationEndDates",
+          "ParameterType": "global::System.Collections.Generic.List<global::System.Nullable<global::System.DateTime>>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "vacationDurations",
+          "ParameterType": "global::System.Collections.Generic.List<global::System.Nullable<global::System.Int32>>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void",
+      "WebApiRequestType": "Post"
+    },
+    {
+      "Name": "GetAccounter",
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.CoreEntities.IRecipient",
+      "ReturnTypeFullName": "Sungero.CoreEntities.IRecipient, Sungero.Domain.Shared"
+    },
+    {
+      "Name": "GetAcquaintanceTaskActiveText",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetApprovalVacationOnRework",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetAvailableDaysToCompensation",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "vacKind",
+          "ParameterType": "global::DirRX.HRManagement.IVacationKind",
+          "ParameterTypeFullName": "DirRX.HRManagement.IVacationKind, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "year",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "availableDays",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Int32",
+      "ReturnTypeFullName": "System.Int32"
+    },
+    {
+      "Name": "GetAvailableVacationDays",
+      "Parameters": [
+        {
+          "Name": "userId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetBlockUid",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "type",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetBorderVacationYear",
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "year",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "ReturnType": "global::System.DateTime",
+      "ReturnTypeFullName": "System.DateTime"
+    },
+    {
+      "Name": "GetBorderVacationYear",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "department",
+          "ParameterType": "global::Sungero.Company.IDepartment",
+          "ParameterTypeFullName": "Sungero.Company.IDepartment, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "year",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.DateTime",
+      "ReturnTypeFullName": "System.DateTime"
+    },
+    {
+      "Name": "GetBorderVacationYear",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "year",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.DateTime",
+      "ReturnTypeFullName": "System.DateTime"
+    },
+    {
+      "Name": "GetCurrentDayOff",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetCurrentShiftVacation",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetDeniedDayOff",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetDeniedShiftVacation",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetDenyDayOffReason",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetDenyShiftReason",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetDenySignPerson",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetDenySignReason",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetDepartmentRecipients",
+      "Parameters": [
+        {
+          "Name": "department",
+          "ParameterType": "global::Sungero.Company.IDepartment",
+          "ParameterTypeFullName": "Sungero.Company.IDepartment, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.CoreEntities.IRecipient>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetDocflowParamValue",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "key",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetDocumentApprovalOnRewokInstruction",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetDocumentKindGuid",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "documentKind",
+          "ParameterType": "global::Sungero.Docflow.IDocumentKind",
+          "ParameterTypeFullName": "Sungero.Docflow.IDocumentKind, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Guid",
+      "ReturnTypeFullName": "System.Guid"
+    },
+    {
+      "Name": "GetEmployeeContract",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.HRManagement.IHRDocument",
+      "ReturnTypeFullName": "DirRX.HRManagement.IHRDocument, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetEmployeeHRDocuments",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Linq.IQueryable<global::DirRX.HRManagement.IHRDocument>",
+      "ReturnTypeFullName": "System.Linq.IQueryable"
+    },
+    {
+      "Name": "GetEmployeeVacationDuration",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "year",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.HRManagement.IVacationDuration",
+      "ReturnTypeFullName": "DirRX.HRManagement.IVacationDuration, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetHolidaysInPeriod",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "periodBegin",
+          "ParameterType": "global::System.Nullable<global::System.DateTime>",
+          "ParameterTypeFullName": "System.Nullable"
+        },
+        {
+          "Name": "periodEnd",
+          "ParameterType": "global::System.Nullable<global::System.DateTime>",
+          "ParameterTypeFullName": "System.Nullable"
+        },
+        {
+          "Name": "recipient",
+          "ParameterType": "global::Sungero.CoreEntities.IRecipient",
+          "ParameterTypeFullName": "Sungero.CoreEntities.IRecipient, Sungero.Domain.Shared"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Collections.Generic.List<global::System.DateTime>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetHRDocumentKinds",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "isVacationDocuments",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.Docflow.IDocumentKind>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetHRResponsible",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.CoreEntities.IRecipient",
+      "ReturnTypeFullName": "Sungero.CoreEntities.IRecipient, Sungero.Domain.Shared"
+    },
+    {
+      "Name": "GetHRRolesList",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::System.Linq.IQueryable<global::Sungero.CoreEntities.IRole>",
+      "ReturnTypeFullName": "System.Linq.IQueryable"
+    },
+    {
+      "Name": "GetInformingNoticeActiveText",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetInstructionReworkVacation",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetITResponsible",
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.CoreEntities.IRecipient",
+      "ReturnTypeFullName": "Sungero.CoreEntities.IRecipient, Sungero.Domain.Shared"
+    },
+    {
+      "Name": "GetJSONForStatementsWidget",
+      "Parameters": [
+        {
+          "Name": "userId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetJsonVacationFullInfoByEmployee",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetJsonVacationFullInfoByEmployee",
+      "Parameters": [
+        {
+          "Name": "employeeId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetManager",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.Company.IEmployee",
+      "ReturnTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetManager",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "department",
+          "ParameterType": "global::Sungero.Company.IDepartment",
+          "ParameterTypeFullName": "Sungero.Company.IDepartment, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.Company.IEmployee",
+      "ReturnTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetModuleSettings",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.HRManagement.IHRSettings",
+      "ReturnTypeFullName": "DirRX.HRManagement.IHRSettings, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetPaidVacationKind",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "recipient",
+          "ParameterType": "global::Sungero.CoreEntities.IRecipient",
+          "ParameterTypeFullName": "Sungero.CoreEntities.IRecipient, Sungero.Domain.Shared"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.HRManagement.IVacationKind",
+      "ReturnTypeFullName": "DirRX.HRManagement.IVacationKind, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetPaymentDayAfterDate",
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "date",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "ReturnType": "global::System.DateTime",
+      "ReturnTypeFullName": "System.DateTime"
+    },
+    {
+      "Name": "GetPaymentDayBeforeDate",
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "date",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "ReturnType": "global::System.DateTime",
+      "ReturnTypeFullName": "System.DateTime"
+    },
+    {
+      "Name": "GetReasonBeforeAbort",
+      "Placement": "Client",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetRefusalInstruction",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetReworkDayOffReason",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetReworkShiftReason",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetRoleRecipients",
+      "Parameters": [
+        {
+          "Name": "roleGuid",
+          "ParameterType": "global::System.Guid",
+          "ParameterTypeFullName": "System.Guid"
+        },
+        {
+          "Name": "processedRoles",
+          "ParameterType": "global::System.Collections.Generic.List<global::System.Guid>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.CoreEntities.IRecipient>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetRoleRecipients",
+      "Parameters": [
+        {
+          "Name": "roleGuid",
+          "ParameterType": "global::System.Guid",
+          "ParameterTypeFullName": "System.Guid"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.CoreEntities.IRecipient>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetSecurityResponsible",
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.CoreEntities.IRecipient",
+      "ReturnTypeFullName": "Sungero.CoreEntities.IRecipient, Sungero.Domain.Shared"
+    },
+    {
+      "Name": "GetSignTaskActiveText",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetStaffChief",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.CoreEntities.IRecipient",
+      "ReturnTypeFullName": "Sungero.CoreEntities.IRecipient, Sungero.Domain.Shared"
+    },
+    {
+      "Name": "GetStatementDenyPerson",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetStatementDenyReason",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetSupplyResponsible",
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.CoreEntities.IRecipient",
+      "ReturnTypeFullName": "Sungero.CoreEntities.IRecipient, Sungero.Domain.Shared"
+    },
+    {
+      "Name": "GetTableInstruction",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::System.String>",
+      "ReturnTypeFullName": "System.Collections.Generic.List",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetTaskSetting",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "taskType",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "documentKind",
+          "ParameterType": "global::Sungero.Docflow.IDocumentKind",
+          "ParameterTypeFullName": "Sungero.Docflow.IDocumentKind, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.HRManagement.ITaskSetting",
+      "ReturnTypeFullName": "DirRX.HRManagement.ITaskSetting, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetVacAppAGluedInstruction",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetVacAppAInstruction",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetVacationEndDate",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "dateBegin",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        },
+        {
+          "Name": "duration",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "recipient",
+          "ParameterType": "global::Sungero.CoreEntities.IRecipient",
+          "ParameterTypeFullName": "Sungero.CoreEntities.IRecipient, Sungero.Domain.Shared"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.DateTime",
+      "ReturnTypeFullName": "System.DateTime"
+    },
+    {
+      "Name": "GetVacationEndDate",
+      "Parameters": [
+        {
+          "Name": "dateBegin",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        },
+        {
+          "Name": "duration",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        },
+        {
+          "Name": "userId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.DateTime",
+      "ReturnTypeFullName": "System.DateTime",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetVacationFullInfoByEmployee",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetVacationKindIdFromVacationId",
+      "Parameters": [
+        {
+          "Name": "vacationId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.Nullable<global::System.Int32>",
+      "ReturnTypeFullName": "System.Nullable",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetVacationResponsible",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.CoreEntities.IRecipient",
+      "ReturnTypeFullName": "Sungero.CoreEntities.IRecipient, Sungero.Domain.Shared"
+    },
+    {
+      "Name": "GetVacationScheduleReport",
+      "Parameters": [
+        {
+          "Name": "year",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        },
+        {
+          "Name": "buisnessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "Sungero.Reporting.IReport"
+    },
+    {
+      "Name": "GetVacationTaskDataForWidget",
+      "Parameters": [
+        {
+          "Name": "userId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "GetVacationWithoutPayKind",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.HRManagement.IVacationKind",
+      "ReturnTypeFullName": "DirRX.HRManagement.IVacationKind, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "IsApprovalVacationGlued",
+      "Parameters": [
+        {
+          "Name": "assignmentId",
+          "ParameterType": "global::System.Int32",
+          "ParameterTypeFullName": "System.Int32"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "IsDebugEnabled",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsEmployeeUsingESS",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsHRAdministrator",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "users",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.CoreEntities.IUser>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsHRDocExportManager",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "users",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.CoreEntities.IUser>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsHRDocument",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "doc",
+          "ParameterType": "global::Sungero.Docflow.IOfficialDocument",
+          "ParameterTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsHRResponsible",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "users",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.CoreEntities.IUser>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsQualifiedSignature",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsServiceUser",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "user",
+          "ParameterType": "global::Sungero.CoreEntities.IUser",
+          "ParameterTypeFullName": "Sungero.CoreEntities.IUser, Sungero.Domain.Shared"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsServiceUser",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "users",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.CoreEntities.IUser>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsStaffChief",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "users",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.CoreEntities.IUser>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsVacationManager",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "users",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.CoreEntities.IUser>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsVacationResponsible",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "users",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.CoreEntities.IUser>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsVacationSchedulingInBusinessUnit",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsVacationSchedulingInBusinessUnit",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "users",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.CoreEntities.IUser>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsVacationSchedulingInDepartment",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "department",
+          "ParameterType": "global::Sungero.Company.IDepartment",
+          "ParameterTypeFullName": "Sungero.Company.IDepartment, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "IsVacationSchedulingInDepartment",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "users",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.CoreEntities.IUser>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "SearchByRequisites",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "isVacationDocuments",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        },
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "department",
+          "ParameterType": "global::Sungero.Company.IDepartment",
+          "ParameterTypeFullName": "Sungero.Company.IDepartment, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "documentKinds",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Docflow.IDocumentKind>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "beginPeriod",
+          "ParameterType": "global::System.Nullable<global::System.DateTime>",
+          "ParameterTypeFullName": "System.Nullable"
+        },
+        {
+          "Name": "endPeriod",
+          "ParameterType": "global::System.Nullable<global::System.DateTime>",
+          "ParameterTypeFullName": "System.Nullable"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Linq.IQueryable<global::Sungero.Docflow.IOfficialDocument>",
+      "ReturnTypeFullName": "System.Linq.IQueryable"
+    },
+    {
+      "Name": "SendAbortationNotices",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "task",
+          "ParameterType": "global::Sungero.Workflow.ITask",
+          "ParameterTypeFullName": "Sungero.Workflow.ITask, Sungero.Workflow.Interfaces"
+        },
+        {
+          "Name": "subject",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "abortingReason",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "author",
+          "ParameterType": "global::Sungero.CoreEntities.IUser",
+          "ParameterTypeFullName": "Sungero.CoreEntities.IUser, Sungero.Domain.Shared"
+        },
+        {
+          "Name": "threadSubject",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SendNotificationToWhoSubstitute",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SerializedToJson",
+      "Parameters": [
+        {
+          "Name": "obj",
+          "ParameterType": "System.Object"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "SetRecpientsRole",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "role",
+          "ParameterType": "global::Sungero.CoreEntities.IRole",
+          "ParameterTypeFullName": "Sungero.CoreEntities.IRole, Sungero.Domain.Shared"
+        },
+        {
+          "Name": "newMembers",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.CoreEntities.IRecipient>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ShiftVacationButton",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "ShiftVacationButton2",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "ShowEmployeeVacation",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ShowVacationScheduleChart",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "StartTransferTaskAsEmployee",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "StartTransferTaskAsManager",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "StopVacationShiftTask",
+      "Parameters": [
+        {
+          "Name": "task",
+          "ParameterType": "global::Sungero.Workflow.ITask",
+          "ParameterTypeFullName": "Sungero.Workflow.ITask, Sungero.Workflow.Interfaces"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "TrimInstruction",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "instruction",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "VacationButtons",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "VacationDayOffButton",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String",
+      "WebApiRequestType": "Get"
+    },
+    {
+      "Name": "VacationShiftIsCancel",
+      "Parameters": [
+        {
+          "Name": "task",
+          "ParameterType": "global::Sungero.Workflow.ITask",
+          "ParameterTypeFullName": "Sungero.Workflow.ITask, Sungero.Workflow.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "VacationShiftIsComplete",
+      "Parameters": [
+        {
+          "Name": "task",
+          "ParameterType": "global::Sungero.Workflow.ITask",
+          "ParameterTypeFullName": "Sungero.Workflow.ITask, Sungero.Workflow.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    }
+  ],
+  "PublicStructures": [
+    {
+      "Name": "AvailableVacationDays",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "Id",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "Name",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Count",
+          "TypeFullName": "global::System.Int32"
+        }
+      ],
+      "StructureNamespace": "DirRX.HRManagement.Structures.Module"
+    },
+    {
+      "Name": "CurrentDayOff",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "VacationId",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "Begin",
+          "IsNullable": true,
+          "TypeFullName": "global::System.DateTime"
+        },
+        {
+          "Name": "Duration",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "End",
+          "IsNullable": true,
+          "TypeFullName": "global::System.DateTime"
+        }
+      ],
+      "StructureNamespace": "DirRX.HRManagement.Structures.Module"
+    },
+    {
+      "Name": "CurrentDayOffStringDate",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "VacationId",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "Begin",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "Duration",
+          "TypeFullName": "global::System.Int32"
+        },
+        {
+          "Name": "End",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "DirRX.HRManagement.Structures.Module"
+    },
+    {
+      "Name": "СonversionToPdfResult",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "IsFastConvertion",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "IsOnConvertion",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "HasErrors",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "HasConvertionError",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "HasLockError",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "ErrorTitle",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "ErrorMessage",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "DirRX.HRManagement.Structures.Module"
+    }
+  ],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "DirRX.HRManagement",
+  "ResourcesKeys": [
+    "RoleDescrHiringSecurityResponsible",
+    "RoleNameHiringITResponsible",
+    "RoleNameHiringResponsible",
+    "RoleNameHiringSupplyResponsible",
+    "RoleNameHiringSecurityResponsible",
+    "RoleDescrHiringITResponsible",
+    "RoleDescrHiringSupplyResponsible",
+    "EmploymentContractKindName",
+    "HRDocumentTypeName",
+    "ElectronicInteractionAgreementKindName",
+    "ProcPersonalDataAgreementKindName",
+    "HROrderTypeName",
+    "DismissalStatementKindName",
+    "TransferAdditionalAgreementKindName",
+    "TransferAdditionalAgreementKindShortName",
+    "RoleDescrStaffChief",
+    "RoleNameStaffChief",
+    "TransferOrderKindName",
+    "DismissalOrderKindName",
+    "RoleNameAccounter",
+    "RoleDescrAccounter",
+    "VacationOrderKindName",
+    "VacationShiftOrderKindName",
+    "AbortReason",
+    "RoleNameVacationResponsible",
+    "RoleDescrVacationResponsible",
+    "ScheduledVacationNoticeKindName",
+    "HiringOrderKindName",
+    "AspirantReportKindName",
+    "AspirantDocTypeName",
+    "JoiningStatementKindName",
+    "BenefitStatementKindName",
+    "MaterialAidStatementKindName",
+    "ChangePersonalDataStatementKindName",
+    "VacationStatementKindName",
+    "VacationShiftStatementKindName",
+    "OtherAspirantDocKindName",
+    "ChangePersonalDataRuleName",
+    "GetEmployeeDocStageName",
+    "GetEmployeeDocStageSubject",
+    "ChangeEmployeeDataStageName",
+    "ChangeEmployeeDataStageSubject",
+    "MaterialPaymentsRuleName",
+    "MaterialPaymentStageName",
+    "MaterialPaymentStageSubject",
+    "AcquaintanceListKindName",
+    "VacationDurationOverLimit",
+    "VacationNoRequiredDurationPart",
+    "VacationDurationUnderLimit",
+    "VacationIntervalIncorrectPeriod",
+    "VacationScheduleKindName",
+    "VacationIntersectionsPeriod",
+    "VacationChartDialogHeader",
+    "DeparmentFieldName",
+    "BusinessUnitFieldName",
+    "Employee",
+    "PlannedVacationLeftSubject",
+    "VacationChartLegendWarning",
+    "CantSeeVacationsByNonEmployee",
+    "VacationChartLegendError",
+    "VacationChartLegendCurrentDate",
+    "EmployeeFieldName",
+    "YearFieldName",
+    "DocumentDeleteFailed",
+    "HeavyCheckMark",
+    "WhithoutPayVacationLeftSubject",
+    "NoDataToGenerateReport",
+    "VacationIntervalIncorrectDay",
+    "VacationIntersectionsDay",
+    "VacationChartLegendManager",
+    "VacationEndBeforeWeekendOrHoliday",
+    "RoleNameVacationManagers",
+    "RoleDescrVacationManagers",
+    "VacationEndOverBorderCalendarYear",
+    "VacationIntervalIncorrect",
+    "CanSendTaskByRole",
+    "NoWorkingTimeCalendar",
+    "OverflowDuration",
+    "DepartmentsWithoutManagers",
+    "SettingsReportName",
+    "UsersWithoutLogins",
+    "DepartmentsWithoutBusinessUnit",
+    "UsersWithoutLoginsInRoles",
+    "CanCreateSettingsReport",
+    "SettingsCorrect",
+    "SchedulingAssignmentAutoComplete",
+    "SubstitutionWasChanged",
+    "SubstitutionWasDeleted",
+    "SubstitutionWasCreated",
+    "EmployeeActiveOnly",
+    "NoVacationDurationRecord",
+    "BusinessUnitsRoleWithoutRecipients",
+    "ScheduleAcquaintanceListKindName",
+    "ActualShceduleReport",
+    "OnlyPaidFieldName",
+    "ActualReportHeader",
+    "ReportDateBegin",
+    "ReportDateEnd",
+    "ReportStatus",
+    "ReportBaseDocs",
+    "RoleNameHRAdministrator",
+    "RoleDescrHRAdministrator",
+    "AlertStatmentVacationText",
+    "VacationEndOverBorderCalendarYearForShift",
+    "VacationEndOverBorderCalendarYearForAdmin",
+    "VacationStatementBodyPart",
+    "NotAvailableEmployeeVacationKind",
+    "ActualReportHeaderData",
+    "VacationEndOverBorderCalendarYearForSingleSchedule",
+    "VacationOrderBodyPart",
+    "VacationOrderTotalDurationText",
+    "VacationRecallStatementKindName",
+    "VacationRecallOrderKindName",
+    "ReportVacationKind",
+    "Overlaps",
+    "EmployeeAnchor",
+    "ManagerAnchor",
+    "HtmlStampTemplateForCertificate",
+    "HtmlStampTemplateForSignature",
+    "ExportDocuments",
+    "ExportParamsDialogInstruction",
+    "DocumentKindFieldName",
+    "YearFromFieldName",
+    "PeriodFromFieldName",
+    "YearToFieldName",
+    "PeriodToFieldName",
+    "ExportFormatFieldName",
+    "ExportFormatElectronicDocuments",
+    "ExportFormatPaperDocuments",
+    "NextButton",
+    "FileListButton",
+    "BackButton",
+    "ExportButton",
+    "CloseButton",
+    "CancelButton",
+    "ExportDialog_Instruction",
+    "ExportDialog_Error_DocumentCountLimit",
+    "ExportDialog_ResultsInfo",
+    "ExportDialog_Error_NoVersion",
+    "ExportDialog_Error_Client",
+    "ExportLogTemplate",
+    "NoFullComplectSignatureFolderName",
+    "FullComplectSignatureFolderName",
+    "ExportDocumentFolderName",
+    "ExportDialog_Error_Client_NoReason",
+    "ExportDialog_Error_ExportedFilesLimit",
+    "ExportDialog_Error_ExportedSizeLimit",
+    "ExportDialog_SuccessInfo",
+    "RoleNameHRDocExportManager",
+    "RoleDescrHRDocExportManager",
+    "CanExportHRDocuments",
+    "ExportDatesError",
+    "ExportYearsError",
+    "CantSendTaskByManagerError",
+    "VacationChartLegendAnotherYear",
+    "ChangeWorkConditionsAdditionalAgreementKindName",
+    "ChangeWorkConditionsAdditionalAgreementKindShortName",
+    "ChangeWorkConditionsOrderKindName",
+    "RoleConfigurationHeader",
+    "CanConfigureRoles",
+    "SignedInPA",
+    "VacationDatesNotMatchDuration",
+    "CopiesOfPaperDocFolderName",
+    "CantCreateActualVacationReport",
+    "VacationDatesRangeError",
+    "RoleNameHRProUsers",
+    "RoleNamePersonnelFlowUsers",
+    "RoleNameDescPersonnelFlowUsers",
+    "RoleNameVacationsUsers",
+    "RoleNameDescVacationsUsers",
+    "DayOffSubjectInWidget",
+    "ShiftVacationSubjectInWidget",
+    "NoLicenseVacations",
+    "NoLicensePersonnel",
+    "ReworkVacationInstruction",
+    "VacAppIstructionEss",
+    "VacAppIstructionGluedEss",
+    "RefusalInstruction",
+    "DocumentApprovalOnReworkInstruction",
+    "AssignmentsToWhoSubstitute"
+  ],
+  "ServerAssemblyName": "DirRX.HRManagement.Server",
+  "ServerNamespace": "DirRX.HRManagement.Server",
+  "SharedAssemblyName": "DirRX.HRManagement.Shared",
+  "SharedNamespace": "DirRX.HRManagement.Shared",
+  "SpecialFolders": [],
+  "Version": "1.5.4227.1",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

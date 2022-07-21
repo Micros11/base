@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Commons HR Pro</value>
+  </data>
+  <data name="CoverTitle" xml:space="preserve">
+    <value>Personnel Flow</value>
+  </data>
+  <data name="CoverGroup_PersonnelChanges" xml:space="preserve">
+    <value>My human resource changes</value>
+  </data>
+  <data name="CoverAction_StartHiringTask" xml:space="preserve">
+    <value>Employ</value>
+  </data>
+  <data name="CoverDescription_StartHiringTask" xml:space="preserve">
+    <value>Send a new employment task.</value>
+  </data>
+  <data name="CoverAction_ModuleSettings" xml:space="preserve">
+    <value>Module Settings</value>
+  </data>
+  <data name="CoverAction_StartDismissalTask" xml:space="preserve">
+    <value>Create Resignation Letter</value>
+  </data>
+  <data name="CoverDescription_StartDismissalTask" xml:space="preserve">
+    <value>Send a task to approve a resignation.</value>
+  </data>
+  <data name="JobDisplayName_0619414eb0ba425f90ddc5221cc0e8d9" xml:space="preserve">
+    <value>HR Processes. Send Tasks to Confirm Vacations</value>
+  </data>
+  <data name="JobDescription_0619414eb0ba425f90ddc5221cc0e8d9" xml:space="preserve">
+    <value>Send tasks to confirm vacations.</value>
+  </data>
+  <data name="CoverGroup_Setting" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="CoverDescription_ModuleSettings" xml:space="preserve">
+    <value>Configure the module settings.</value>
+  </data>
+  <data name="CoverDescription" xml:space="preserve">
+    <value>This module is where you can automate HR personnel flow.</value>
+  </data>
+  <data name="CoverGroup_Recruitment" xml:space="preserve">
+    <value>HR Management</value>
+  </data>
+  <data name="CoverAction_Aspirant" xml:space="preserve">
+    <value>Candidates</value>
+  </data>
+  <data name="CoverDescription_Aspirant" xml:space="preserve">
+    <value>View the list of candidates.</value>
+  </data>
+  <data name="CoverAction_AspirantReview" xml:space="preserve">
+    <value>Review Candidate</value>
+  </data>
+  <data name="CoverDescription_AspirantReview" xml:space="preserve">
+    <value>Send a task to review a candidate.</value>
+  </data>
+  <data name="JobDisplayName_4cc23d2754e34d5c9611bd1628e05078" xml:space="preserve">
+    <value>HR Processes. Delete Documents</value>
+  </data>
+  <data name="JobDescription_4cc23d2754e34d5c9611bd1628e05078" xml:space="preserve">
+    <value>Delete documents from the system.</value>
+  </data>
+  <data name="JobDisplayName_e70dbad252ab43999fc844d019d6ff3b" xml:space="preserve">
+    <value>HR Processes. Automatically Complete Assignment with Notice on Vacation Beginning</value>
+  </data>
+  <data name="JobDescription_e70dbad252ab43999fc844d019d6ff3b" xml:space="preserve">
+    <value>Automatically complete an assignment with notice on the vacation beginning.</value>
+  </data>
+  <data name="JobDisplayName_3a1401b010eb48faaee1a2614b67ca41" xml:space="preserve">
+    <value>HR Processes. Change Vacations Statuses</value>
+  </data>
+  <data name="JobDescription_3a1401b010eb48faaee1a2614b67ca41" xml:space="preserve">
+    <value>Change vacation statuses from "In process" to "Complete".</value>
+  </data>
+  <data name="JobDescription_6fad5d689e314b57a62e63c4772ef839" xml:space="preserve">
+    <value>Send tasks to schedule vacations.</value>
+  </data>
+  <data name="JobDisplayName_6fad5d689e314b57a62e63c4772ef839" xml:space="preserve">
+    <value>HR Processes. Send Tasks to Schedule Vacations</value>
+  </data>
+  <data name="JobDisplayName_ba283b6c03594501ad97867155097fae" xml:space="preserve">
+    <value>HR Processes. Automatically Complete Assignment to Schedule Vacation</value>
+  </data>
+  <data name="JobDescription_ba283b6c03594501ad97867155097fae" xml:space="preserve">
+    <value>Automatically complete an assignment to schedule the vacation.</value>
+  </data>
+  <data name="AsyncHandler_Description_7eb6e314ee4a4756874139cae6b7eb79" xml:space="preserve">
+    <value>Change a substitution.</value>
+  </data>
+  <data name="AsyncHandler_Description_e66f070089a64c93b9a822dfd37cca34" xml:space="preserve">
+    <value>Create a substitution.</value>
+  </data>
+  <data name="AsyncHandler_Description_f0fe0f45e16c400090deae2a4a3d3262" xml:space="preserve">
+    <value>Delete a substitution.</value>
+  </data>
+  <data name="AsyncHandler_Description_71698e22ee58447e82a522a2c1adbd04" xml:space="preserve">
+    <value>Set vacation statuses to "Scheduled" after signing by HR manager</value>
+  </data>
+  <data name="AsyncHandler_Description_c1611523933644da946fd0d58d4b3567" xml:space="preserve">
+    <value>Abort Subtasks to Schedule Vacations in Departments</value>
+  </data>
+  <data name="CoverAction_ExportDocuments" xml:space="preserve">
+    <value>Export Documents on Movement of Employees</value>
+  </data>
+  <data name="CoverDescription_ExportDocuments" xml:space="preserve">
+    <value>Export documents on movement of employees by specified parameters.</value>
+  </data>
+  <data name="CoverGroup_ExportDocument" xml:space="preserve">
+    <value>ExportDocument</value>
+  </data>
+  <data name="CoverAction_StartTransferTaskAsEmployee" xml:space="preserve">
+    <value>Change My Terms of Employment </value>
+  </data>
+  <data name="CoverDescription_StartTransferTaskAsEmployee" xml:space="preserve">
+    <value>Send a task to change terms of employment.</value>
+  </data>
+  <data name="CoverAction_StartTransferTaskAsManager" xml:space="preserve">
+    <value>Change Terms of Employment of Employee</value>
+  </data>
+  <data name="CoverDescription_StartTransferTaskAsManager" xml:space="preserve">
+    <value>Send a task to change the employee's terms of employment.</value>
+  </data>
+  <data name="AsyncHandler_Description_eed6d88e9a754efb88ffc1680b1b6279" xml:space="preserve">
+    <value>Refresh employees' property "Consent for Digital HR Document Management"</value>
+  </data>
+  <data name="JobDisplayName_4d5a8db317194f19aa04e9360ff3e47d" xml:space="preserve">
+    <value>HR Processes. Send notice to employees with several jobs</value>
+  </data>
+  <data name="JobDescription_4d5a8db317194f19aa04e9360ff3e47d" xml:space="preserve">
+    <value>Send notices to employees with several jobs about new or overdue assignments of the employees they substitute.</value>
+  </data>
+</root>

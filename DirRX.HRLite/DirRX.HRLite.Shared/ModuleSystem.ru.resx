@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CoverGroup_Setting" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="CoverTitle" xml:space="preserve">
+    <value>Кадровый ЭДО</value>
+  </data>
+  <data name="CoverGroup_CreateDocumentGroup" xml:space="preserve">
+    <value>Создание документов</value>
+  </data>
+  <data name="CoverAction_ImportOrgStructure" xml:space="preserve">
+    <value>Импорт оргструктуры</value>
+  </data>
+  <data name="CoverDescription_ImportOrgStructure" xml:space="preserve">
+    <value>Импортировать наши организации, подразделения и сотрудников из Excel-файла.</value>
+  </data>
+  <data name="CoverDescription_ShowAllLRD" xml:space="preserve">
+    <value>Показать все локальные нормативные акты.</value>
+  </data>
+  <data name="CoverAction_ShowAllLRD" xml:space="preserve">
+    <value>Локальные нормативные акты</value>
+  </data>
+  <data name="CoverAction_ShowAllBilaterial" xml:space="preserve">
+    <value>Кадровые договорные документы</value>
+  </data>
+  <data name="CoverDescription_ShowAllBilaterial" xml:space="preserve">
+    <value>Показать все кадровые договорные документы.</value>
+  </data>
+  <data name="CoverDescription_ShowAllPersonnel" xml:space="preserve">
+    <value>Показать все кадровые документы.</value>
+  </data>
+  <data name="CoverAction_ShowAllPersonnel" xml:space="preserve">
+    <value>Кадровые документы</value>
+  </data>
+  <data name="CoverGroup_InformingGroup" xml:space="preserve">
+    <value>Информирование</value>
+  </data>
+  <data name="CoverAction_CreateInformingTask" xml:space="preserve">
+    <value>Отправить уведомление</value>
+  </data>
+  <data name="CoverDescription_CreateInformingTask" xml:space="preserve">
+    <value>Отправить сообщение сотрудникам.</value>
+  </data>
+  <data name="CoverAction_ShowRoles" xml:space="preserve">
+    <value>Роли</value>
+  </data>
+  <data name="CoverDescription_ShowRoles" xml:space="preserve">
+    <value>Назначить исполнителей ролей</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Кадровый ЭДО</value>
+  </data>
+  <data name="CoverDescription" xml:space="preserve">
+    <value>Модуль предназначен для автоматизации работы с кадровыми документами</value>
+  </data>
+  <data name="JobDisplayName_518fb541327043a48c7f387b05049628" xml:space="preserve">
+    <value>Кадровый ЭДО. Отправка уведомлений о приближении срока задач на ознакомление</value>
+  </data>
+  <data name="JobDescription_518fb541327043a48c7f387b05049628" xml:space="preserve">
+    <value>Отправка инициаторам уведомлений о приближении сроков задач на ознакомление с кадровыми документами и ЛНА.</value>
+  </data>
+  <data name="JobDisplayName_71e7f067ec7b4730aafa3fc4d4d1317e" xml:space="preserve">
+    <value>Кадровый ЭДО. Отправка уведомлений о приближении срока задач на подписание кадровых договорных документов</value>
+  </data>
+  <data name="JobDescription_71e7f067ec7b4730aafa3fc4d4d1317e" xml:space="preserve">
+    <value>Отправка инициаторам уведомлений о приближении сроков задач на подписание кадровых договорных документов</value>
+  </data>
+  <data name="sf_b79b323f_c627_43d0_b9d0_88651df98924" xml:space="preserve">
+    <value>На контроль</value>
+  </data>
+  <data name="sf_7cf49851_f819_4ab4_b530_2ff5fd0edbcd" xml:space="preserve">
+    <value>Кадровые задачи</value>
+  </data>
+  <data name="FilterPanel_TaskTypeGroup_b6a8a81ac8e44ad7b98885bb7ed9deb9" xml:space="preserve">
+    <value>ТИП ЗАДАЧИ</value>
+  </data>
+  <data name="FilterPanel_TaskTypeFlagsList_8a25fbdaa2364221a066afd084ea6e0c" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FilterPanel_AcquaintanceTask_4bd8d601b97d407d99402bc54b49d924" xml:space="preserve">
+    <value>Ознакомление</value>
+  </data>
+  <data name="FilterPanel_InformingTask_49722ff4c93a41fc9eb2b3f2d4421b27" xml:space="preserve">
+    <value>Информирование</value>
+  </data>
+  <data name="FilterPanel_SignTask_a42c04c032fb48b7a8868bc0e17183af" xml:space="preserve">
+    <value>Подписание</value>
+  </data>
+  <data name="FilterPanel_StartDateGroup_5efa7361ee574a7d8430319bb9c7a22a" xml:space="preserve">
+    <value>ОТПРАВЛЕНЫ ЗА ПОСЛЕДНИЕ</value>
+  </data>
+  <data name="FilterPanel_Today_ad5e8177e1b14f15b7492eed0c3a6108" xml:space="preserve">
+    <value>1 день</value>
+  </data>
+  <data name="FilterPanel_ThirtyDays_afd5d4b17ddb4fcaa8b5cc95748f97e2" xml:space="preserve">
+    <value>30 дней</value>
+  </data>
+  <data name="FilterPanel_NinetyDays_bd1e09e53fb64d7eb4bf7106ee9fedc5" xml:space="preserve">
+    <value>90 дней</value>
+  </data>
+  <data name="FilterPanel_OneHundretEightyDays_efb1dc6ba8f94fb09c998458b60fdb38" xml:space="preserve">
+    <value>180 дней</value>
+  </data>
+  <data name="FilterPanel_InitiatorGroup_b5920816b2d243f68d3a10bbda136f1d" xml:space="preserve">
+    <value>ЗАДАЧИ</value>
+  </data>
+  <data name="FilterPanel_MyTasks_b77fc1878d8e44cda2a6807353ce235e" xml:space="preserve">
+    <value>Отправленные мной</value>
+  </data>
+  <data name="FilterPanel_AllInitiatorsTasks_ccc9f320bb2e447ba345eada252e9cd5" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="FilterPanel_StatusGroup_73c0667e1bef4d469537f5bb3cac4179" xml:space="preserve">
+    <value>СТАТУС</value>
+  </data>
+  <data name="FilterPanel_InProcess_fea464de59f744e4b8133a845a98a817" xml:space="preserve">
+    <value>В работе</value>
+  </data>
+  <data name="FilterPanel_Completed_e9f0347683e345d0a82f1ab956a4edb8" xml:space="preserve">
+    <value>Завершена</value>
+  </data>
+  <data name="CoverGroup_LinksGroup" xml:space="preserve">
+    <value>Связанная информация</value>
+  </data>
+  <data name="CoverAction_BusinessUnits" xml:space="preserve">
+    <value>Наши организации</value>
+  </data>
+  <data name="CoverDescription_BusinessUnits" xml:space="preserve">
+    <value>Открыть справочник Наши организации.</value>
+  </data>
+  <data name="CoverDescription_Departments" xml:space="preserve">
+    <value>Открыть справочник Подразделения.</value>
+  </data>
+  <data name="CoverAction_Departments" xml:space="preserve">
+    <value>Подразделения</value>
+  </data>
+  <data name="CoverAction_Employees" xml:space="preserve">
+    <value>Сотрудники</value>
+  </data>
+  <data name="CoverDescription_Employees" xml:space="preserve">
+    <value>Открыть справочник Сотрудники.</value>
+  </data>
+  <data name="CoverAction_CreateDocument" xml:space="preserve">
+    <value>Создать документ</value>
+  </data>
+  <data name="CoverDescription_CreateDocument" xml:space="preserve">
+    <value>Быстрое создание кадровых документов.</value>
+  </data>
+  <data name="AsyncHandler_Description_34fb41b68e404a10bc87f07ae608d4b8" xml:space="preserve">
+    <value>Обновить лист ознакомления в версии документа</value>
+  </data>
+  <data name="AsyncHandler_Description_bee72d3af26242c098184cdcc22b1c5d" xml:space="preserve">
+    <value>Импорт оргструктуры предприятия</value>
+  </data>
+  <data name="CoverAction_StatementsSetting" xml:space="preserve">
+    <value>Настройки заявлений</value>
+  </data>
+  <data name="CoverDescription_StatementsSetting" xml:space="preserve">
+    <value>Настроить заявления сотрудников.</value>
+  </data>
+  <data name="AsyncHandler_Description_b5b56e4ebcaf4dc39c3bba6fd2c66af8" xml:space="preserve">
+    <value>Отправить уведомление с вложением.</value>
+  </data>
+  <data name="CoverAction_TaskSettings" xml:space="preserve">
+    <value>Настройки согласования и подписания</value>
+  </data>
+  <data name="CoverDescription_TaskSettings" xml:space="preserve">
+    <value>Настроить параметры согласования и подписания документов</value>
+  </data>
+  <data name="AsyncHandler_Description_0eed5d8269b3499fb7307aa7976b1fa0" xml:space="preserve">
+    <value>AsyncHandler</value>
+  </data>
+  <data name="CoverGroup_Statements" xml:space="preserve">
+    <value>Заявления</value>
+  </data>
+  <data name="CoverAction_CreateStatement" xml:space="preserve">
+    <value>Создать заявление</value>
+  </data>
+  <data name="CoverDescription_CreateStatement" xml:space="preserve">
+    <value>Создать и отправить заявление.</value>
+  </data>
+  <data name="CoverAction_MyStatements" xml:space="preserve">
+    <value>Отправленные заявления</value>
+  </data>
+  <data name="CoverDescription_MyStatements" xml:space="preserve">
+    <value>Открыть список моих отправленных заявлений.</value>
+  </data>
+  <data name="CoverAction_ShowAllStatements" xml:space="preserve">
+    <value>Заявления сотрудников</value>
+  </data>
+  <data name="CoverDescription_ShowAllStatements" xml:space="preserve">
+    <value>Показать все заявления сотрудников.</value>
+  </data>
+  <data name="AsyncHandler_Description_dea5c6af48854c0a8e4b2e0eb342f85b" xml:space="preserve">
+    <value>Обновление поля "Согласие на КЭДО" в карточке сотрудника.</value>
+  </data>
+  <data name="CoverAction_ConsentToKEDO" xml:space="preserve">
+    <value>Отправить Согласие на Кадровый ЭДО</value>
+  </data>
+  <data name="CoverDescription_ConsentToKEDO" xml:space="preserve">
+    <value>Отправить сотрудникам Согласие на КЭДО для подписания.</value>
+  </data>
+  <data name="AsyncHandler_Description_61836113355048ba91d35b89bd618a94" xml:space="preserve">
+    <value>Отправка Согласия на КЭДО</value>
+  </data>
+</root>

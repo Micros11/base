@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Performers" xml:space="preserve">
+    <value>Participants</value>
+  </data>
+  <data name="ControlGroup_73e7c55ab14d49d89a690ed7d46bf563" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_3849ac3b252941c6aa0d03907f402a05" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_035869ed2baa4573bdfe9e4f5e10c4b3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_035869ed2baa4573bdfe9e4f5e10c4b3_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_74e85eafe5944dc5b4724e791948b781" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_74e85eafe5944dc5b4724e791948b781_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_679cef60166e482cbfa7a1ec861f0263" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_679cef60166e482cbfa7a1ec861f0263_EmptyText" xml:space="preserve">
+    <value>Specify observers…</value>
+  </data>
+  <data name="ControlGroup_cf3d48840c46412f8e4270da602e344a" xml:space="preserve">
+    <value>Acquaintance List</value>
+  </data>
+  <data name="Property_ExcludedPerformers" xml:space="preserve">
+    <value>Exclude</value>
+  </data>
+  <data name="Control_868de1b39ea8444d9ff4621e1e722217_EmptyText" xml:space="preserve">
+    <value>Specify employees to be excluded from the acquaintance task...</value>
+  </data>
+  <data name="Property_Signatory" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="Property_SignatoryDeadline" xml:space="preserve">
+    <value>Deadline for signing by manager, days</value>
+  </data>
+  <data name="Property_EmployeeDeadline" xml:space="preserve">
+    <value>Acquaintance deadline, days</value>
+  </data>
+  <data name="AttachmentGroup_DocumentGroupTitle" xml:space="preserve">
+    <value>Document to sign</value>
+  </data>
+  <data name="AttachmentGroup_DocumentGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AttachmentGroup_OtherGroupTitle" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="AttachmentGroup_OtherGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Task to Get Acquaintant with HR Documents or Company Regulations</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Task to Get Acquaintant with HR Documents or Company Regulations</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Tasks to Get Acquaintant with HR Documents or Company Regulations</value>
+  </data>
+  <data name="Control_78d9dc0f89484e7789f1794d1227ac81_EmptyText" xml:space="preserve">
+    <value>Select employees…</value>
+  </data>
+  <data name="Property_RefusalResult" xml:space="preserve">
+    <value>Processing refusal to sign document</value>
+  </data>
+  <data name="Action_ShowEmployeeNoESS" xml:space="preserve">
+    <value>Show Employees</value>
+  </data>
+  <data name="Action_ShowEmployeeNoESSDescription" xml:space="preserve">
+    <value>View the list of employees who don't have access to Employee Self Service.</value>
+  </data>
+  <data name="Action_ShowEmployeeNoESSHint" xml:space="preserve">
+    <value>View Employees Without Access to ESS </value>
+  </data>
+  <data name="Action_ShowEmployeeNoESSConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ShowEmployeeNoESSConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_AcquaintanceReport" xml:space="preserve">
+    <value>Acquaintance Report</value>
+  </data>
+  <data name="Action_AcquaintanceReportDescription" xml:space="preserve">
+    <value>Generate a report on employees' acquaintance with the document.</value>
+  </data>
+  <data name="Action_AcquaintanceReportHint" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="Action_AcquaintanceReportConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_AcquaintanceReportConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_AcquaintanceReport_5d13ac521ccc44bb90e62aef5069bf4c" xml:space="preserve">
+    <value>Generate Acquaintance Report</value>
+  </data>
+  <data name="AttachmentGroup_AddendaGroupTitle" xml:space="preserve">
+    <value>Addenda</value>
+  </data>
+  <data name="AttachmentGroup_AddendaGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_NotifyAuthor" xml:space="preserve">
+    <value>Notify me of an upcoming deadline</value>
+  </data>
+  <data name="Property_DocumentsVersionIDs" xml:space="preserve">
+    <value>Document versions IDs</value>
+  </data>
+  <data name="Footer_ActiveEmptyText" xml:space="preserve">
+    <value>Type the task text…</value>
+  </data>
+  <data name="Property_ConvertErrorMessage" xml:space="preserve">
+    <value>Errors occurred while converting document to PDF/A</value>
+  </data>
+  <data name="Property_ApprovalQueue" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Enum_Property_aa" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Enum_Property_ss" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_Approvers" xml:space="preserve">
+    <value>Approvers</value>
+  </data>
+  <data name="Enum_ApprovalQueue_Serially" xml:space="preserve">
+    <value>Serially</value>
+  </data>
+  <data name="Enum_ApprovalQueue_Parallel" xml:space="preserve">
+    <value>Parallel</value>
+  </data>
+  <data name="Property_ApproveDeadline" xml:space="preserve">
+    <value>Approval deadline, days</value>
+  </data>
+  <data name="ControlGroup_850286c622834713bbb9dcfecb7595b1" xml:space="preserve">
+    <value>ApprovingGroup</value>
+  </data>
+  <data name="ControlGroup_65182da88b8243cca88c11994b800124" xml:space="preserve">
+    <value>Signing</value>
+  </data>
+  <data name="Property_AbortingReason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+</root>

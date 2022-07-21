@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Property_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="Property_StartDate" xml:space="preserve">
+    <value>Beginning date</value>
+  </data>
+  <data name="Property_FinDate" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Vacation</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Vacation</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Vacations</value>
+  </data>
+  <data name="Property_Noted" xml:space="preserve">
+    <value>Notice on vacation sent</value>
+  </data>
+  <data name="Property_NoteDate" xml:space="preserve">
+    <value>Notice date</value>
+  </data>
+  <data name="Action_StartVacationAlertDate" xml:space="preserve">
+    <value>Send Task to Confirm Vacation</value>
+  </data>
+  <data name="Action_StartVacationAlertDateDescription" xml:space="preserve">
+    <value>Start a task to confirm the vacation dates.</value>
+  </data>
+  <data name="Action_StartVacationAlertDateHint" xml:space="preserve">
+    <value>Start Task to Confirm Vacation Dates</value>
+  </data>
+  <data name="Action_StartVacationAlertDateConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_StartVacationAlertDateConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_AlertTaskCommands_bdc0920cfdd049b58f9b088d07729c42" xml:space="preserve">
+    <value>Confirm Vacation</value>
+  </data>
+  <data name="ControlGroup_93b2358e7a804561893aa7a92227138d" xml:space="preserve">
+    <value>Vacation Period</value>
+  </data>
+  <data name="Enum_Status_Active" xml:space="preserve">
+    <value>Scheduled</value>
+  </data>
+  <data name="Enum_Status_Closed" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="Enum_Status_Shifted" xml:space="preserve">
+    <value>Dates changed</value>
+  </data>
+  <data name="ControlGroup_2858b81eb46d43a1b5afb2f8a977bd52" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="ControlGroup_888dfef6ed2f4ecc89420325dd960443" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_BusinessUnit" xml:space="preserve">
+    <value>Business unit</value>
+  </data>
+  <data name="Property_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Property_VacationDuration" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="Action_DeleteVacationsDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_DeleteVacationsHint" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_DeleteVacationsConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_DeleteVacationsConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_WorkCalendars" xml:space="preserve">
+    <value>Calendar year</value>
+  </data>
+  <data name="Property_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Property_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="FilterPanel_Employee_f657310505d94ba383579c47fb0f2fdc" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="FilterPanel_VacationGroup_3c5e7cdeb65b42168cb9a8fbf5ec6325" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="FilterPanel_StartDateManual_1c280092d8744ae592fa7f45dd4780bf" xml:space="preserve">
+    <value>User-defined Period:</value>
+  </data>
+  <data name="FilterPanel_FinDate_e40552b5f1b941138a538152a88ec2ea" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="FilterPanel_StartDateRange_43a10304887c4e6bbe3149ce5329276d" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FilterPanel_StartDateThisYear_8ffbe63498ed4fd7b3c5b8d74a428b29" xml:space="preserve">
+    <value>Current Year</value>
+  </data>
+  <data name="FilterPanel_StartDate_d6ef77696474447c84afb1080e0741a5" xml:space="preserve">
+    <value>Beginning Date</value>
+  </data>
+  <data name="FilterPanel_FinDateThisYear_903c5ee169a044069915140bf137b061" xml:space="preserve">
+    <value>Current Year</value>
+  </data>
+  <data name="FilterPanel_Department_53854b45e4e74596b6303509e4ceed02" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="FilterPanel_Status_f05c67988db14ed2a52252a781ded0d7" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="FilterPanel_Active_cb741aab437f4595bdf950459e79c262" xml:space="preserve">
+    <value>Scheduled</value>
+  </data>
+  <data name="FilterPanel_Shifted_a7fe2ec98db84d02b399e4a2d9a062f7" xml:space="preserve">
+    <value>Dates Changed</value>
+  </data>
+  <data name="FilterPanel_Closed_16c9ab2ec0c2418aa85913296bddcdb2" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="FilterPanel_FinDateManual_2d89df5ffb5c40bfb11039cf319e79a0" xml:space="preserve">
+    <value>User-defined Period:</value>
+  </data>
+  <data name="FilterPanel_StartDateNextYear_c0f07608f8b74d76b0c066b31ef60528" xml:space="preserve">
+    <value>Next Year</value>
+  </data>
+  <data name="FilterPanel_FinDateNextYear_28d6ad0441af4257b6ade4a6d501d67c" xml:space="preserve">
+    <value>Next Year</value>
+  </data>
+  <data name="FilterPanel_BusinessUnit_683aba1ac3374bc6a0d8a417d6e42f9e" xml:space="preserve">
+    <value>Business Unit</value>
+  </data>
+  <data name="Enum_Status_OnApproval" xml:space="preserve">
+    <value>On approval</value>
+  </data>
+  <data name="Enum_Status_Approved" xml:space="preserve">
+    <value>Confirmed</value>
+  </data>
+  <data name="Enum_Status_Canceled" xml:space="preserve">
+    <value>Canceled</value>
+  </data>
+  <data name="Enum_Status_Performing" xml:space="preserve">
+    <value>In progress</value>
+  </data>
+  <data name="FilterPanel_OnApproval_ffb1d83dbaf2480998f7d681880d1f1d" xml:space="preserve">
+    <value>On Approval</value>
+  </data>
+  <data name="FilterPanel_Approved_35e44943e3344199a45666ff0bf61825" xml:space="preserve">
+    <value>Confirmed</value>
+  </data>
+  <data name="FilterPanel_Canceled_d36a0a0337544df7bec200c59f16c4dc" xml:space="preserve">
+    <value>Canceled</value>
+  </data>
+  <data name="FilterPanel_Performing_66af888d5138432b9990617f6cc73de1" xml:space="preserve">
+    <value>In Progress</value>
+  </data>
+  <data name="Action_ShowAllBoundTasks" xml:space="preserve">
+    <value>Related Tasks</value>
+  </data>
+  <data name="Action_ShowAllBoundTasksDescription" xml:space="preserve">
+    <value>Search for the tasks related to the current vacation.</value>
+  </data>
+  <data name="Action_ShowAllBoundTasksHint" xml:space="preserve">
+    <value>Search for Related Tasks</value>
+  </data>
+  <data name="Action_ShowAllBoundTasksConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ShowAllBoundTasksConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_VacationKind" xml:space="preserve">
+    <value>Vacation type</value>
+  </data>
+  <data name="FilterPanel_Kind_d93201efae384d879e4b5a6592dd506b" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Action_DeleteEntity" xml:space="preserve">
+    <value>Delete item</value>
+  </data>
+  <data name="Action_DeleteEntityHint" xml:space="preserve">
+    <value>Delete item</value>
+  </data>
+</root>

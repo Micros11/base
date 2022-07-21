@@ -1,0 +1,371 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "f1538561-d1eb-429f-966e-f5e72e4dc4df",
+  "Name": "Aspirant",
+  "Actions": [
+    {
+      "NameGuid": "35b83732-00bf-421e-ba28-7112227ed030",
+      "Name": "StartRecruitmentTask",
+      "ActionArea": "CardAndCollection",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_StartRecruitmentTask_large_35b8373200bf421eba287112227ed030.png",
+      "SmallIconName": "Action_StartRecruitmentTask_small_35b8373200bf421eba287112227ed030.png"
+    },
+    {
+      "NameGuid": "e6f65b8b-5b1e-4a02-982c-5b01a6519f0d",
+      "Name": "CreateReport",
+      "ActionArea": "CardAndCollection",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_CreateReport_large_e6f65b8b5b1e4a02982c5b01a6519f0d.png",
+      "SmallIconName": "Action_CreateReport_small_e6f65b8b5b1e4a02982c5b01a6519f0d.png"
+    },
+    {
+      "NameGuid": "16306613-6ad1-4bd6-939b-8b9aada8e401",
+      "Name": "ShowAspirantDocuments",
+      "ActionArea": "CardAndCollection",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_ShowAspirantDocuments_large_163066136ad14bd6939b8b9aada8e401.png",
+      "SmallIconName": "Action_ShowAspirantDocuments_small_163066136ad14bd6939b8b9aada8e401.png"
+    },
+    {
+      "NameGuid": "c5dc53cc-eb5c-47d4-887f-3c6f56d8114e",
+      "Name": "StartHiringTask",
+      "ActionArea": "CardAndCollection",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_StartHiringTask_large_c5dc53cceb5c47d4887f3c6f56d8114e.png",
+      "SmallIconName": "Action_StartHiringTask_small_c5dc53cceb5c47d4887f3c6f56d8114e.png"
+    }
+  ],
+  "BaseGuid": "04581d26-0780-4cfd-b3cd-c2cafc5798b0",
+  "CanBeNavigationPropertyType": true,
+  "Code": "Aspirant",
+  "CreationAreaMetadata": {
+    "NameGuid": "f7766750-eee2-4fcd-8003-5c06a90d1f44",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true
+  },
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "b0125fbd-3b91-4dbb-914a-689276216404",
+    "Name": "FilterPanel",
+    "Controls": [],
+    "IsAncestorMetadata": true
+  },
+  "Forms": [
+    {
+      "$type": "Sungero.Metadata.StandaloneFormMetadata, Sungero.Metadata",
+      "NameGuid": "ff50e88b-7794-474f-9a8d-85a1b94a100a",
+      "Name": "Card",
+      "Controls": [
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "919785ff-5b29-4b4a-b600-602938155852",
+          "Name": "ControlGroup"
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "3878563d-c4ef-480f-8f3a-f24af439afe1",
+          "Name": "Status",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "919785ff-5b29-4b4a-b600-602938155852",
+          "PropertyGuid": "1dcedc29-5140-4770-ac92-eabc212326a1",
+          "RowNumber": 3,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "bcd89148-e2d6-49c7-896a-904ed2bab174",
+          "Name": "Report",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "919785ff-5b29-4b4a-b600-602938155852",
+          "PropertyGuid": "8ba63235-2360-4250-9632-6f51dc0183c5",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "cdedffb8-f3b9-43f5-aa40-74c8ca03f60d",
+          "Name": "RecruitmentState",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "919785ff-5b29-4b4a-b600-602938155852",
+          "PropertyGuid": "cf5d9979-04b1-45dc-99d5-d8a08370b262",
+          "RowNumber": 2,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "24acaf01-78e8-416a-a651-b8e3bc16bcf8",
+          "Name": "Person",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "919785ff-5b29-4b4a-b600-602938155852",
+          "PropertyGuid": "e65e84a2-e194-441b-805b-bde3302f3560",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        }
+      ]
+    }
+  ],
+  "HandledEvents": [
+    "CreatedServer"
+  ],
+  "IconResourcesKeys": [],
+  "IsStatusEnabled": true,
+  "OperationsClass": "",
+  "Overridden": [
+    "IsStatusEnabled"
+  ],
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.EnumPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "1dcedc29-5140-4770-ac92-eabc212326a1",
+      "Name": "Status",
+      "IsAncestorMetadata": true,
+      "IsEnabled": false,
+      "IsShowedInList": false,
+      "IsVisibility": false,
+      "Overridden": [
+        "IsVisibility",
+        "IsShowedInList",
+        "IsEnabled",
+        "IsRequired"
+      ]
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "16d527e9-ae3d-496b-8fe3-84699410f0b3",
+      "Name": "Name",
+      "Code": "Name",
+      "IsDisplayValue": true,
+      "IsQuickSearchAllowed": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "1dcedc29-5140-4770-ac92-eabc212326a1"
+    },
+    {
+      "$type": "Sungero.Metadata.EnumPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "cf5d9979-04b1-45dc-99d5-d8a08370b262",
+      "Name": "RecruitmentState",
+      "Code": "RecruitmentSta",
+      "DirectValues": [
+        {
+          "NameGuid": "83d7395f-6af0-4281-9bb1-97158574b9d2",
+          "Name": "Draft",
+          "Code": "Draft"
+        },
+        {
+          "NameGuid": "291f8c72-6934-4c4a-b3dc-cd9eecad8f54",
+          "Name": "OnApproval",
+          "Code": "OnApproval"
+        },
+        {
+          "NameGuid": "69d86203-bfdf-4428-a97b-8d462368c866",
+          "Name": "Refused",
+          "Code": "Refused"
+        },
+        {
+          "NameGuid": "fece0683-f5a6-438c-a7e5-e0e618eb34f5",
+          "Name": "Delayed",
+          "Code": "Delayed"
+        },
+        {
+          "NameGuid": "fec4c20c-029f-4c48-8ef4-a8fc374758e6",
+          "Name": "Approved",
+          "Code": "Approved"
+        }
+      ],
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+      "PreviousPropertyGuid": "16d527e9-ae3d-496b-8fe3-84699410f0b3"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "8ba63235-2360-4250-9632-6f51dc0183c5",
+      "Name": "Report",
+      "Code": "Report",
+      "EntityGuid": "8245b402-53be-426b-ac1c-fbfee5727f2d",
+      "FlatListInStandaloneLookup": true,
+      "HandledEvents": [
+        "LookupServer"
+      ],
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "NeedPassEntityToLookupEvent": true,
+      "PreviousPropertyGuid": "cf5d9979-04b1-45dc-99d5-d8a08370b262"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "e65e84a2-e194-441b-805b-bde3302f3560",
+      "Name": "Person",
+      "Code": "Person",
+      "EntityGuid": "f5509cdc-ac0c-4507-a4d3-61d7a0a9b6f6",
+      "FlatListInStandaloneLookup": true,
+      "HandledEvents": [
+        "ChangedShared"
+      ],
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "8ba63235-2360-4250-9632-6f51dc0183c5"
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "GetContextAspirant",
+      "ReturnType": "global::DirRX.HRManagement.IAspirant",
+      "ReturnTypeFullName": "DirRX.HRManagement.IAspirant, Sungero.Domain.Interfaces"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "92dae316-760d-4111-a42a-76bc17c108a4",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "6e9b7535-76b9-451f-b168-b1c6543790d2",
+        "Name": "CreateReport",
+        "ActionGuid": "e6f65b8b-5b1e-4a02-982c-5b01a6519f0d",
+        "ButtonSize": "Large",
+        "Index": -1,
+        "ParentGuid": "a24f5b4f-24c3-4661-b6b5-bd6614fbc987"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "b1e083d3-401e-4ed7-8bac-d9d00ad78625",
+        "Name": "ShowAspirantDocuments",
+        "ActionGuid": "16306613-6ad1-4bd6-939b-8b9aada8e401",
+        "ButtonSize": "Large",
+        "Index": 0,
+        "ParentGuid": "a24f5b4f-24c3-4661-b6b5-bd6614fbc987"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "8c61616b-0547-48c6-a291-8170ba7c7a6e",
+        "Name": "StartRecruitmentTask",
+        "ActionGuid": "35b83732-00bf-421e-ba28-7112227ed030",
+        "ButtonSize": "Large",
+        "Index": -1,
+        "ParentGuid": "94bc5abc-1138-43b6-b7b2-1da2080e2138"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "516f2c8c-06f3-4f44-9131-d1220d7f6221",
+        "Name": "StartHiringTask",
+        "ActionGuid": "c5dc53cc-eb5c-47d4-887f-3c6f56d8114e",
+        "ButtonSize": "Large",
+        "Index": 0,
+        "ParentGuid": "94bc5abc-1138-43b6-b7b2-1da2080e2138"
+      }
+    ],
+    "Groups": [
+      {
+        "NameGuid": "a24f5b4f-24c3-4661-b6b5-bd6614fbc987",
+        "Name": "Documents",
+        "IconName": null,
+        "Index": 21,
+        "ParentGuid": "21a31627-5f58-4416-8c4a-90f538ee2e57",
+        "SmallIconName": null
+      },
+      {
+        "NameGuid": "94bc5abc-1138-43b6-b7b2-1da2080e2138",
+        "Name": "SendTasks",
+        "IconName": null,
+        "Index": 22,
+        "ParentGuid": "21a31627-5f58-4416-8c4a-90f538ee2e57",
+        "SmallIconName": null
+      }
+    ],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "16184918-83fb-4cdf-b3cf-7a69b30e472d",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "ed1c7948-418a-4933-adc2-1920ac8cae19",
+        "Name": "ShowAspirantDocuments",
+        "ActionGuid": "16306613-6ad1-4bd6-939b-8b9aada8e401",
+        "ButtonSize": "Large",
+        "Index": -1,
+        "IsShowInContextMenu": true,
+        "ParentGuid": "fbdd1377-de9f-4636-9d25-f943dd3f8cf1"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "b2dd919d-3332-4902-8f07-a52dae71911f",
+        "Name": "StartRecruitmentTask",
+        "ActionGuid": "35b83732-00bf-421e-ba28-7112227ed030",
+        "ButtonSize": "Large",
+        "Index": -1,
+        "IsShowInContextMenu": true,
+        "ParentGuid": "b5583c2e-b3f6-4264-874f-8f48c69b977d"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "3b6c4f90-ada8-4e3a-8be9-c73055e1e191",
+        "Name": "StartHiringTask",
+        "ActionGuid": "c5dc53cc-eb5c-47d4-887f-3c6f56d8114e",
+        "ButtonSize": "Large",
+        "Index": 0,
+        "IsShowInContextMenu": true,
+        "ParentGuid": "b5583c2e-b3f6-4264-874f-8f48c69b977d"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "92647b40-a9a9-468b-a5c9-fecad6a6e5e4",
+        "Name": "ActionButton",
+        "ActionGuid": "e6f65b8b-5b1e-4a02-982c-5b01a6519f0d",
+        "ButtonSize": "Large",
+        "Index": -2,
+        "IsShowInContextMenu": true,
+        "ParentGuid": "fbdd1377-de9f-4636-9d25-f943dd3f8cf1"
+      }
+    ],
+    "Groups": [
+      {
+        "NameGuid": "fbdd1377-de9f-4636-9d25-f943dd3f8cf1",
+        "Name": "Documents",
+        "IconName": null,
+        "Index": 21,
+        "ParentGuid": "3a9d7dc2-d662-4966-9fdc-c8004b9c83e2",
+        "SmallIconName": null
+      },
+      {
+        "NameGuid": "b5583c2e-b3f6-4264-874f-8f48c69b977d",
+        "Name": "SendTasks",
+        "ContextMenuIconName": "Ribbon_SendTasks_contextmenu_b5583c2eb3f64264874f8f48c69b977d.png",
+        "IconName": null,
+        "Index": 22,
+        "ParentGuid": "3a9d7dc2-d662-4966-9fdc-c8004b9c83e2",
+        "SmallIconName": null
+      }
+    ],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 9
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 2
+    }
+  ]
+}

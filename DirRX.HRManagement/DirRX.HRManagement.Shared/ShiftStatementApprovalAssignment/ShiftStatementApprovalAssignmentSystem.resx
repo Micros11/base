@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action_RefuseDescription" xml:space="preserve">
+    <value>Complete the assignment with the "For Rework" result.</value>
+  </data>
+  <data name="Action_RefuseConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to complete the assignment with the "For Rework" result?</value>
+  </data>
+  <data name="Action_RefuseHint" xml:space="preserve">
+    <value>Complete with "For Rework" Result</value>
+  </data>
+  <data name="Enum_Result_Refuse" xml:space="preserve">
+    <value>For rework</value>
+  </data>
+  <data name="Action_Refuse" xml:space="preserve">
+    <value>For Rework</value>
+  </data>
+  <data name="Property_RecallDate" xml:space="preserve">
+    <value>Date of recall</value>
+  </data>
+  <data name="Resource_1bbfaba9c44445878d1c51150787fb2e" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_1bbfaba9c44445878d1c51150787fb2e_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_c9c4beefec5b4b3796d4959c17991279" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_c9c4beefec5b4b3796d4959c17991279_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_45c3f7afea6f40948e21e643b6358f4a" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_45c3f7afea6f40948e21e643b6358f4a_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_ad03c4af7bfe4967aa2cdaa3265bdbe3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_4917364762724459ab15867c0b3c85a2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_ebfeb539df3646ebb16c88e4afe77109" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_2843c476ecee44d3a08869784756d9f0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_7d052a6b05aa4586abbfca9d980cf36c" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_eca46beba27c4abc91e73bf3186fd8f8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Assignment</value>
+  </data>
+  <data name="Enum_Result_ForReapproving" xml:space="preserve">
+    <value>Corrected</value>
+  </data>
+  <data name="Action_ForReapproving" xml:space="preserve">
+    <value>Corrected</value>
+  </data>
+  <data name="Action_ForReapprovingHint" xml:space="preserve">
+    <value>Send for Reapproval</value>
+  </data>
+  <data name="Action_ForReapprovingConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to complete the assignment with the "Corrected" result?</value>
+  </data>
+  <data name="Action_ForReapprovingDescription" xml:space="preserve">
+    <value>Send an assignment to reapprove the new vacation dates.</value>
+  </data>
+  <data name="Action_StopConfirmationDescription" xml:space="preserve">
+    <value>If you complete the assignment with this result, the date change procedure will be aborted without changes in scheduled dates. </value>
+  </data>
+  <data name="Action_ShowChart" xml:space="preserve">
+    <value>Show Overlaps</value>
+  </data>
+  <data name="Action_ShowChartDescription" xml:space="preserve">
+    <value>Open vacation schedule with overlaps for review.</value>
+  </data>
+  <data name="Action_ShowChartHint" xml:space="preserve">
+    <value>Open Vacation Schedule with Overlaps</value>
+  </data>
+  <data name="Action_ShowChartConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ShowChartConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ribbon_VacationsGroup_199365b8220248749c9ad7ab900a1ff1" xml:space="preserve">
+    <value>Vacations</value>
+  </data>
+  <data name="Property_Vacation1" xml:space="preserve">
+    <value>Vacation</value>
+  </data>
+  <data name="Property_Vacation2" xml:space="preserve">
+    <value>Vacation</value>
+  </data>
+  <data name="Property_Vacation3" xml:space="preserve">
+    <value>Vacation</value>
+  </data>
+  <data name="Property_DataBegin1" xml:space="preserve">
+    <value>Beginning date</value>
+  </data>
+  <data name="Property_DataBegin2" xml:space="preserve">
+    <value>Beginning date</value>
+  </data>
+  <data name="Property_DataBegin3" xml:space="preserve">
+    <value>Beginning date</value>
+  </data>
+  <data name="Property_Duration1" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="Property_Duration2" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="Property_Duration3" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="Property_DataEnd1" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="Property_DataEnd2" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="Property_DataEnd3" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="Property_VacationInfo" xml:space="preserve">
+    <value>Days of vacation unchanged</value>
+  </data>
+  <data name="Property_LiquidationInfo" xml:space="preserve">
+    <value>Days of vacation canceled/compensated with payment</value>
+  </data>
+  <data name="ControlGroup_62383c03a082484c97c8bd6b1cf8bd8f" xml:space="preserve">
+    <value>Vacation Periods</value>
+  </data>
+  <data name="ControlGroup_656c1135fe954048bbe4a54405636acf" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_0e30a87063df41218af87dbe9f07a66c" xml:space="preserve">
+    <value>New Vacation Dates</value>
+  </data>
+  <data name="ControlGroup_88fb4eefd1534abc9dcc1cbe612c9b27" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Enum_Result_Stop" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="Action_Stop" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="Action_StopHint" xml:space="preserve">
+    <value>Complete with "Abort" Result</value>
+  </data>
+  <data name="Action_StopConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to abort the dates change procedure without changing the scheduled vacation dates?</value>
+  </data>
+  <data name="Action_StopDescription" xml:space="preserve">
+    <value>Abort the dates change procedure without changing current dates of vacation.</value>
+  </data>
+  <data name="Property_ShiftReason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="ControlGroup_779bd83b376449feb067876959810ad9" xml:space="preserve">
+    <value>Reason for Change</value>
+  </data>
+  <data name="Property_Year" xml:space="preserve">
+    <value>Vacation year</value>
+  </data>
+  <data name="Footer_ActiveEmptyText" xml:space="preserve">
+    <value>Type the text of assignment...</value>
+  </data>
+  <data name="Property_VacationKind1" xml:space="preserve">
+    <value>Vacation type</value>
+  </data>
+  <data name="Property_VacationKind2" xml:space="preserve">
+    <value>Vacation type</value>
+  </data>
+  <data name="Property_VacationKind3" xml:space="preserve">
+    <value>Vacation type</value>
+  </data>
+  <data name="Property_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="Property_Compensation" xml:space="preserve">
+    <value>Compensate/cancel</value>
+  </data>
+  <data name="ControlGroup_1b292c219d794939beffe2d659cd6d48" xml:space="preserve">
+    <value>Recall Parameters</value>
+  </data>
+  <data name="ControlGroup_48b2d9db1edb4e4abf4b550f0dc4fef6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_VacationDurations" xml:space="preserve">
+    <value>Продолжительности отпусков</value>
+  </data>
+  <data name="Enum_Result_Approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Action_Approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Action_ApproveHint" xml:space="preserve">
+    <value>Complete with "Approve" Result</value>
+  </data>
+  <data name="Action_ApproveConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to perform assignment with result "Approve"?</value>
+  </data>
+  <data name="Action_ApproveDescription" xml:space="preserve">
+    <value>Complete the assignment with the "Approve" result.</value>
+  </data>
+  <data name="Property_EnabledCompensationLabel" xml:space="preserve">
+    <value>Characteristic availability Compensate / Cancel</value>
+  </data>
+  <data name="Property_IgnoreRequiredDuration" xml:space="preserve">
+    <value>Do not check duration of vacation period</value>
+  </data>
+  <data name="Property_IsRequiredDurationBroken" xml:space="preserve">
+    <value>Is required duration broken</value>
+  </data>
+  <data name="Action_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Action_ActionDescription" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Action_ActionHint" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Action_ActionConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ActionConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_IsFromEssAccount" xml:space="preserve">
+    <value>Work in Employee Self Service</value>
+  </data>
+  <data name="Enum_Result_Deny" xml:space="preserve">
+    <value>Deny</value>
+  </data>
+  <data name="Action_Deny" xml:space="preserve">
+    <value>Deny</value>
+  </data>
+  <data name="Action_DenyHint" xml:space="preserve">
+    <value>Perform with result "Deny"</value>
+  </data>
+  <data name="Action_DenyConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to perform assignment with result "Deny"?</value>
+  </data>
+  <data name="Action_DenyDescription" xml:space="preserve">
+    <value>Perform assignment with result "Deny"</value>
+  </data>
+  <data name="Property_ShowInSelfServiceOffice" xml:space="preserve">
+    <value>Show in self-service office</value>
+  </data>
+</root>

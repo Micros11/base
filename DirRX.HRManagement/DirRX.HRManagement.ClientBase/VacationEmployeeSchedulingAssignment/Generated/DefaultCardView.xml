@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <ViewName>Default</ViewName>
+  <Collectionec93dfc8764f455e8c736f0f58bf0a9c FormGuid="e0de95d5-b9a6-4bbc-ac00-8fe44115acf6">
+    <XtraSerializer version="1.0" application="GridControl">
+      <property name="#LayoutVersion" isnull="true" />
+      <property name="$GridControl" iskey="true" value="GridControl">
+        <property name="GroupSummary" iskey="true" value="0" />
+        <property name="View" isnull="true" iskey="true">
+          <property name="ShowTotalSummary">false</property>
+          <property name="AllowMoveColumnToDropArea">false</property>
+          <property name="AllowColumnMoving">true</property>
+          <property name="ColumnChooserState" isnull="true" iskey="true">
+            <property name="Location">619,-92</property>
+            <property name="Size">220,250</property>
+          </property>
+          <property name="AutoWidth">false</property>
+          <property name="AllowGrouping">false</property>
+          <property name="AllowSorting">true</property>
+          <property name="ShowGroupPanel">false</property>
+          <property name="LinesPerRowMode">None</property>
+          <property name="IsRowCellMenuEnabled">false</property>
+        </property>
+        <property name="GroupCount">0</property>
+        <property name="TotalSummary" iskey="true" value="0" />
+        <property name="Columns" iskey="true" value="5">
+          <property name="Item1" isnull="true" iskey="true">
+            <property name="FieldName">DateBegin</property>
+            <property name="Visible">true</property>
+            <property name="Name">VacationEmployeeSchedulingAssignment_Vacations_DateBegin</property>
+            <property name="ExtendedVisibleIndex">2</property>
+            <property name="VisibleIndex">2</property>
+            <property name="Width">100</property>
+            <property name="ActualWidth">10*</property>
+          </property>
+          <property name="Item2" isnull="true" iskey="true">
+            <property name="FieldName">DateEnd</property>
+            <property name="Visible">true</property>
+            <property name="Name">VacationEmployeeSchedulingAssignment_Vacations_DateEnd</property>
+            <property name="ExtendedVisibleIndex">4</property>
+            <property name="VisibleIndex">4</property>
+            <property name="Width">100</property>
+            <property name="ActualWidth">11*</property>
+          </property>
+          <property name="Item3" isnull="true" iskey="true">
+            <property name="FieldName">Number</property>
+            <property name="Visible">true</property>
+            <property name="Name">VacationEmployeeSchedulingAssignment_Vacations_Number</property>
+            <property name="ExtendedVisibleIndex">0</property>
+            <property name="VisibleIndex">0</property>
+            <property name="Width">50</property>
+            <property name="ActualWidth">5*</property>
+          </property>
+          <property name="Item4" isnull="true" iskey="true">
+            <property name="FieldName">Duration</property>
+            <property name="Visible">true</property>
+            <property name="Name">VacationEmployeeSchedulingAssignment_Vacations_Duration</property>
+            <property name="ExtendedVisibleIndex">3</property>
+            <property name="VisibleIndex">3</property>
+            <property name="Width">125</property>
+            <property name="ActualWidth">15*</property>
+          </property>
+          <property name="Item5" isnull="true" iskey="true">
+            <property name="FieldName">VacationKind</property>
+            <property name="Visible">true</property>
+            <property name="Name">VacationEmployeeSchedulingAssignment_Vacations_VacationKind</property>
+            <property name="ExtendedVisibleIndex">1</property>
+            <property name="VisibleIndex">1</property>
+            <property name="Width">175</property>
+            <property name="ActualWidth">21*</property>
+          </property>
+        </property>
+        <property name="SortInfo" iskey="true" value="1">
+          <property name="Item1" isnull="true" iskey="true">
+            <property name="FieldName">Number</property>
+            <property name="SortOrder">Ascending</property>
+          </property>
+        </property>
+        <property name="GroupSummarySortInfo" iskey="true" value="0" />
+      </property>
+    </XtraSerializer>
+  </Collectionec93dfc8764f455e8c736f0f58bf0a9c>
+</settings>

@@ -1,0 +1,188 @@
+{
+  "$type": "Sungero.Metadata.LayerModuleMetadata, Sungero.Metadata",
+  "NameGuid": "49f073d2-1c7f-41a1-afee-fe957d103770",
+  "Name": "EssPlatform",
+  "AssociatedGuid": "5dec8ad1-8148-4d42-a54b-3f9a04e68cf0",
+  "AsyncHandlers": [
+    {
+      "NameGuid": "3c639b5b-cbea-4c2a-9518-2664be64371e",
+      "Name": "ChangeEmployeeEssStatus",
+      "DelayPeriod": 15,
+      "DelayStrategy": "ExponentialDelayStrategy",
+      "IsAncestorMetadata": true,
+      "Parameters": [
+        {
+          "NameGuid": "00b0a675-9fb8-4bd4-a8c9-793640501c5b",
+          "Name": "EssStatus",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "8bdd6065-f0cd-4308-a5a5-61e04cc12492",
+          "Name": "EmployeeId",
+          "ParameterType": "Integer"
+        }
+      ]
+    },
+    {
+      "NameGuid": "b440e7c9-ea6d-48a9-adcd-3e0504db378f",
+      "Name": "ActivateESSUsers",
+      "DelayPeriod": 15,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsAncestorMetadata": true,
+      "Parameters": [
+        {
+          "NameGuid": "33ac0184-42b8-4e74-8356-0c5ded42d2ba",
+          "Name": "departmentIds",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "cbaa5edc-d9ca-4ab9-8d7f-764225cb20b4",
+          "Name": "employeeIds",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "e45a7565-2ca8-48c6-98e5-5174cfc7a2fc",
+          "Name": "businessUnitIds",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "fa87625c-eccf-4c15-86dd-79e60658e40a",
+          "Name": "userId",
+          "ParameterType": "Integer"
+        }
+      ]
+    },
+    {
+      "NameGuid": "bb2065e8-9a81-4c87-bea1-9b104a135d29",
+      "Name": "SendSms",
+      "DelayPeriod": 5,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsAncestorMetadata": true,
+      "Parameters": [
+        {
+          "NameGuid": "0d01de02-614a-4171-ab8e-b76e36dd4541",
+          "Name": "messageText",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "112d6c02-baac-4592-9557-8d0ba931d975",
+          "Name": "userid",
+          "ParameterType": "Integer"
+        }
+      ]
+    },
+    {
+      "NameGuid": "873bcd17-913f-4fce-83b5-66474fe0f665",
+      "Name": "SendEmail",
+      "DelayPeriod": 5,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsAncestorMetadata": true,
+      "Parameters": [
+        {
+          "NameGuid": "1af63b3f-f9e2-4e9d-a239-ea774b6d83ac",
+          "Name": "messageSubject",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "4fb165e6-ba3b-47c5-acb1-b6f815d6e14a",
+          "Name": "messageText",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "e0328bf8-e179-4a96-81a7-e72adabb4ac8",
+          "Name": "userid",
+          "ParameterType": "Integer"
+        }
+      ]
+    },
+    {
+      "NameGuid": "d6ed7d27-4323-4ea7-bc12-c9acf0cb8cca",
+      "Name": "SendMessageToViber",
+      "DelayPeriod": 5,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsAncestorMetadata": true,
+      "Parameters": [
+        {
+          "NameGuid": "65b6c070-976f-456e-9e7f-b22c1f528f25",
+          "Name": "messageText",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "c520aa12-16c8-41ea-947a-bf7c3449ba00",
+          "Name": "userid",
+          "ParameterType": "Integer"
+        }
+      ]
+    },
+    {
+      "NameGuid": "6b7b3f5d-09ea-4f1d-9f31-3050b488f4d3",
+      "Name": "SynchronizeEmployee",
+      "DelayPeriod": 15,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsAncestorMetadata": true,
+      "Parameters": [
+        {
+          "NameGuid": "08d85736-d6f2-44fb-87a0-d97f8fffaf75",
+          "Name": "employeeId",
+          "ParameterType": "Integer"
+        },
+        {
+          "NameGuid": "0c65e591-1766-4fcd-b036-b14e97c6510b",
+          "Name": "personalPhone",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "2ccd3ca1-d507-48fe-a055-5576534877bd",
+          "Name": "smsNotification",
+          "ParameterType": "Boolean"
+        },
+        {
+          "NameGuid": "75149e64-cefd-49e7-beba-72c72cdce313",
+          "Name": "personalAccountStatus",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "9f2d43de-4827-401b-b5d8-ad28b73a655a",
+          "Name": "messagesEmail",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "a4b64d70-13d6-4361-8842-07fc40ed0f12",
+          "Name": "viberNotification",
+          "ParameterType": "Boolean"
+        },
+        {
+          "NameGuid": "dfd6e5a9-7443-4059-9f2c-d8b57128efb6",
+          "Name": "emailNotification",
+          "ParameterType": "Boolean"
+        }
+      ]
+    }
+  ],
+  "BaseGuid": "179a8916-3b1e-4363-92c4-c27e038ff6c6",
+  "ClientBaseAssemblyName": "DirRX.HRSolution.ClientBase",
+  "ClientBaseNamespace": "DirRX.HRSolution.Module.EssPlatform.ClientBase",
+  "Code": "EssPl",
+  "CompanyCode": "DirRX",
+  "ExplorerTreeOrder": [],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "LayeredFromGuid": "179a8916-3b1e-4363-92c4-c27e038ff6c6",
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "DirRX.HRSolution.Module.EssPlatform",
+  "ResourcesKeys": [],
+  "SpecialFolders": [],
+  "Version": "1.4.4227.2",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "LayerModuleMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 6
+    }
+  ]
+}

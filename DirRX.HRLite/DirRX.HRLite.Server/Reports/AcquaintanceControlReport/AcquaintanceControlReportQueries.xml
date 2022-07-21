@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<queries>
+  <query key="CreateAcquaintanceControlReportTable">
+    <mssql><![CDATA[create table {0}
+  ([ReportSessionId] varchar(256) NOT NULL,
+   [Department] nvarchar(max),
+   [Performer] nvarchar(max),
+   [JobTitle] nvarchar(max),
+   [Result] nvarchar(max),
+   [ResultOrder] int)]]></mssql>
+    <postgres><![CDATA[create table {0}
+(ReportSessionId citext NOT NULL,
+  Department citext,
+  Performer citext,
+  JobTitle citext,
+  Result citext,
+  ResultOrder int)]]></postgres>
+  </query>
+  <query key="SelectDataFromTable">
+    <default><![CDATA[select *
+from  HRLite_Reports_AcquaintanceControl temp
+where ReportSessionId = @ReportSessionId]]></default>
+  </query>
+</queries>

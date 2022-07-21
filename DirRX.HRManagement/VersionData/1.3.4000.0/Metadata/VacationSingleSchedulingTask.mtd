@@ -1,0 +1,414 @@
+{
+  "$type": "Sungero.Metadata.TaskMetadata, Sungero.Workflow.Shared",
+  "NameGuid": "6afc460e-8582-457d-a277-05e1a533fa03",
+  "Name": "VacationSingleSchedulingTask",
+  "AccessRightsMode": "Both",
+  "Actions": [
+    {
+      "NameGuid": "d3da67a4-89e7-4ee5-bd0c-6b0f0bfb4bca",
+      "Name": "Abort",
+      "AllowUserDisableConfirmation": true,
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "NeedConfirmation": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    }
+  ],
+  "AttachmentGroups": [
+    {
+      "NameGuid": "43ff264b-ef7b-4c2d-bd7f-dc61ab775e3d",
+      "Name": "EmployeeAttachmentGroup",
+      "Constraints": [
+        {
+          "NameGuid": "9f2d460a-acda-45a3-9092-fe8e4a4205c8",
+          "Name": "Employees",
+          "ConstraintTypeId": "b7905516-2be5-4931-961c-cb38d5677565"
+        }
+      ],
+      "IsEnabled": false
+    },
+    {
+      "NameGuid": "e45a7e61-d590-4c25-ad82-01efc107d8f4",
+      "Name": "StatementAttachmentGroup",
+      "Constraints": [
+        {
+          "NameGuid": "096f4688-f86b-4121-b3dc-397d44d9a37d",
+          "Name": "HRDocumentBases",
+          "ConstraintTypeId": "3477018b-af38-4369-908c-390a250625ba"
+        }
+      ],
+      "IsEnabled": false,
+      "PreviousGroupId": "43ff264b-ef7b-4c2d-bd7f-dc61ab775e3d"
+    },
+    {
+      "NameGuid": "61249776-631d-4e07-abc0-f30458def032",
+      "Name": "OrderAttachmentGroup",
+      "Constraints": [
+        {
+          "NameGuid": "4a478260-2207-475a-abee-0a4920f185e6",
+          "Name": "HROrders",
+          "ConstraintTypeId": "0d279f0b-8cd2-4dda-be34-85aacd7b8b93"
+        }
+      ],
+      "IsEnabled": false,
+      "PreviousGroupId": "e45a7e61-d590-4c25-ad82-01efc107d8f4"
+    },
+    {
+      "NameGuid": "1b97ed82-e956-4043-b216-2260f6f4a3f3",
+      "Name": "AdditionalAttachmentGroup",
+      "Constraints": [],
+      "PreviousGroupId": "61249776-631d-4e07-abc0-f30458def032"
+    }
+  ],
+  "BaseGuid": "d795d1f6-45c1-4e5e-9677-b53fb7280c7e",
+  "CanBeNavigationPropertyType": true,
+  "CanBeSearch": false,
+  "CreationAreaMetadata": {
+    "NameGuid": "8d829390-c6cf-4b00-b846-412f2d086650",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true
+  },
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "bd0a4ce3-3467-48ad-b905-3820bf6b9da6",
+    "Name": "FilterPanel",
+    "Controls": [],
+    "IsAncestorMetadata": true
+  },
+  "Forms": [
+    {
+      "$type": "Sungero.Metadata.WorkflowEntityStandaloneFormMetadata, Sungero.Workflow.Shared",
+      "NameGuid": "a4d6d92a-261a-4c7e-826d-742b7d4062ee",
+      "Name": "Card",
+      "Controls": [
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "3849ac3b-2529-41c6-aa0d-03907f402a05",
+          "Name": "TaskGroup",
+          "ColumnDefinitions": [
+            {
+              "Percentage": 50.0
+            },
+            {
+              "Percentage": 50.0
+            }
+          ],
+          "IsAncestorMetadata": true,
+          "Overridden": [
+            "Controls",
+            "ColumnDefinitions"
+          ]
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "035869ed-2baa-4573-bdfe-9e4f5e10c4b3",
+          "Name": "SubjectControl",
+          "ColumnNumber": 0,
+          "ColumnSpan": 2,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "ParentGuid": "3849ac3b-2529-41c6-aa0d-03907f402a05",
+          "PropertyGuid": "58d89475-4f17-45b6-bfd2-916bd9cf434d",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "74e85eaf-e594-4dc5-b472-4e791948b781",
+          "Name": "AuthorControl",
+          "ColumnNumber": 0,
+          "ColumnSpan": 2,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "3849ac3b-2529-41c6-aa0d-03907f402a05",
+          "PropertyGuid": "01b02296-d037-430f-8c8a-1a3a13337c53",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "679cef60-166e-482c-bfa7-a1ec861f0263",
+          "Name": "ObserversControl",
+          "ColumnNumber": 0,
+          "ColumnSpan": 2,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.MultiLikeEditorToCollectionBinder",
+          "ParentGuid": "3849ac3b-2529-41c6-aa0d-03907f402a05",
+          "PropertyGuid": "3364c324-c4c4-4ccb-a81c-53653255a022",
+          "RowNumber": 2,
+          "RowSpan": 1,
+          "Settings": [
+            {
+              "Name": "NavigationPropertyGuid",
+              "Value": "f1d398c9-8618-4f8f-abd5-f1e5f05aa5ce"
+            },
+            {
+              "Name": "IsDuplicatesAllowed",
+              "Value": false
+            }
+          ]
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "9a581101-df15-48de-b6be-4d184cd811bd",
+          "Name": "Employee",
+          "ColumnNumber": 0,
+          "ColumnSpan": 2,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "3849ac3b-2529-41c6-aa0d-03907f402a05",
+          "PropertyGuid": "4383e4bf-0563-4f6a-b088-95ce29967a33",
+          "RowNumber": 3,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "2c847a49-12fb-4b97-9a74-e17df4a69413",
+          "Name": "Year",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+          "ParentGuid": "3849ac3b-2529-41c6-aa0d-03907f402a05",
+          "PropertyGuid": "c59cb597-b24b-41c9-9d64-915854b86d8a",
+          "RowNumber": 4,
+          "RowSpan": 1,
+          "Settings": []
+        }
+      ],
+      "IsAncestorMetadata": true,
+      "Overridden": []
+    }
+  ],
+  "HandledEvents": [
+    "BeforeSaveServer",
+    "CreatedServer",
+    "BeforeAbortServer",
+    "BeforeStartServer",
+    "ShowingClient"
+  ],
+  "IconResourcesKeys": [],
+  "IsVisibleThreadText": true,
+  "NeverLinkToParentWhenCreated": true,
+  "OperationsClass": "",
+  "Overridden": [
+    "CanBeSearch"
+  ],
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "58d89475-4f17-45b6-bfd2-916bd9cf434d",
+      "Name": "Subject",
+      "IsAncestorMetadata": true,
+      "IsDisplayValue": true,
+      "Overridden": [
+        "IsRequired",
+        "PreviousPropertyGuid"
+      ],
+      "PreviousPropertyGuid": "e5e944f2-e530-487a-a480-b111c31fa70e"
+    },
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "3364c324-c4c4-4ccb-a81c-53653255a022",
+      "Name": "Observers",
+      "EntityGuid": "197d76a7-adfc-4212-81da-9ce0d3597224",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "EntityGuid",
+        "PreviousPropertyGuid"
+      ],
+      "PreviousPropertyGuid": "58d89475-4f17-45b6-bfd2-916bd9cf434d"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "4383e4bf-0563-4f6a-b088-95ce29967a33",
+      "Name": "Employee",
+      "Code": "Employee2",
+      "EntityGuid": "b7905516-2be5-4931-961c-cb38d5677565",
+      "HandledEvents": [
+        "ChangedShared"
+      ],
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "3364c324-c4c4-4ccb-a81c-53653255a022"
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "c59cb597-b24b-41c9-9d64-915854b86d8a",
+      "Name": "Year",
+      "Code": "Year3",
+      "DateTimeFormat": "Year",
+      "HandledEvents": [
+        "ChangedShared"
+      ],
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "4383e4bf-0563-4f6a-b088-95ce29967a33"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "04783527-c27c-4b54-b19c-30a570ef9a68",
+      "Name": "Order",
+      "Code": "Order5",
+      "EntityGuid": "0d279f0b-8cd2-4dda-be34-85aacd7b8b93",
+      "FlatListInStandaloneLookup": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "c59cb597-b24b-41c9-9d64-915854b86d8a",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "d97b92b3-db49-43a1-bdac-65bcb92c11ad",
+      "Name": "Statement",
+      "CanBeSearch": false,
+      "Code": "Statement3",
+      "EntityGuid": "c135fb43-9561-45ad-9628-85459f8cf26e",
+      "FlatListInStandaloneLookup": true,
+      "HandledEvents": [
+        "ChangedShared"
+      ],
+      "IsEnabled": false,
+      "IsShowedInList": false,
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "04783527-c27c-4b54-b19c-30a570ef9a68",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "620da04f-02c1-4015-9779-ba908c42b3f0",
+      "Name": "AbortingReason",
+      "CanBeSearch": false,
+      "Code": "AbortingReaso8",
+      "IsEnabled": false,
+      "IsShowedInList": false,
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "d97b92b3-db49-43a1-bdac-65bcb92c11ad",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "635c2baf-ec3c-40a1-bd2b-d1b4aaf79498",
+      "Name": "Vacations",
+      "Code": "VacationSingle",
+      "EntityGuid": "9cd46d38-522a-4873-9f66-0bd472a5a1b4",
+      "IsShowedInList": false,
+      "PreviousPropertyGuid": "620da04f-02c1-4015-9779-ba908c42b3f0",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.BooleanPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "99f6dc33-3311-42f3-8edb-a34986c7e442",
+      "Name": "IsFromEssAccount",
+      "CanBeSearch": false,
+      "Code": "IsFromEss2",
+      "IsEnabled": false,
+      "IsShowedInList": false,
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.BooleanEditorToBooleanBinder",
+      "PreviousPropertyGuid": "635c2baf-ec3c-40a1-bd2b-d1b4aaf79498"
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "GetEmployeeOrder",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "vacationSingleSchedulingTask",
+          "ParameterType": "global::DirRX.HRManagement.IVacationSingleSchedulingTask",
+          "ParameterTypeFullName": "DirRX.HRManagement.IVacationSingleSchedulingTask, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.HRManagement.IHROrder",
+      "ReturnTypeFullName": "DirRX.HRManagement.IHROrder, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetEmployeeStatement",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "vacationSingleSchedulingTask",
+          "ParameterType": "global::DirRX.HRManagement.IVacationSingleSchedulingTask",
+          "ParameterTypeFullName": "DirRX.HRManagement.IVacationSingleSchedulingTask, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.HRManagement.IHRDocument",
+      "ReturnTypeFullName": "DirRX.HRManagement.IHRDocument, Sungero.Domain.Interfaces"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [
+    "TaskSubject",
+    "ManagerCheckInstruction",
+    "ManagerCheckSubject",
+    "SignStatementAssignmentInstruction",
+    "SignStatementAssignmentSubject",
+    "PrepareOrderAssignmentInstruction",
+    "PrepareOrderAssignmentSubject",
+    "SignSeoAssignmentInstruction",
+    "SignAssignmentSubject",
+    "VacationDocsReWorkAssignmentInstruction",
+    "VacationDocsReWorkAssignmentSubject",
+    "SignEmployeeAssignmentSubject",
+    "SignEmployeeAssignmenInstruction",
+    "AccounterAssignmentSubject",
+    "SignAllPaperDocAssignmentSubject",
+    "SignAllPaperDocAssignmentInstruction",
+    "EmployeeSchedulingSubject",
+    "ErrorTextReWorkNoActiveText",
+    "AbortNotice",
+    "StartShedulingError",
+    "EmployeeReworkSubject",
+    "EmployeeSchedulingInstruction",
+    "FillTableInstruction",
+    "FillReworkTableInstruction"
+  ],
+  "RibbonCardMetadata": {
+    "NameGuid": "dfefd59e-65fc-44f2-ac42-d4ffb26af981",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "8f62113d-ed0d-4a49-ab19-32bbbee37372",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Scheme": {
+    "NameGuid": "c7ae4ee8-f2a6-4784-8e61-7f7f642dbcd1",
+    "Name": "RouteScheme",
+    "CurrentVersionGuid": "0745199f-eaac-4875-8563-40ed1e5ce317",
+    "IsAncestorMetadata": true,
+    "Overridden": [
+      "CurrentVersionGuid"
+    ],
+    "VersionsCounter": 1
+  },
+  "Versions": [
+    {
+      "Type": "TaskMetadata",
+      "Number": 1
+    },
+    {
+      "Type": "WorkflowEntityMetadata",
+      "Number": 2
+    },
+    {
+      "Type": "EntityMetadata",
+      "Number": 9
+    }
+  ]
+}

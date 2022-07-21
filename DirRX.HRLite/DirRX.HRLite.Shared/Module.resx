@@ -1,0 +1,975 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PersonnelDocumentTypeName" xml:space="preserve">
+    <value>HR document</value>
+  </data>
+  <data name="BilaterialDocumentTypeName" xml:space="preserve">
+    <value>HR contractual document</value>
+  </data>
+  <data name="LocalRegulationDocumentTypeName" xml:space="preserve">
+    <value>Company regulation</value>
+  </data>
+  <data name="EmploymentContract" xml:space="preserve">
+    <value>Трудовой договор</value>
+  </data>
+  <data name="AdditionalAgreement" xml:space="preserve">
+    <value>Дополнительное соглашение к трудовому договору</value>
+  </data>
+  <data name="AgreementOnTermination" xml:space="preserve">
+    <value>Соглашение о расторжении трудового договора</value>
+  </data>
+  <data name="IndividualLiability" xml:space="preserve">
+    <value>Договор о полной индивидуальной материальной ответственности</value>
+  </data>
+  <data name="ApprenticeshipAgreement" xml:space="preserve">
+    <value>Ученический договор</value>
+  </data>
+  <data name="AgreementOnContProfEducation" xml:space="preserve">
+    <value>Соглашение о дополнительном профессиональном образовании</value>
+  </data>
+  <data name="NDAAgreement" xml:space="preserve">
+    <value>Соглашение о неразглашении конфиденциальной информации</value>
+  </data>
+  <data name="PersonalPropertyUseAgreement" xml:space="preserve">
+    <value>Соглашение об использовании личного имущества</value>
+  </data>
+  <data name="IndemnificationWithPaymentByInstallments" xml:space="preserve">
+    <value>Соглашение о возмещении ущерба с рассрочкой платежа</value>
+  </data>
+  <data name="AgreementOnDamageCompensationByTeam" xml:space="preserve">
+    <value>Соглашение о возмещении причиненного вреда коллективом (бригадой)</value>
+  </data>
+  <data name="InternalLaborRegulations" xml:space="preserve">
+    <value>Правила внутреннего трудового распорядка</value>
+  </data>
+  <data name="PersonalDataStorageRegulation" xml:space="preserve">
+    <value>Положение о хранении и использовании персональных данных работников</value>
+  </data>
+  <data name="ShiftSchedule" xml:space="preserve">
+    <value>График сменности</value>
+  </data>
+  <data name="VacationSchedule" xml:space="preserve">
+    <value>График отпусков</value>
+  </data>
+  <data name="PrimaryInstructionExecptedOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) об утверждении перечня профессий и должностей работников, освобожденных от прохождения первичного инструктажа на рабочем месте</value>
+  </data>
+  <data name="TimeSheet" xml:space="preserve">
+    <value>Табель учета рабочего времени</value>
+  </data>
+  <data name="BusinessTripConsentRequest" xml:space="preserve">
+    <value>Запрос согласия работника на направление в служебную командировку с уведомлением о праве отказаться от направления в служебную командировку</value>
+  </data>
+  <data name="UndergroundWorkNotice" xml:space="preserve">
+    <value>Уведомление о времени и месте проведения проверки знаний и умений работника, принимаемого на подземные работы</value>
+  </data>
+  <data name="EmployeePersonalCard" xml:space="preserve">
+    <value>Личная карточка работника</value>
+  </data>
+  <data name="OfferingUponReduction" xml:space="preserve">
+    <value>Предложение другой работы при увольнении работника в связи с сокращением численности или штата организации</value>
+  </data>
+  <data name="MedicalReasonsTransferOffer" xml:space="preserve">
+    <value>Предложение о переводе работника на другую работу по медицинским показаниям</value>
+  </data>
+  <data name="AdditionalAgreementShort" xml:space="preserve">
+    <value>Дополнительное соглашение</value>
+  </data>
+  <data name="Contract" xml:space="preserve">
+    <value>Договор</value>
+  </data>
+  <data name="Agreement" xml:space="preserve">
+    <value>Соглашение</value>
+  </data>
+  <data name="ApprenticeshipAgreementShort" xml:space="preserve">
+    <value>Ученический договор</value>
+  </data>
+  <data name="Act" xml:space="preserve">
+    <value>Акт</value>
+  </data>
+  <data name="ConsentRequest" xml:space="preserve">
+    <value>Запрос согласия</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>Уведомление</value>
+  </data>
+  <data name="Offer" xml:space="preserve">
+    <value>Предложение</value>
+  </data>
+  <data name="HRSpecialistRoleName" xml:space="preserve">
+    <value>HR managers</value>
+  </data>
+  <data name="HRSpecialistRoleDescr" xml:space="preserve">
+    <value>Employees responsible for creating and filling in HR documents, as well as document signing and acquaintance by other employees.</value>
+  </data>
+  <data name="SpecRightsStopTransferOffer" xml:space="preserve">
+    <value>Предложение другой работы при приостановлении специального права</value>
+  </data>
+  <data name="CoutrStateTransferOffer" xml:space="preserve">
+    <value>Предложение другой работы при восстановлении на работе работника, ранее выполнявшего эту работу, по решению государственной инспекции труда или суда</value>
+  </data>
+  <data name="DisqualificationTransferOffer" xml:space="preserve">
+    <value>Предложение другой работы при дисквалификации или ином административном наказании, исключающем возможность исполнения работником обязанностей по трудовому договору</value>
+  </data>
+  <data name="StateSecretsTerminationTransferOffer" xml:space="preserve">
+    <value>Предложение другой работы при прекращении допуска к государственной тайне, если выполняемая работа требует такого допуска</value>
+  </data>
+  <data name="RestrictionsOfLaborActivityTransferOffer" xml:space="preserve">
+    <value>Предложение другой работы при возникновении ограничений на занятие определенными видами трудовой деятельности, исключающих возможность исполнения работником обязанностей по трудовому договору</value>
+  </data>
+  <data name="NewConditionsRefuceTransferOffer" xml:space="preserve">
+    <value>Предложение о переводе на вакантные должности в связи с отказом от продолжения работы в новых условиях</value>
+  </data>
+  <data name="TempMedicalReasonsTransferOffer" xml:space="preserve">
+    <value>Предложение о временном переводе на другую работу по медицинским показаниям</value>
+  </data>
+  <data name="AdditionalWorkOffer" xml:space="preserve">
+    <value>Предложение о выполнении дополнительной работы</value>
+  </data>
+  <data name="Payroll" xml:space="preserve">
+    <value>Расчетный листок</value>
+  </data>
+  <data name="PersonalDataProcessingConsent" xml:space="preserve">
+    <value>Согласие на обработку персональных данных</value>
+  </data>
+  <data name="ConsentToTransfer" xml:space="preserve">
+    <value>Согласие работника на перевод на другую работу</value>
+  </data>
+  <data name="Consent" xml:space="preserve">
+    <value>Согласие</value>
+  </data>
+  <data name="DismissialBeforeNoticeDueConsent" xml:space="preserve">
+    <value>Согласие работника на увольнение до истечения срока предупреждения об увольнении в связи с сокращением численности или штата или в связи с ликвидацией организации</value>
+  </data>
+  <data name="AddWorkConsent" xml:space="preserve">
+    <value>Согласие работника на поручение ему дополнительной работы</value>
+  </data>
+  <data name="VacationRecallConsent" xml:space="preserve">
+    <value>Согласие работника на отзыв из отпуска</value>
+  </data>
+  <data name="WrittenExplanationsRequirement" xml:space="preserve">
+    <value>Требование о даче письменных объяснений работником причин совершения им дисциплинарного проступка</value>
+  </data>
+  <data name="WrittenExplanationsRequirementShort" xml:space="preserve">
+    <value>Требование о предоставлении письменного объяснения</value>
+  </data>
+  <data name="LiquidationDismissalNotice" xml:space="preserve">
+    <value>Уведомление об увольнении в связи с сокращением численности или штата организации или в связи с ликвидацией организации</value>
+  </data>
+  <data name="Announcement" xml:space="preserve">
+    <value>Извещение</value>
+  </data>
+  <data name="CancelAdditionalWorkNotice" xml:space="preserve">
+    <value>Уведомление работника об отмене дополнительной работы в соответствии с ч. 4 ст. 60.2 ТК РФ</value>
+  </data>
+  <data name="OwnershipChangeRefuseNotice" xml:space="preserve">
+    <value>Уведомление о расторжении трудового договора в связи со сменой собственника</value>
+  </data>
+  <data name="SportTeamAssignmentNotice" xml:space="preserve">
+    <value>Уведомление работника о направлении в спортивную сборную команду Российской Федерации</value>
+  </data>
+  <data name="WorkingConditionsChangeNotice" xml:space="preserve">
+    <value>Уведомление работника об изменении условий трудового договора в связи с изменением организационных или технологических условий труда</value>
+  </data>
+  <data name="TradeUnionLiquidationDismissalNotice" xml:space="preserve">
+    <value>Уведомление выборного органа первичной профсоюзной организации о принятом решении сократить численность или штат работников</value>
+  </data>
+  <data name="DueExpirationDismissalNotice" xml:space="preserve">
+    <value>Уведомление работника об увольнении в связи с истечением срока трудового договора</value>
+  </data>
+  <data name="ForeignEmpDismissialNotice" xml:space="preserve">
+    <value>Уведомление иностранного работника об увольнении в соответствии с п. 10 или п. 11 ч. 1 ст. 327.6 ТК РФ</value>
+  </data>
+  <data name="UnsatisfactoryTestResultDismissialNotice" xml:space="preserve">
+    <value>Уведомление об увольнении в связи с неудовлетворительным результатом испытания</value>
+  </data>
+  <data name="PartTimeContractTerminationNotice" xml:space="preserve">
+    <value>Уведомление о прекращении трудового договора совместителя в связи с приемом работника, для которого работа будет основной</value>
+  </data>
+  <data name="ReligiousOrganizationTerminationNotice" xml:space="preserve">
+    <value>Уведомление работника религиозной организации о расторжении трудового договора по основаниям, предусмотренным трудовым договором</value>
+  </data>
+  <data name="NightWorkNotice" xml:space="preserve">
+    <value>Уведомление работника о привлечении к работе в ночное время и о праве отказа от такой работы</value>
+  </data>
+  <data name="OvertimeWorkNotice" xml:space="preserve">
+    <value>Уведомление работника о привлечении к сверхурочной работе и о праве отказа от такой работы</value>
+  </data>
+  <data name="WeekendWorkNotice" xml:space="preserve">
+    <value>Уведомление работника о привлечении к работе в выходной или нерабочий праздничный день и о праве отказа от такой работы</value>
+  </data>
+  <data name="VacationNotice" xml:space="preserve">
+    <value>Уведомление работника о начале отпуска</value>
+  </data>
+  <data name="DalayPaymentNotice" xml:space="preserve">
+    <value>Уведомление работника о выплате задержанной заработной платы</value>
+  </data>
+  <data name="MaterialDamageExplanationsNotice" xml:space="preserve">
+    <value>Уведомление о предоставлении объяснения причин нанесения материального ущерба работодателю</value>
+  </data>
+  <data name="EmploymentOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о приеме работника на работу</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Приказ</value>
+  </data>
+  <data name="IrregularWorkingDayOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о привлечении к работе за пределами нормальной продолжительности рабочего времени при работе в режиме ненормированного рабочего дня</value>
+  </data>
+  <data name="WeekendWorkOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о привлечении работника к работе в выходной или нерабочий праздничный день</value>
+  </data>
+  <data name="SanctionOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о применении дисциплинарного взыскания</value>
+  </data>
+  <data name="LiftingSanctionOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о снятии дисциплинарного взыскания</value>
+  </data>
+  <data name="FinancialLiabilityOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о привлечении работника к материальной ответственности</value>
+  </data>
+  <data name="WorkingConditionsAssessmentOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о проведении специальной оценки условий труда и формировании комиссии по ее проведению</value>
+  </data>
+  <data name="WorkingConditionsAssessmentListOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) об утверждении перечня рабочих мест, на которых будет проводиться специальная оценка условий труда</value>
+  </data>
+  <data name="LaborProtectionCommissionOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о создании комиссии по охране труда для проведения проверки знаний требований охраны труда работников</value>
+  </data>
+  <data name="EstablishmentCommissionOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о создании комиссии по расследованию несчастного случая</value>
+  </data>
+  <data name="DonorRestDayOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о предоставлении дополнительного дня отдыха донору</value>
+  </data>
+  <data name="TransferOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о переводе работника на другую работу</value>
+  </data>
+  <data name="MovementOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о перемещении работника</value>
+  </data>
+  <data name="SuspensionOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) об отстранении от исполнения трудовых обязанностей</value>
+  </data>
+  <data name="AdmissionAfterSuspensionOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о допуске к работе после отстранения</value>
+  </data>
+  <data name="AdditionalWorkOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о поручении дополнительной работы</value>
+  </data>
+  <data name="CancelAdditionalWorkOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) об отмене дополнительной работы</value>
+  </data>
+  <data name="ContractTerminationOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о прекращении (расторжении) трудового договора с работником (увольнении)</value>
+  </data>
+  <data name="ReinstatedOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) об отмене приказа об увольнении при восстановлении работника</value>
+  </data>
+  <data name="UnworkedVacationDeductionOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) об удержании из заработной платы при увольнении за неотработанные дни отпуска</value>
+  </data>
+  <data name="PartTimeDayOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) об установлении неполного рабочего времени структурным подразделениям</value>
+  </data>
+  <data name="CancelPartTimeDayOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о досрочной отмене неполного рабочего времени</value>
+  </data>
+  <data name="AddRestTimeForPreHolidayDayOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о предоставлении дополнительного времени отдыха за переработку в предпраздничный день</value>
+  </data>
+  <data name="OvertimeWorkOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о привлечении работника к сверхурочной работе</value>
+  </data>
+  <data name="DdRestDayForWorkOnWeekendsOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о предоставлении дополнительного дня отдыха за работу в выходные или нерабочие праздничные дни</value>
+  </data>
+  <data name="VacationOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о предоставлении отпуска работнику</value>
+  </data>
+  <data name="ShiftVacationOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о переносе отпуска</value>
+  </data>
+  <data name="RecallVacationOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) об отзыве из отпуска</value>
+  </data>
+  <data name="EducationVacationOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о предоставлении работнику, совмещающему работу с получением образования, дополнительного (учебного) отпуска</value>
+  </data>
+  <data name="MaternityVacationOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о предоставлении отпуска по беременности и родам</value>
+  </data>
+  <data name="ParentalVacationOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о предоставлении отпуска по уходу за ребенком</value>
+  </data>
+  <data name="EarlyWorkFromParentalVacationOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о досрочном выходе на работу из отпуска по уходу за ребенком</value>
+  </data>
+  <data name="WorkAtHomeParentalVacationOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о выполнении работы на дому в период отпуска по уходу за ребенком</value>
+  </data>
+  <data name="AddRestForOvertimeOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о предоставлении дополнительного времени отдыха за сверхурочную работу</value>
+  </data>
+  <data name="DeductionFromPaymentOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) об удержании из заработной платы</value>
+  </data>
+  <data name="BusinessTripOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о направлении работника в командировку</value>
+  </data>
+  <data name="BusinessTripExtensionOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о продлении срока командировки</value>
+  </data>
+  <data name="BusinessTripRecallOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) об отзыве из командировки</value>
+  </data>
+  <data name="DonorReleaseFromWorkOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) об освобождении от работы в связи со сдачей крови и связанным с этим медицинским обследованием</value>
+  </data>
+  <data name="PersonalPropertyUseReimbursementOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о возмещении расходов, связанных с использованием личного имущества</value>
+  </data>
+  <data name="MovingReimbursementOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о возмещении расходов при переезде на работу в другую местность</value>
+  </data>
+  <data name="CompensationForDelayedPaymentOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о выплате денежной компенсации за задержку заработной платы</value>
+  </data>
+  <data name="ScheduleForSpecialWorkConditionAssessmentOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) об утверждении графика проведения специальной оценки условий труда</value>
+  </data>
+  <data name="LaborProtectionServiceCreationOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о создании службы охраны труда</value>
+  </data>
+  <data name="LaborProtectionDutiesOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о возложении обязанностей по охране труда</value>
+  </data>
+  <data name="LongVacationForTeacherOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о предоставлении длительного отпуска педагогическому работнику</value>
+  </data>
+  <data name="DowntimeOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) об объявлении простоя</value>
+  </data>
+  <data name="LNAOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) об утверждении локального нормативного акта</value>
+  </data>
+  <data name="LNAOrderShort" xml:space="preserve">
+    <value>Приказ (распоряжение)</value>
+  </data>
+  <data name="OtherContract" xml:space="preserve">
+    <value>Прочий договор</value>
+  </data>
+  <data name="OtherAgreement" xml:space="preserve">
+    <value>Прочее соглашение</value>
+  </data>
+  <data name="StaffingTable" xml:space="preserve">
+    <value>Штатное расписание</value>
+  </data>
+  <data name="OtherLNA" xml:space="preserve">
+    <value>Прочий локальный нормативный акт</value>
+  </data>
+  <data name="OtherRequest" xml:space="preserve">
+    <value>Прочий запрос</value>
+  </data>
+  <data name="Request" xml:space="preserve">
+    <value>Запрос</value>
+  </data>
+  <data name="OtherStatement" xml:space="preserve">
+    <value>Прочее заявление</value>
+  </data>
+  <data name="Statement" xml:space="preserve">
+    <value>Заявление</value>
+  </data>
+  <data name="OtherAnnouncement" xml:space="preserve">
+    <value>Прочее извещение</value>
+  </data>
+  <data name="OtherOffer" xml:space="preserve">
+    <value>Прочее предложение</value>
+  </data>
+  <data name="OtherOrder" xml:space="preserve">
+    <value>Прочий приказ</value>
+  </data>
+  <data name="OtherDirection" xml:space="preserve">
+    <value>Прочее распоряжение</value>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>Распоряжение</value>
+  </data>
+  <data name="OtherConsent" xml:space="preserve">
+    <value>Прочее согласие</value>
+  </data>
+  <data name="OtherRequirement" xml:space="preserve">
+    <value>Прочее требование</value>
+  </data>
+  <data name="Requirement" xml:space="preserve">
+    <value>Требование</value>
+  </data>
+  <data name="OtherNotice" xml:space="preserve">
+    <value>Прочее уведомление</value>
+  </data>
+  <data name="AcquaintanceControlReportTitle" xml:space="preserve">
+    <value>Acquaintance Report</value>
+  </data>
+  <data name="RowNumberHeader" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="FullNameHeader" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="JobTitleHeader" xml:space="preserve">
+    <value>Job Title</value>
+  </data>
+  <data name="PdfAConvertError" xml:space="preserve">
+    <value>Cannot convert the document with ID {0} to PDF/A.</value>
+  </data>
+  <data name="UnexpectedConverterException" xml:space="preserve">
+    <value>An error occurred when converting the document. Contact your system administrator.</value>
+  </data>
+  <data name="FormatNotSupportedException" xml:space="preserve">
+    <value>Converting documents of the current format to PDF/A is not supported. Change the document format or contact your system administrator.</value>
+  </data>
+  <data name="FontNotFoundException" xml:space="preserve">
+    <value>The document contains a font that cannot be converted to PDF/A. Change the font or contact your system administrator.</value>
+  </data>
+  <data name="ValidatePDFAFormat" xml:space="preserve">
+    <value>The document with ID {0} is already converted to PDF/A.</value>
+  </data>
+  <data name="StatementDocumentTypename" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="SettingsReportName" xml:space="preserve">
+    <value>Settings Validation Report for module "HR Pro. Documents"</value>
+  </data>
+  <data name="BusinessUnit" xml:space="preserve">
+    <value>Business units</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Departments</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="ImportDataDialogName" xml:space="preserve">
+    <value>Import Data</value>
+  </data>
+  <data name="FileNameField" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="ImportFinished" xml:space="preserve">
+    <value>Import complete.
+
+Objects imported:
+- Business units: {0} of {1}
+- Departments: {2} of {3}
+- Employees: {4} of {5}
+
+Additional objects created:
+- Business units without details: {6}
+- Departments without details: {7}
+- Persons: {8}
+- Job titles: {9}</value>
+  </data>
+  <data name="ButtonClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ButtonImport" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="OrgStructureImported" xml:space="preserve">
+    <value>The file with the organizational structure has been imported. File processing has started. The result of processing will be received in a notification.</value>
+  </data>
+  <data name="ImportOrgStructureDocument" xml:space="preserve">
+    <value>Company structure - {0}</value>
+  </data>
+  <data name="ImportOrgStructureNoticeSubject" xml:space="preserve">
+    <value>Result of Company Structure Import</value>
+  </data>
+  <data name="ImportOrgNotice" xml:space="preserve">
+    <value>Import result: </value>
+  </data>
+  <data name="ImportOrgstructureMaxRetryCount" xml:space="preserve">
+    <value>The number of attempts to import company structure is more than {0}.</value>
+  </data>
+  <data name="AsyncSendNoticeMaxRetryCount" xml:space="preserve">
+    <value>The number of attempts to send notice on import of company structure is more than {0}.</value>
+  </data>
+  <data name="UserNotAdministrator" xml:space="preserve">
+    <value>Only employees included in the "Administrators" role can import the company structure.</value>
+  </data>
+  <data name="TransferOrders" xml:space="preserve">
+    <value>Приказ (распоряжение) о переводе работников на другую работу</value>
+  </data>
+  <data name="VacationOrders" xml:space="preserve">
+    <value>Приказ (распоряжение) о предоставлении отпуска работникам</value>
+  </data>
+  <data name="EmploymentOrders" xml:space="preserve">
+    <value>Приказ (распоряжение) о приеме работников на работу</value>
+  </data>
+  <data name="ContractTerminationOrders" xml:space="preserve">
+    <value>Приказ (распоряжение) о прекращении (расторжении) трудового договора с работниками (увольнении)</value>
+  </data>
+  <data name="WeekendWorkSchedule" xml:space="preserve">
+    <value>График работы в выходной (нерабочий праздничный) день</value>
+  </data>
+  <data name="OvertimeSchedule" xml:space="preserve">
+    <value>График сверхурочной работы</value>
+  </data>
+  <data name="BusinessTripOrders" xml:space="preserve">
+    <value>Приказ (распоряжение) о направлении работников в командировку</value>
+  </data>
+  <data name="ChangeWorkScheduleOrder" xml:space="preserve">
+    <value>Приказ об изменении графика работы</value>
+  </data>
+  <data name="MaternityVacationTerminationOrder" xml:space="preserve">
+    <value>Приказ о прекращении отпуска в связи с уходом в отпуск по беременности и родам</value>
+  </data>
+  <data name="ConcurrentJobsOrder" xml:space="preserve">
+    <value>Приказ о совмещении должностей</value>
+  </data>
+  <data name="PayByAverageWageOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) об оплате по среднему заработку</value>
+  </data>
+  <data name="PayByAverageWageOrders" xml:space="preserve">
+    <value>Приказ (распоряжение) об оплате по среднему заработку списком</value>
+  </data>
+  <data name="ErrorNotSignRights" xml:space="preserve">
+    <value>Employee {0} must have signature rights assigned.</value>
+  </data>
+  <data name="HtmlStampTemplateForSignature" xml:space="preserve">
+    <value>&lt;html&gt;
+&lt;head&gt;
+&lt;style type="text/css"&gt;
+body{
+margin:0;
+font-family:Arial, "Segoe UI", Consolas, Calibri, monospace;
+color: #003f75;
+}
+.box1 {
+  padding: 3px;
+  border: 1px solid #d7d7d7;
+  border-color: #003f75;
+  width: 240px;
+}
+.tg0{
+  width:34px;
+  height:40px;
+  margin:0;
+}
+.tg0 img{
+  margin:0;
+  width:32px;
+  height:32px;
+  margin-left:10px;
+  border: 1px solid #003f75;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5gMVBDUObi7ILwAAA5RJREFUWMPF12mM3WMUBvDfTC8ZSpOWBm2Q2qpKUhVCgrGrCKpVaxRRIZYQMhESQUItk8YHGUViSSTKRCuSljBoxxdEP7RULBWpJS0dREtVO2b4cM7tf5Z774wZHSe5ubn3/ec9z3nOc573/ddpbOrGZvyFOiMTf6OEMaVMfhM+Rf0IAejGVLSU0IXPsEp788ikb2ySxXaVhrlJHcZgIiZh//y9CcvxJdQqbPAAIiE0ZLLjcCKOwjhsx6/Ygr1wNS7Dulrb1gZQJN0Vk3Fmfg7G7/gYz+f3t/glgczCAuw7NABF4j1wNq7ISjuwAs34BD8LQZVjIq7DlVicwGpGfwBF8kPxEKahDS1YKfobfS2eHYtLcD06cR9ewdaBhF2tBftgoZiQOViN7h2bNTaVk++Gc3ArxuO5bEkHRmOSxqZx2IqvsL0voN4Aiopm5oYX4usdFRfP1ON43JEMLcFTQhcn4DRMx95iUnbHg3i6R46aDExPuisllz2+Fx/g0mTqlkxcEqa2GGtxcrZmbKVE1Zzvj6Sw0vr4TPYM5maVi3AIHsUMoYc3cTFmC9E+2auYigCKxfeF6g+sAGB0fj5Mem/LZBfhBazHtXgtwc3Fw9hUSZDVGFghDGVWH+qJ0esQvd8Fe+JzITQ4FndnxZdnMd3VpqEagI14STjZfn3WfsM7Qv31QgfnCqHJ721Yis3am2tacX8AxcOtGJV9DBaKtaU4AEcn7YcJAcIaoaGTKrA3aAbg+9z8KnHI9Iw1QulzhNu14cZsxw9ox3nCwocAoKj0ReFs1/SpZptwulOzRU+I82Fmri/DEcJNh8yArGah0MLUPuDeFbeoGcnIIjGeE/CROJjOGKgN1QEUiZbgG9yMUo/N1uMtMecNwgm7cLu4ZS0XB1nDcBiQmz2Gs3BKn7VXhQEdgw3CbmeL8X0j21KzDbUB9Ka7DXeKy0c5VuELZb/gdeGQ83G40M+04TIgN1ogTskbFLfnP4Xnny7uAt3JVivuEo65cXgAChbWCq+fJ9RfjreFX5T/24L7cT4uEKZVNQZ3JywuH63iuJ0vTsF1+A7vZbKX0am9uVNMxoAx+PeAYGI7HsgqH1EcsctwpP6G9R8CKGKDGLXJeBwHJRP1Qgc7EUChh9VCCxOy+meFO/648xkoQKwUB9U9QhvzhFD/VQztzagA8ZM4E4YcJTFCU9CtsWkkX06nYFRJvMu1+J9ez/8Ba971UfIkHvgAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDMtMjFUMDQ6NTM6MTQtMDQ6MDDAyQWdAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTAzLTIxVDA0OjUzOjE0LTA0OjAwsZS9IQAAAABJRU5ErkJggg==) no-repeat;
+  }
+.tg1{
+  font-size:6pt;
+  line-height:6pt;
+}
+.tg2{
+  font-size:8.25pt;
+  text-align:center;
+  line-height:9.75pt;
+  margin-left:7.5px;
+  margin-right:3.75px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;table class="box1"&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tr&gt;
+  &lt;td class="tg0"&gt;
+    &lt;img/&gt;
+  &lt;/td&gt;
+  &lt;td&gt;  
+    &lt;div class="tg2"&gt;ДОКУМЕНТ ПОДПИСАН&lt;br/&gt;ЭЛЕКТРОННОЙ ПОДПИСЬЮ&lt;/div&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan="2"&gt;
+    &lt;span class="tg1"&gt;Подписал &lt;strong&gt;{SignatoryFullName}&lt;/strong&gt;&lt;/span&gt;
+  &lt;/td&gt;  
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan="2"&gt;
+    &lt;span class="tg1"&gt;Идентификатор пользователя {SignatoryId}&lt;/span&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan="2"&gt;
+    &lt;span class="tg1"&gt;Время подписания {SigningDate}&lt;/span&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="HtmlStampTemplateForCertificate" xml:space="preserve">
+    <value>&lt;html&gt;
+&lt;head&gt;
+&lt;style type="text/css"&gt;
+body{
+margin:0;
+font-family:Arial, "Segoe UI", Consolas, Calibri, monospace;
+color: #003f75;
+}
+.box1 {
+  padding: 3px;
+  border: 1px solid #d7d7d7;
+  border-color: #003f75;
+  width: 240px;
+}
+.tg0{
+  width:34px;
+  height:40px;
+  margin:0;
+}
+.tg0 img{
+  margin:0;
+  width:32px;
+  height:32px;
+  margin-left:10px;
+  border: 1px solid #003f75;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5gMVBDUObi7ILwAAA5RJREFUWMPF12mM3WMUBvDfTC8ZSpOWBm2Q2qpKUhVCgrGrCKpVaxRRIZYQMhESQUItk8YHGUViSSTKRCuSljBoxxdEP7RULBWpJS0dREtVO2b4cM7tf5Z774wZHSe5ubn3/ec9z3nOc573/ddpbOrGZvyFOiMTf6OEMaVMfhM+Rf0IAejGVLSU0IXPsEp788ikb2ySxXaVhrlJHcZgIiZh//y9CcvxJdQqbPAAIiE0ZLLjcCKOwjhsx6/Ygr1wNS7Dulrb1gZQJN0Vk3Fmfg7G7/gYz+f3t/glgczCAuw7NABF4j1wNq7ISjuwAs34BD8LQZVjIq7DlVicwGpGfwBF8kPxEKahDS1YKfobfS2eHYtLcD06cR9ewdaBhF2tBftgoZiQOViN7h2bNTaVk++Gc3ArxuO5bEkHRmOSxqZx2IqvsL0voN4Aiopm5oYX4usdFRfP1ON43JEMLcFTQhcn4DRMx95iUnbHg3i6R46aDExPuisllz2+Fx/g0mTqlkxcEqa2GGtxcrZmbKVE1Zzvj6Sw0vr4TPYM5maVi3AIHsUMoYc3cTFmC9E+2auYigCKxfeF6g+sAGB0fj5Mem/LZBfhBazHtXgtwc3Fw9hUSZDVGFghDGVWH+qJ0esQvd8Fe+JzITQ4FndnxZdnMd3VpqEagI14STjZfn3WfsM7Qv31QgfnCqHJ721Yis3am2tacX8AxcOtGJV9DBaKtaU4AEcn7YcJAcIaoaGTKrA3aAbg+9z8KnHI9Iw1QulzhNu14cZsxw9ox3nCwocAoKj0ReFs1/SpZptwulOzRU+I82Fmri/DEcJNh8yArGah0MLUPuDeFbeoGcnIIjGeE/CROJjOGKgN1QEUiZbgG9yMUo/N1uMtMecNwgm7cLu4ZS0XB1nDcBiQmz2Gs3BKn7VXhQEdgw3CbmeL8X0j21KzDbUB9Ka7DXeKy0c5VuELZb/gdeGQ83G40M+04TIgN1ogTskbFLfnP4Xnny7uAt3JVivuEo65cXgAChbWCq+fJ9RfjreFX5T/24L7cT4uEKZVNQZ3JywuH63iuJ0vTsF1+A7vZbKX0am9uVNMxoAx+PeAYGI7HsgqH1EcsctwpP6G9R8CKGKDGLXJeBwHJRP1Qgc7EUChh9VCCxOy+meFO/648xkoQKwUB9U9QhvzhFD/VQztzagA8ZM4E4YcJTFCU9CtsWkkX06nYFRJvMu1+J9ez/8Ba971UfIkHvgAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDMtMjFUMDQ6NTM6MTQtMDQ6MDDAyQWdAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTAzLTIxVDA0OjUzOjE0LTA0OjAwsZS9IQAAAABJRU5ErkJggg==) no-repeat;
+  }
+.tg1{
+  font-size:6pt;
+  line-height:6pt;
+}
+.tg2{
+  font-size:8.25pt;
+  text-align:center;
+  line-height:9.75pt;
+  margin-left:7.5px;
+  margin-right:3.75px;
+}
+.nowrap{
+  white-space: nowrap;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;table class="box1"&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tr&gt;
+  &lt;td class="tg0"&gt;
+    &lt;img/&gt;
+  &lt;/td&gt;
+  &lt;td&gt;  
+    &lt;div class="tg2"&gt;ДОКУМЕНТ ПОДПИСАН&lt;br/&gt;ЭЛЕКТРОННОЙ ПОДПИСЬЮ&lt;/div&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan="2"&gt;
+    &lt;span class="tg1 nowrap"&gt;Сертификат {Thumbprint}&lt;/span&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan="2"&gt;
+    &lt;span class="tg1"&gt;Владелец &lt;b&gt;{SignatoryFullName}&lt;/b&gt;&lt;/span&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan="2"&gt;
+    &lt;span class="tg1"&gt;Действителен {Validity}&lt;/span&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan="2"&gt;
+    &lt;span class="tg1"&gt;Дата подписания {SigningDate}&lt;/span&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="ChangePersonalDataStatement" xml:space="preserve">
+    <value>Заявление на изменение персональных данных</value>
+  </data>
+  <data name="TransferStatement" xml:space="preserve">
+    <value>Заявление о переводе</value>
+  </data>
+  <data name="VacationChangePeriodStatement" xml:space="preserve">
+    <value>Заявление о переносе отпуска</value>
+  </data>
+  <data name="DonorAdditionalRestDayStatement" xml:space="preserve">
+    <value>Заявление о предоставлении дополнительного дня отдыха в связи со сдачей крови</value>
+  </data>
+  <data name="AnnualPaidVacationStatement" xml:space="preserve">
+    <value>Заявление о предоставлении ежегодного оплачиваемого отпуска</value>
+  </data>
+  <data name="VacationWithoutPayStatement" xml:space="preserve">
+    <value>Заявление о предоставлении отпуска без сохранения заработной платы</value>
+  </data>
+  <data name="MaternityLeaveStatement" xml:space="preserve">
+    <value>Заявление о предоставлении отпуска по беременности и родам</value>
+  </data>
+  <data name="StudyLeaveStatement" xml:space="preserve">
+    <value>Заявление о предоставлении учебного отпуска</value>
+  </data>
+  <data name="FinancialAssistanceStatement" xml:space="preserve">
+    <value>Заявление об оказании материальной помощи</value>
+  </data>
+  <data name="DismissalStatement" xml:space="preserve">
+    <value>Заявление об увольнении</value>
+  </data>
+  <data name="NeedAttachmentsForStatement" xml:space="preserve">
+    <value>To send your {0}, add the required documents to the attachtment panel.</value>
+  </data>
+  <data name="StatementTaskInstructionWithoutAddendum" xml:space="preserve">
+    <value>1. Open the application from the attachment panel and fill it in with the required data.
+2. If required, add extra documents to the attachment panel.
+3. Complete the assignment to send your application. The system will convert the application to PDF/A and add your digital signature mark to it.</value>
+  </data>
+  <data name="SystemUserAccessWarning" xml:space="preserve">
+    <value>The action is unavailable for the system user.</value>
+  </data>
+  <data name="CurrentUserCertificatesNotFound" xml:space="preserve">
+    <value>You don't have a valid electronic signature certificate required to sign the application. Contact your system administrator.</value>
+  </data>
+  <data name="StatementCreation" xml:space="preserve">
+    <value>Create Application</value>
+  </data>
+  <data name="StatementTaskInstructionWithAddendum" xml:space="preserve">
+    <value>1. Open the application from the attachment panel and fill it in with the required data.
+2. Add the required documents to the attachment panel.
+3. Complete the assignment to send your application. The system will convert the application to PDF/A and add your digital signature mark to it.</value>
+  </data>
+  <data name="CorrectStatementBeforeSending" xml:space="preserve">
+    <value>Fill in the application before you send it.</value>
+  </data>
+  <data name="SaveAndCloseStatementBeforeSending" xml:space="preserve">
+    <value>Save your changes and close the application before you send it.</value>
+  </data>
+  <data name="TemplateNotFoundError" xml:space="preserve">
+    <value>Cannot find application template for Employee Self Service.</value>
+  </data>
+  <data name="TemplateForRXNotFoundError" xml:space="preserve">
+    <value>Cannot find application template for Directum RX.</value>
+  </data>
+  <data name="DefaultSettingsCreatingConfirmationMessage" xml:space="preserve">
+    <value>Import settings for default applications?</value>
+  </data>
+  <data name="StatementsSettingsNotFound" xml:space="preserve">
+    <value>Cannot find settings for applications.</value>
+  </data>
+  <data name="StatementsSettingCheckMessage" xml:space="preserve">
+    <value>The following errors occurred when importing settings:</value>
+  </data>
+  <data name="StatementSettingsApprovalsAndPerformersFiltration" xml:space="preserve">
+    <value>Employees whose names are specified in the list of approvers or assignees cannot be filtered by business unit. For all such employees, select "Do not filter by business unit" In the "Filter" column.</value>
+  </data>
+  <data name="UniqueApproversNumber" xml:space="preserve">
+    <value>Specify a unique number in approval order for each approver.</value>
+  </data>
+  <data name="UniquePerformersNumber" xml:space="preserve">
+    <value>Specify a unique number in assignment order for each assignee.</value>
+  </data>
+  <data name="NeedAnyPerformers" xml:space="preserve">
+    <value>Specify an assignee.</value>
+  </data>
+  <data name="SelectEmployee" xml:space="preserve">
+    <value>Select an employee.</value>
+  </data>
+  <data name="EmployeeDialogField" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="JobTitle" xml:space="preserve">
+    <value>Job title</value>
+  </data>
+  <data name="OrgName" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="EncouragementOrder" xml:space="preserve">
+    <value>Приказ (распоряжение) о поощрении работника</value>
+  </data>
+  <data name="EncouragementOrders" xml:space="preserve">
+    <value>Приказ (распоряжение) о поощрении работников</value>
+  </data>
+  <data name="DocumentManagementAgreementKind" xml:space="preserve">
+    <value>Согласие на кадровый электронный документооборот</value>
+  </data>
+  <data name="DocumentManagementRegulationsKind" xml:space="preserve">
+    <value>Положение о КЭДО</value>
+  </data>
+  <data name="AutoSubstitutionSubject" xml:space="preserve">
+    <value>Substitution configured for employee: {0}</value>
+  </data>
+  <data name="SubtitutionNoticeText" xml:space="preserve">
+    <value>Employee {0} substitutes {0}. To change or delete substitution, contact your system administrator.</value>
+  </data>
+  <data name="SubtitutionNoticeDetail" xml:space="preserve">
+    <value>{0} ({1}, {2}, {3}) substitutes {4} ({5}, {6}, {7})</value>
+  </data>
+  <data name="OneSubtitutionNotice" xml:space="preserve">
+    <value>When substitution is configured, an employee receives tasks and assignments for all his or her substitutions: {0}.</value>
+  </data>
+  <data name="SomeSubtitutionNotice" xml:space="preserve">
+    <value>When substitutions are configured, an employee receives assignments and notices for all his or her substitutions:
+- {0}.</value>
+  </data>
+  <data name="SelectBusinessUnits" xml:space="preserve">
+    <value>Select business units</value>
+  </data>
+  <data name="SelectDepartments" xml:space="preserve">
+    <value>Select departments</value>
+  </data>
+  <data name="SelectEmployees" xml:space="preserve">
+    <value>Select employees</value>
+  </data>
+  <data name="ConsentSending" xml:space="preserve">
+    <value>Send Consent for Digital HR Document Management</value>
+  </data>
+  <data name="ConsentToKEDOSentToAsync" xml:space="preserve">
+    <value>Consent for Digital HR Document Management has been sent.</value>
+  </data>
+  <data name="ConsentSendingResult" xml:space="preserve">
+    <value>Result of sending Consent for Digital HR Document Management</value>
+  </data>
+  <data name="ConsentSendingResultMessage" xml:space="preserve">
+    <value>Employee cards processed: {0}
+Number of employees who have received the Consent for Digital HR Document Management: {1}
+
+
+Number of employees who received the Consent for Digital HR Document Management before: {2}
+
+
+Number of employees who have signed the Consent for Digital HR Document Management: {3}</value>
+  </data>
+  <data name="ConsentSendingResultWithErrors" xml:space="preserve">
+    <value>Amount of employees who have not received the Consent for Digital HR Document Management due to errors: {0}.</value>
+  </data>
+  <data name="EmployeeConsentError" xml:space="preserve">
+    <value>To use the service, sign the Consent for Digital HR Document Management.</value>
+  </data>
+  <data name="ErrorConsentNotSigned" xml:space="preserve">
+    <value>To work with applications, sign Consent for Digital HR Document Management</value>
+  </data>
+</root>

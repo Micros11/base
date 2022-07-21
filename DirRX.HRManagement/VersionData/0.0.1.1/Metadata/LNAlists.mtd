@@ -1,0 +1,258 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "46d21cdd-d7f9-4a32-be0e-07f21769037d",
+  "Name": "LNALists",
+  "BaseGuid": "04581d26-0780-4cfd-b3cd-c2cafc5798b0",
+  "CanBeNavigationPropertyType": true,
+  "Code": "LNALists",
+  "CreationAreaMetadata": {
+    "NameGuid": "f7766750-eee2-4fcd-8003-5c06a90d1f44",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true
+  },
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "b0125fbd-3b91-4dbb-914a-689276216404",
+    "Name": "FilterPanel",
+    "Controls": [],
+    "IsAncestorMetadata": true,
+    "Overridden": [
+      "Controls"
+    ]
+  },
+  "Forms": [
+    {
+      "$type": "Sungero.Metadata.StandaloneFormMetadata, Sungero.Metadata",
+      "NameGuid": "3afc3690-a26a-4e72-866e-be01ed1e2cb4",
+      "Name": "Card",
+      "Controls": [
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "f350c938-1cd1-4906-8d10-c765ba72834d",
+          "Name": "ControlGroup"
+        },
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "95beb646-8438-4af9-be2a-c649a756a4ad",
+          "Name": "ControlGroup1"
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "0c579bb0-abec-4f59-b078-c26c9b8fb24b",
+          "Name": "Control",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.GridControlToChildCollectionBinder",
+          "HeaderLocation": "None",
+          "ParentGuid": "95beb646-8438-4af9-be2a-c649a756a4ad",
+          "PropertyGuid": "a5397b39-6d7e-4e91-ad0a-d4e46f078ba2",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": [
+            {
+              "Name": "NeedExpand",
+              "Value": true
+            }
+          ]
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "b3291f17-7f71-4bd2-88d9-cdd49ca51062",
+          "Name": "Departments",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.MultiSelectEditorToCollectionBinder",
+          "ParentGuid": "f350c938-1cd1-4906-8d10-c765ba72834d",
+          "PropertyGuid": "59626c01-d37f-49bb-9baa-4e25c02b73ff",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": [
+            {
+              "Name": "NavigationPropertyGuid",
+              "Value": "80b3fc1e-5151-46ee-ac1b-e24a5d25c5d3"
+            }
+          ]
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "9b6b28f2-2a95-4b4b-b28a-7107d98a48b5",
+          "Name": "JobTitles",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.MultiSelectEditorToCollectionBinder",
+          "ParentGuid": "f350c938-1cd1-4906-8d10-c765ba72834d",
+          "PropertyGuid": "fc003b15-ae36-4067-ace0-e2554cde32ca",
+          "RowNumber": 2,
+          "RowSpan": 1,
+          "Settings": [
+            {
+              "Name": "NavigationPropertyGuid",
+              "Value": "ac3e3c1b-1483-4ea6-985c-5ad403213b3c"
+            }
+          ]
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "eb25bf9c-011b-485d-84d8-6a6a73203487",
+          "Name": "BusinessUnit",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "f350c938-1cd1-4906-8d10-c765ba72834d",
+          "PropertyGuid": "4a5634dc-ea38-434d-9c76-d5641f2c77bf",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "8a4f079c-ff87-4def-9a5e-327d44fc3ea8",
+          "Name": "Control",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "f350c938-1cd1-4906-8d10-c765ba72834d",
+          "PropertyGuid": "9e379ee3-fcf8-4fa4-a649-5126e7f86b45",
+          "RowNumber": 3,
+          "RowSpan": 1,
+          "Settings": []
+        }
+      ]
+    }
+  ],
+  "HandledEvents": [
+    "BeforeSaveServer"
+  ],
+  "IconResourcesKeys": [],
+  "IsCacheable": true,
+  "IsVisible": false,
+  "OperationsClass": "",
+  "Overridden": [
+    "IsVisible",
+    "IsCacheable"
+  ],
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "c5ca6f5f-964a-46a0-b940-f65c3b2da00a",
+      "Name": "Name",
+      "Code": "Name",
+      "IsDisplayValue": true,
+      "IsQuickSearchAllowed": true,
+      "IsShowedInList": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "1dcedc29-5140-4770-ac92-eabc212326a1"
+    },
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "a5397b39-6d7e-4e91-ad0a-d4e46f078ba2",
+      "Name": "LNADocs",
+      "Code": "LNAListsLNADoc",
+      "EntityGuid": "98c77e92-e83e-4ee3-afcc-74e94dde560a",
+      "IsShowedInList": false,
+      "PreviousPropertyGuid": "c5ca6f5f-964a-46a0-b940-f65c3b2da00a"
+    },
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "59626c01-d37f-49bb-9baa-4e25c02b73ff",
+      "Name": "Departments",
+      "Code": "LNAListsDepart",
+      "EntityGuid": "b923f770-31e9-4db2-9b91-fb01cdeda2fc",
+      "IsShowedInList": false,
+      "PreviousPropertyGuid": "a5397b39-6d7e-4e91-ad0a-d4e46f078ba2"
+    },
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "fc003b15-ae36-4067-ace0-e2554cde32ca",
+      "Name": "JobTitles",
+      "Code": "LNAListsJobTit",
+      "EntityGuid": "661f0606-682a-40d5-aa53-0b7524f947b9",
+      "IsShowedInList": false,
+      "PreviousPropertyGuid": "59626c01-d37f-49bb-9baa-4e25c02b73ff"
+    },
+    {
+      "$type": "Sungero.Metadata.TextPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "dbefa69d-8ae2-4beb-a748-d98ea7f8552f",
+      "Name": "DepatmentNames",
+      "Code": "DepatmentNames",
+      "IsEnabled": false,
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToTextBinder",
+      "PreviousPropertyGuid": "fc003b15-ae36-4067-ace0-e2554cde32ca"
+    },
+    {
+      "$type": "Sungero.Metadata.TextPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "27b7d400-9e9e-4946-8cf6-11018849d007",
+      "Name": "JobNames",
+      "Code": "JobNames",
+      "IsEnabled": false,
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToTextBinder",
+      "PreviousPropertyGuid": "dbefa69d-8ae2-4beb-a748-d98ea7f8552f"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "4a5634dc-ea38-434d-9c76-d5641f2c77bf",
+      "Name": "BusinessUnit",
+      "Code": "BusinessUnit",
+      "EntityGuid": "eff95720-181f-4f7d-892d-dec034c7b2ab",
+      "FlatListInStandaloneLookup": true,
+      "HandledEvents": [
+        "ChangedShared"
+      ],
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "27b7d400-9e9e-4946-8cf6-11018849d007"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "9e379ee3-fcf8-4fa4-a649-5126e7f86b45",
+      "Name": "TemplateDocument",
+      "Code": "TemplateDocume",
+      "EntityGuid": "9abcf1b7-f630-4a82-9912-7f79378ab199",
+      "FlatListInStandaloneLookup": true,
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "4a5634dc-ea38-434d-9c76-d5641f2c77bf"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [
+    "LNAListName",
+    "ExistedDepartmentRecordErrorText",
+    "NoDocumentsInRecord",
+    "ExistedEmptyRecordErrorText",
+    "OnlyJobRecordErrorText",
+    "ExistedPairRecordErrorText"
+  ],
+  "RibbonCardMetadata": {
+    "NameGuid": "20d3b3be-88b5-4761-b686-cc63ff8f2a86",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "a754be37-073c-4344-aa55-2ca52f4c6b45",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 9
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 2
+    }
+  ]
+}

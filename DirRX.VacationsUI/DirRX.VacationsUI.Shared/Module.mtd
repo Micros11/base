@@ -1,0 +1,234 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "3079724b-1955-4e5b-9f9e-079d68a69109",
+  "Name": "VacationsUI",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "DirRX.VacationsUI.Client",
+  "ClientBaseAssemblyName": "DirRX.VacationsUI.ClientBase",
+  "ClientBaseNamespace": "DirRX.VacationsUI.ClientBase",
+  "ClientNamespace": "DirRX.VacationsUI.Client",
+  "Code": "Vacatio",
+  "CompanyCode": "DirRX",
+  "Cover": {
+    "NameGuid": "95318f60-fac9-40cb-a29d-e1ebebeff87b",
+    "Actions": [
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "1b54ecf3-85a0-49c6-81b7-1265461e0a83",
+        "Name": "RoleSettings",
+        "FunctionName": "ConfigureRolesByCompany",
+        "GroupId": "e174bcac-5130-40ad-b5b4-0a1632f47440",
+        "PreviousItemGuid": "51dcaeea-bb95-4a13-a268-09b3bda261da"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "320e76e0-cb31-4ac6-8480-5667621fd07d",
+        "Name": "ApprovalVacation",
+        "FunctionName": "CreateNewVacationApprovalTask",
+        "GroupId": "1175a6c9-15d0-47bb-a66e-00167576a92d",
+        "PreviousItemGuid": "fcd61c8b-1afc-4aec-bc39-d9d8c8db9084"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "36535e42-4c46-4c64-b397-50261d7993ae",
+        "Name": "CreateSingleShedulingTask",
+        "FunctionName": "CreateSingleScheduling",
+        "GroupId": "085003fa-a74b-4ca4-b1c1-5df5769e7153",
+        "PreviousItemGuid": "e9c74fe6-c65a-4ccb-8cb6-127bf5f3ff63"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "36cc2d97-f57b-41d7-bacf-4afb5a55befc",
+        "Name": "RecallVacation",
+        "FunctionName": "CreateNewRecallVacationTask",
+        "GroupId": "1175a6c9-15d0-47bb-a66e-00167576a92d",
+        "PreviousItemGuid": "bd467f93-90b6-478c-ba8c-865c8cd28fc6"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "51dcaeea-bb95-4a13-a268-09b3bda261da",
+        "Name": "ModuleSettings",
+        "EntityTypeId": "ca65e0f4-759e-4056-9ed5-6f2990ed839c",
+        "GroupId": "e174bcac-5130-40ad-b5b4-0a1632f47440"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "72c4d7f8-2193-4567-8623-f2ba7094a8e9",
+        "Name": "ActualVacationReport",
+        "FunctionName": "CreateActualVacationReport",
+        "GroupId": "085003fa-a74b-4ca4-b1c1-5df5769e7153"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "7e618011-e612-41ed-952a-d307d1c0bba1",
+        "Name": "ExportVacationDocuments",
+        "FunctionName": "ExportVacationDocuments",
+        "GroupId": "e06b30c0-845a-492f-9240-d973f9e13d41"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "b0da484e-6c48-4890-a4d5-6666f8086424",
+        "Name": "ScheduleForm",
+        "FunctionName": "ShowVacationScheduleChart",
+        "GroupId": "1175a6c9-15d0-47bb-a66e-00167576a92d",
+        "PreviousItemGuid": "36cc2d97-f57b-41d7-bacf-4afb5a55befc"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "bd467f93-90b6-478c-ba8c-865c8cd28fc6",
+        "Name": "ShiftVacation",
+        "FunctionName": "CreateNewShiftVacationTask",
+        "GroupId": "1175a6c9-15d0-47bb-a66e-00167576a92d",
+        "PreviousItemGuid": "320e76e0-cb31-4ac6-8480-5667621fd07d"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "dd5fc721-e29f-4986-b201-15b9620810fe",
+        "Name": "CreateSettingsReport",
+        "FunctionName": "CreateSettingsReport",
+        "GroupId": "e174bcac-5130-40ad-b5b4-0a1632f47440",
+        "PreviousItemGuid": "1b54ecf3-85a0-49c6-81b7-1265461e0a83"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "e9c74fe6-c65a-4ccb-8cb6-127bf5f3ff63",
+        "Name": "VacationShedule",
+        "FunctionName": "CreateNewVacationScheduleTask",
+        "GroupId": "085003fa-a74b-4ca4-b1c1-5df5769e7153",
+        "PreviousItemGuid": "72c4d7f8-2193-4567-8623-f2ba7094a8e9"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "f39a84d4-b2bd-43ee-8067-660cce7f9382",
+        "Name": "Vacation",
+        "EntityTypeId": "e9716199-d89f-47c0-9d3c-40b78afd22e9",
+        "GroupId": "1175a6c9-15d0-47bb-a66e-00167576a92d",
+        "PreviousItemGuid": "b0da484e-6c48-4890-a4d5-6666f8086424"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "fcd61c8b-1afc-4aec-bc39-d9d8c8db9084",
+        "Name": "ShowEmployeeVacation",
+        "FunctionName": "ShowEmployeeVacation",
+        "GroupId": "1175a6c9-15d0-47bb-a66e-00167576a92d"
+      }
+    ],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "2713ad22-3b57-4dbb-8a38-4327b059c3bd",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [
+      {
+        "NameGuid": "1175a6c9-15d0-47bb-a66e-00167576a92d",
+        "Name": "Vacantions",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconVacantions_1175a6c915d047bba66e00167576a92d.png"
+      },
+      {
+        "NameGuid": "085003fa-a74b-4ca4-b1c1-5df5769e7153",
+        "Name": "VacationManagement",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconVacationManagement_085003faa74b4ca4b1c15df5769e7153.png",
+        "PreviousItemGuid": "1175a6c9-15d0-47bb-a66e-00167576a92d"
+      },
+      {
+        "NameGuid": "e06b30c0-845a-492f-9240-d973f9e13d41",
+        "Name": "ExportDocument",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconExportDocument_e06b30c0845a492f9240d973f9e13d41.png",
+        "PreviousItemGuid": "085003fa-a74b-4ca4-b1c1-5df5769e7153"
+      },
+      {
+        "NameGuid": "e174bcac-5130-40ad-b5b4-0a1632f47440",
+        "Name": "Setting",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconSetting_e174bcac513040adb5b40a1632f47440.png",
+        "PreviousItemGuid": "e06b30c0-845a-492f-9240-d973f9e13d41"
+      }
+    ],
+    "Header": {
+      "NameGuid": "bb03a4d0-9655-4062-a01e-eadee193d242",
+      "BackgroundPosition": "Stretch",
+      "IconName": "HeaderIcon_bb03a4d096554062a01eeadee193d242.png"
+    }
+  },
+  "Dependencies": [
+    {
+      "Id": "5dec8ad1-8148-4d42-a54b-3f9a04e68cf0",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    },
+    {
+      "Id": "857518ef-9a4d-4c25-99d7-20e20d05cfc4",
+      "MaxVersion": "",
+      "MinVersion": "1.4.4000.0"
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "c135fb43-9561-45ad-9628-85459f8cf26e",
+      "PreviousItemId": "0d279f0b-8cd2-4dda-be34-85aacd7b8b93"
+    },
+    {
+      "ItemId": "0d279f0b-8cd2-4dda-be34-85aacd7b8b93",
+      "PreviousItemId": "c135fb43-9561-45ad-9628-85459f8cf26e"
+    },
+    {
+      "ItemId": "156d4e17-7996-4ed8-97ae-7e650c431b26",
+      "PreviousItemId": "0d279f0b-8cd2-4dda-be34-85aacd7b8b93"
+    },
+    {
+      "ItemId": "5236c6f5-9620-46bf-afdd-61448633a93d",
+      "PreviousItemId": "156d4e17-7996-4ed8-97ae-7e650c431b26"
+    },
+    {
+      "ItemId": "2cd5ea54-3094-4378-afd1-901e8c200847",
+      "PreviousItemId": "5236c6f5-9620-46bf-afdd-61448633a93d"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "DirRX.VacationsUI",
+  "IsLicensed": true,
+  "Overridden": [
+    "IsVisible",
+    "IsLicensed"
+  ],
+  "PublicConstants": [
+    {
+      "Name": "ModuleGuid",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"3079724b-1955-4e5b-9f9e-079d68a69109\")"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "DirRX.VacationsUI",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "DirRX.VacationsUI.Server",
+  "ServerNamespace": "DirRX.VacationsUI.Server",
+  "SharedAssemblyName": "DirRX.VacationsUI.Shared",
+  "SharedNamespace": "DirRX.VacationsUI.Shared",
+  "SpecialFolders": [],
+  "Version": "1.5.4227.3",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

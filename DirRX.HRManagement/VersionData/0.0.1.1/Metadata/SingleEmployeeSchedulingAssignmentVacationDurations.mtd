@@ -1,0 +1,75 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "b1ea75cf-1394-4f09-99f7-5d5fac9e12b5",
+  "Name": "SingleEmployeeSchedulingAssignmentVacationDurations",
+  "AccessRightsMode": "NoRight",
+  "BaseGuid": "a3d38bf5-0414-41f6-bb33-a4621d2e5a60",
+  "CanBeNavigationPropertyType": true,
+  "Code": "SingleEmploye1",
+  "ExtraSearchProperties": [],
+  "IsChildEntity": true,
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "74289fc0-b993-4e86-8135-8a02bbc94d52",
+      "Name": "SingleEmployeeSchedulingAssignment",
+      "CanBeSearch": false,
+      "Code": "Assignment",
+      "EntityGuid": "0fcd604f-0d39-4bb5-a912-ecf084fba6a7",
+      "IsReferenceToRootEntity": true,
+      "IsShowedInList": false
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "9ba368e0-a970-4c02-bc35-deee33ce0c1f",
+      "Name": "VacationKind",
+      "CanBeSearch": false,
+      "Code": "VacationKind",
+      "EntityGuid": "156d4e17-7996-4ed8-97ae-7e650c431b26",
+      "FlatListInStandaloneLookup": true,
+      "IsEnabled": false,
+      "IsShowedInList": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "74289fc0-b993-4e86-8135-8a02bbc94d52",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.IntegerPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "83b1dfce-c175-4395-bf70-d497bdb4e470",
+      "Name": "DaysCount",
+      "CanBeSearch": false,
+      "Code": "DaysCount",
+      "IsEnabled": false,
+      "IsShowedInList": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "9ba368e0-a970-4c02-bc35-deee33ce0c1f",
+      "Versions": []
+    }
+  ],
+  "PublicStructures": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "fb29644d-8a08-4bfd-9a2a-ebd2e4f3d80a",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "6913b53a-99e3-463f-bfcb-84599bbc51df",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 9
+    }
+  ]
+}

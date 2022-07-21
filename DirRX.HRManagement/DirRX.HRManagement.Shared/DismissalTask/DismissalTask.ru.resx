@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApprovalAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с параметрами заявления:
+1. Если поле "Дата увольнения" заполнено некорректно, укажите корректное значение и выполните задание с результатом "Согласовать".
+2. Если поле "Дата увольнения" заполнено корректно, то выполните задание с результатом "Согласовать".
+3. Если необходимо отказать в согласовании, то укажите причину в тексте задания и выполните задание с результатом "Отказать".</value>
+  </data>
+  <data name="ApprovalAssignmentSubject" xml:space="preserve">
+    <value>Согласуйте параметры заявления на увольнение сотрудника: {0}</value>
+  </data>
+  <data name="DismissalDocsReWorkAssignmentSubject" xml:space="preserve">
+    <value>Доработайте приказ об увольнении сотрудника: {0}</value>
+  </data>
+  <data name="DismissalDocsReWorkAssignmentInstruction" xml:space="preserve">
+    <value>Скорректируйте приказ в соответствии с замечаниями и выполните задание с результатом "Исправлено".</value>
+  </data>
+  <data name="PrepareDocAssignmentInstruction" xml:space="preserve">
+    <value>Сформируйте приказ по кнопке "Создать приказ", при необходимости скорректируйте сформированный документ. Выполните задание.</value>
+  </data>
+  <data name="PrepareDocAssignmentSubject" xml:space="preserve">
+    <value>Сформируйте и проверьте приказ об увольнении сотрудника: {0}</value>
+  </data>
+  <data name="SignSeoAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с приказом:
+1. Если замечания отсутствуют, выполните задание с результатом "Подписать" (приказ будет подписан автоматически при выполнении задания).
+2. Если имеются замечания, то укажите их в тексте задания и выполните задание с результатом "На доработку".</value>
+  </data>
+  <data name="SignAssignmentSubject" xml:space="preserve">
+    <value>Подпишите ЭП приказ об увольнении сотрудника: {0}</value>
+  </data>
+  <data name="DismissEmployeeAssignmentInstruction" xml:space="preserve">
+    <value>1. Внесите необходимые изменения в кадровые документы в связи с увольнением сотрудника.
+2. Организуйте ознакомление с личной карточкой под подпись увольняемым сотрудником.
+3. Выдайте необходимые документы сотруднику.
+4. Выполните задание.</value>
+  </data>
+  <data name="DismissEmployeeAssignmentSubject" xml:space="preserve">
+    <value>Выполните необходимые работы в связи с увольнением сотрудника: {0}</value>
+  </data>
+  <data name="ReApproveAssignmentSubject" xml:space="preserve">
+    <value>Скорректируйте параметры заявления на увольнение сотрудника: {0}</value>
+  </data>
+  <data name="AccounterDismissEmployeeAssignmentInstruction" xml:space="preserve">
+    <value>Осуществите необходимые финансовые операции в соответствии с увольнением сотрудника и выполните задание.</value>
+  </data>
+  <data name="EmployeeGoRoundAssignmentSubject" xml:space="preserve">
+    <value>Верните задолженности в ответственные службы</value>
+  </data>
+  <data name="RespGoRoundControlAssignmentSubject" xml:space="preserve">
+    <value>Примите задолженности увольняемого сотрудника: {0}</value>
+  </data>
+  <data name="RespGoRoundAssignmentSubject" xml:space="preserve">
+    <value>Проверьте задолженности увольняемого сотрудника: {0}</value>
+  </data>
+  <data name="RespGoRoundControlAssignmentInstruction" xml:space="preserve">
+    <value>1. Примите задолженности у сотрудника.
+2. При необходимости выполните работы в связи с увольнением сотрудника и выполните задание.</value>
+  </data>
+  <data name="EmployeeGoRoundAssignmentIntruction" xml:space="preserve">
+    <value>Верните задолженности сотрудникам ответственных служб:
+{0}</value>
+  </data>
+  <data name="AbortNotice" xml:space="preserve">
+    <value>Прекращен процесс увольнения сотрудника: {0}</value>
+  </data>
+  <data name="DismissalTaskSubject" xml:space="preserve">
+    <value>Увольнение сотрудника: {0}</value>
+  </data>
+  <data name="ErrorTextReWorkNoActiveText" xml:space="preserve">
+    <value>Перед выполнением задания с результатом "На доработку" укажите замечания в тексте задания.</value>
+  </data>
+  <data name="ErrorTextGoRoundNoActiveText" xml:space="preserve">
+    <value>Перед выполнением задания с результатом "К возврату" укажите задолженности в тексте задания.</value>
+  </data>
+  <data name="DeniedNoticeSubject" xml:space="preserve">
+    <value>Отказано в увольнении сотрудника: {0}</value>
+  </data>
+  <data name="SignStatementAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь со сформированным заявлением:
+1. Если замечания отсутствуют, то выполните задание с результатом "Подписать" (заявление будет подписано автоматически при выполнении задания).
+2. Если имеются замечания, то укажите их в тексте задания и выполните задание с результатом "На повторное согласование".</value>
+  </data>
+  <data name="SignStatementAssignmentSubject" xml:space="preserve">
+    <value>Проверьте и подпишите ЭП заявление на увольнение</value>
+  </data>
+  <data name="ApprovalSEOAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с параметрами заявления:
+1. Если замечания отсутствуют, то выполните задание с результатом "Согласовать".
+2. Если имеются замечания или необходимо отказать в согласовании, то выполните задание с результатом "Отказать".</value>
+  </data>
+  <data name="SignEmployeeAssignmenInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с приказом и выполните задание с результатом "Подписать" (приказ будет подписан автоматически при выполнении задания).</value>
+  </data>
+  <data name="DismissEmployeeAndPrintDocAssignmentInstruction" xml:space="preserve">
+    <value>1. Распечатайте приказ и организуйте его подписание в бумажном виде директором по персоналу.
+2. Внесите необходимые изменения в кадровые документы в связи с увольнением сотрудника.
+3. Распечатайте заявление. Организуйте подписание заявления в бумажном виде, ознакомление с личной карточкой и приказом под подпись увольняемым сотрудником.
+4. Выдайте необходимые документы сотруднику.
+5. Выполните задание.</value>
+  </data>
+  <data name="ErrorTextRefuseNoActiveText" xml:space="preserve">
+    <value>Перед выполнением задания с результатом "Отказать" укажите причину в тексте задания.</value>
+  </data>
+  <data name="RespGoRoundAssignmentInstruction" xml:space="preserve">
+    <value>Проверьте, имеются ли задолженности у увольняемого сотрудника:
+1. Если отсутствуют, то, при необходимости, выполните работы в связи с увольнением сотрудника и выполните задание с результатом "Работы выполнены".
+2. Если имеются, то укажите информацию о них в тексте задания и выполните задание с результатом "К возврату".</value>
+  </data>
+  <data name="ReApproveAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с замечаниями:
+1. При необходимости, скорректируйте параметры заявления и выполните задание с результатом "Согласовать".
+2. Если необходимо отказать в согласовании, то укажите причину в тексте задания и выполните задание с результатом "Отказать".</value>
+  </data>
+  <data name="ErrorTextReApproveNoActiveText" xml:space="preserve">
+    <value>Перед выполнением задания с результатом "На повторное согласование" укажите замечания в тексте задания.</value>
+  </data>
+  <data name="ActiveTextOnCreate" xml:space="preserve">
+    <value>Прошу согласовать увольнение сотрудника.</value>
+  </data>
+  <data name="SignEmployeeAssignmentSubject" xml:space="preserve">
+    <value>Подпишите ЭП приказ об увольнении </value>
+  </data>
+  <data name="ServiceAHOName" xml:space="preserve">
+    <value>Административно-хозяйственная служба</value>
+  </data>
+  <data name="ServiceITName" xml:space="preserve">
+    <value>ИТ-подразделение</value>
+  </data>
+  <data name="ServiceSBName" xml:space="preserve">
+    <value>Служба безопасности</value>
+  </data>
+</root>

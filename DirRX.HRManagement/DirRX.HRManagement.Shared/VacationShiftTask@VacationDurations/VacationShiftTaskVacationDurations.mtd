@@ -1,0 +1,136 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "b4db7399-7f20-45ee-83f2-57f3a9f0c4a8",
+  "Name": "VacationShiftTaskVacationDurations",
+  "AccessRightsMode": "NoRight",
+  "BaseGuid": "a3d38bf5-0414-41f6-bb33-a4621d2e5a60",
+  "CanBeNavigationPropertyType": true,
+  "Code": "VacationShiftT",
+  "ExtraSearchProperties": [],
+  "IsChildEntity": true,
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "93e2bf6d-2630-4ce4-9832-c83bef243bf2",
+      "Name": "VacationShiftTask",
+      "CanBeSearch": false,
+      "Code": "Task",
+      "EntityGuid": "cdbe3f36-59cd-45c9-958d-131b2958b2f4",
+      "IsReferenceToRootEntity": true,
+      "IsShowedInList": false
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "929c711d-d779-4dcd-9755-af099c664c18",
+      "Name": "VacationKind",
+      "CanBeSearch": false,
+      "Code": "VacationKind",
+      "EntityGuid": "156d4e17-7996-4ed8-97ae-7e650c431b26",
+      "FlatListInStandaloneLookup": true,
+      "IsEnabled": false,
+      "IsShowedInList": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "93e2bf6d-2630-4ce4-9832-c83bef243bf2",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.IntegerPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "2db9796b-e9db-499e-be80-533564a003a4",
+      "Name": "DaysShifted",
+      "CanBeSearch": false,
+      "Code": "DaysShifted",
+      "IsEnabled": false,
+      "IsShowedInList": false,
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "929c711d-d779-4dcd-9755-af099c664c18",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.IntegerPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "c17563ef-8ead-431a-b1d8-e460c14fb6f3",
+      "Name": "DaysPlaned",
+      "CanBeSearch": false,
+      "Code": "DaysPlaned",
+      "IsEnabled": false,
+      "IsShowedInList": false,
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "2db9796b-e9db-499e-be80-533564a003a4"
+    },
+    {
+      "$type": "Sungero.Metadata.IntegerPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "08d6e69f-ad5a-4041-9bdf-8f8856833add",
+      "Name": "DaysCanceled",
+      "CanBeSearch": false,
+      "Code": "DaysCanceled",
+      "IsEnabled": false,
+      "IsShowedInList": false,
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "c17563ef-8ead-431a-b1d8-e460c14fb6f3"
+    },
+    {
+      "$type": "Sungero.Metadata.IntegerPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "fe1a3b05-6f8a-415f-8cec-4e56e6995cf3",
+      "Name": "DaysComped",
+      "CanBeSearch": false,
+      "Code": "DaysComped",
+      "IsEnabled": false,
+      "IsShowedInList": false,
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "08d6e69f-ad5a-4041-9bdf-8f8856833add"
+    },
+    {
+      "$type": "Sungero.Metadata.IntegerPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "82d20b2f-03ac-467e-9241-36b4a986185f",
+      "Name": "DaysAvailComp",
+      "CanBeSearch": false,
+      "Code": "DaysAvailComp",
+      "IsEnabled": false,
+      "IsShowedInList": false,
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "fe1a3b05-6f8a-415f-8cec-4e56e6995cf3"
+    },
+    {
+      "$type": "Sungero.Metadata.IntegerPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "ca9e42d1-ce46-47bf-8fb0-9cc973a322ed",
+      "Name": "DaysUsed",
+      "CanBeSearch": false,
+      "Code": "DaysUsed",
+      "IsEnabled": false,
+      "IsShowedInList": false,
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "82d20b2f-03ac-467e-9241-36b4a986185f"
+    }
+  ],
+  "PublicStructures": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "33c0338f-31be-47f9-addb-10432076d07b",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "3265e2c8-1fce-45aa-9265-5a85e48d2034",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 11
+    }
+  ]
+}

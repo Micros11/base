@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ShiftApprovalAssignmentSubject" xml:space="preserve">
+    <value>Approve change of employee's vacation dates: {0}</value>
+  </data>
+  <data name="ErrorTextReWorkNoActiveText" xml:space="preserve">
+    <value>Enter your remarks in the assignment text before you complete it with the "For Rework" result.</value>
+  </data>
+  <data name="SignAssignmentSubject" xml:space="preserve">
+    <value>Sign vacation dates change order with electronic signature: {0}</value>
+  </data>
+  <data name="SignSeoAssignmentInstruction" xml:space="preserve">
+    <value>Read the order:
+1. If the order is correct, complete the assignment with the "Sign" result (the order will be signed automatically upon completion).
+2. If you have any remarks, specify them in the assignment text and complete the assignment with the "For Rework" result.</value>
+  </data>
+  <data name="PrepareOrderAssignmentSubject" xml:space="preserve">
+    <value>Check vacation dates change order: {0}</value>
+  </data>
+  <data name="PrepareOrderAssignmentInstruction" xml:space="preserve">
+    <value>1. Check the order and correct it if necessary.
+2. Complete the assignment.</value>
+  </data>
+  <data name="VacationShiftTaskSubject" xml:space="preserve">
+    <value>Change of vacation dates: {0}</value>
+  </data>
+  <data name="VacationShiftTaskActiveText" xml:space="preserve">
+    <value>Please approve the change of vacation dates.</value>
+  </data>
+  <data name="ShiftAbortNotice" xml:space="preserve">
+    <value>Vacation dates change aborted: {0}</value>
+  </data>
+  <data name="SignStatementAssignmentSubject" xml:space="preserve">
+    <value>Review and sign letter on vacation dates change with electronic signature</value>
+  </data>
+  <data name="SignStatementAssignmentInstruction" xml:space="preserve">
+    <value>1. Review the created letter.
+2. Complete the assignment with the "Sign" result. The letter will be signed automatically.</value>
+  </data>
+  <data name="SignAllPaperDocAssignmentInstruction" xml:space="preserve">
+    <value>1. Print out the order and have its hard copy signed by the HR manager.
+2. Print out the letter, have its hard copy signed by the employee and have the employee read the order with signed acknowledgement.
+3. Complete the assignment.</value>
+  </data>
+  <data name="SignAllPaperDocAssignmentSubject" xml:space="preserve">
+    <value>Have employee sign hard copies of letter and order on vacation dates change: {0}</value>
+  </data>
+  <data name="VacationDocsReWorkAssignmentSubject" xml:space="preserve">
+    <value>Correct vacation dates change order: {0}</value>
+  </data>
+  <data name="VacationDocsReWorkAssignmentInstruction" xml:space="preserve">
+    <value>Correct the order in accordance with the specified remarks and complete the assignment with the "Corrected" result.</value>
+  </data>
+  <data name="SignEmployeeAssignmenInstruction" xml:space="preserve">
+    <value>Read the order and complete the assignment with the "Sign" result (the order will be signed automatically upon completion).</value>
+  </data>
+  <data name="SignEmployeeAssignmentSubject" xml:space="preserve">
+    <value>Review order on vacation dates change</value>
+  </data>
+  <data name="ShiftReApproveInitiatorAssignmentSubject" xml:space="preserve">
+    <value>Rework parameters of vacation dates change</value>
+  </data>
+  <data name="NotDistributedVacationDays" xml:space="preserve">
+    <value>Days of vacation left to change:
+{0}</value>
+  </data>
+  <data name="ShiftTemplateNewDates" xml:space="preserve">
+    <value>from {0} to {1} - {2}</value>
+  </data>
+  <data name="StartDateLessTodayError" xml:space="preserve">
+    <value>The beginning date must be greater than the current date.</value>
+  </data>
+  <data name="NeedSelectVacationForShift" xml:space="preserve">
+    <value>Specify a vacation to change and new vacation dates.</value>
+  </data>
+  <data name="EnterNewDates1" xml:space="preserve">
+    <value>Specify the beginning and the duration of the first vacation part.</value>
+  </data>
+  <data name="EnterNewDates2" xml:space="preserve">
+    <value>Specify the beginning and the duration of the second vacation part.</value>
+  </data>
+  <data name="EnterNewDates3" xml:space="preserve">
+    <value>Specify the beginning and the duration of the third vacation part.</value>
+  </data>
+  <data name="AllDistributedVacationDays" xml:space="preserve">
+    <value>All vacation days scheduled.</value>
+  </data>
+  <data name="VacationDaysCanceled" xml:space="preserve">
+    <value>Days canceled:
+{0}</value>
+  </data>
+  <data name="VacationDaysCompensationed" xml:space="preserve">
+    <value>Days compensated:
+{0}</value>
+  </data>
+  <data name="VacationDaysRequiredToDistribute" xml:space="preserve">
+    <value>Scheduling required</value>
+  </data>
+  <data name="RecallReApproveInitiatorAssignmentSubject" xml:space="preserve">
+    <value>Correct parameters of recall from vacation from {0}</value>
+  </data>
+  <data name="RecallApprovalAssignmentSubject" xml:space="preserve">
+    <value>Approve recall from vacation of employee {1} from {0}</value>
+  </data>
+  <data name="VacationRecallTaskSubject" xml:space="preserve">
+    <value>Recall from vacation: {0}</value>
+  </data>
+  <data name="StatementCompensationPart" xml:space="preserve">
+    <value>{0} for {1} days</value>
+  </data>
+  <data name="VacationRecallTaskActiveText" xml:space="preserve">
+    <value>Please approve the recall from vacation.</value>
+  </data>
+  <data name="RecallAbortNotice" xml:space="preserve">
+    <value>Recall from vacation aborted: {0}</value>
+  </data>
+  <data name="SignRecallStatementAssignmentSubject" xml:space="preserve">
+    <value>Review and sign letter on recall from vacation from {0} with electronic signature</value>
+  </data>
+  <data name="PrepareRecallOrderAssignmentSubject" xml:space="preserve">
+    <value>Check order on recall from vacation: {0}</value>
+  </data>
+  <data name="SignAssignmentRecallSubject" xml:space="preserve">
+    <value>Sign order on recall of {0} from vacation with your electronic signature</value>
+  </data>
+  <data name="VacationRecallDocsReWorkAssignmentSubject" xml:space="preserve">
+    <value>Rework order on recall from vacation: {0}</value>
+  </data>
+  <data name="SignEmployeeRecallAssignmentSubject" xml:space="preserve">
+    <value>Review order on recall from vacation</value>
+  </data>
+  <data name="SignAllPaperRecallDocAssignmentSubject" xml:space="preserve">
+    <value>Have letter and order on recall from vacation signed: {0}</value>
+  </data>
+  <data name="RecallEmployeeApprovalAssignmentSubject" xml:space="preserve">
+    <value>Approve recall from vacation from {0}</value>
+  </data>
+  <data name="VacationRequiredDurationError" xml:space="preserve">
+    <value>This is the only vacation period that meets the requirements to the duration of main vacation part. To ignore the requirements, select the "Do not check duration of vacation period" checkbox.</value>
+  </data>
+  <data name="EnabledCompensation" xml:space="preserve">
+    <value>Available if all days of annual paid vacation are scheduled</value>
+  </data>
+  <data name="VacationRequiredDurationWarning" xml:space="preserve">
+    <value>This is the only vacation period that meets the requirements to the duration of main vacation part.</value>
+  </data>
+  <data name="ShiftDeniedNoticeSubject" xml:space="preserve">
+    <value>Change of vacation dates declined</value>
+  </data>
+  <data name="ShiftDeniedEmployeeNoticeSubject" xml:space="preserve">
+    <value>Employee refused to change vacation dates: {0}</value>
+  </data>
+  <data name="RecallDeniedNoticeSubject" xml:space="preserve">
+    <value>Recall from vacation refused</value>
+  </data>
+  <data name="RecallDeniedEmployeeNoticeSubject" xml:space="preserve">
+    <value>Employee refused to be recalled from vacation</value>
+  </data>
+  <data name="ErrorTextDenyNoActiveText" xml:space="preserve">
+    <value>Enter your remarks in the assignment text before you complete it with the "Deny" result.</value>
+  </data>
+  <data name="DeniedPersonnalOfficeNotice" xml:space="preserve">
+    <value>{0}
+Reason: {1}</value>
+  </data>
+</root>

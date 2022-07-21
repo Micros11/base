@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Property_TemplateSettings" xml:space="preserve">
+    <value>Настройка шаблонов</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Настройки модуля</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Настройки модуля</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Настройки модуля</value>
+  </data>
+  <data name="Property_BusinessUnit" xml:space="preserve">
+    <value>Наша организация</value>
+  </data>
+  <data name="Form_a89ef67a55224430a2086db34fb4c4df" xml:space="preserve">
+    <value>Шаблоны</value>
+  </data>
+  <data name="ControlGroup_17f817f268d044a4a8af47299a968b3e" xml:space="preserve">
+    <value>Настройка шаблонов</value>
+  </data>
+  <data name="Property_MinDaysForVacationApproval" xml:space="preserve">
+    <value>Минимальное количество дней для оформления отпуска</value>
+  </data>
+  <data name="Property_OriginalDocInStaff" xml:space="preserve">
+    <value>Движение персонала</value>
+  </data>
+  <data name="Enum_OriginalDocInStaff_AllPaperDoc" xml:space="preserve">
+    <value>Требуются</value>
+  </data>
+  <data name="Enum_OriginalDocInStaff_OnlyBilDocPaper" xml:space="preserve">
+    <value>Требуются для договорных документов</value>
+  </data>
+  <data name="Enum_OriginalDocInStaff_ElectronicDoc" xml:space="preserve">
+    <value>Не требуются</value>
+  </data>
+  <data name="Enum_Status_Active" xml:space="preserve">
+    <value>Действующая</value>
+  </data>
+  <data name="ControlGroup_13238d191d2e48759b37d487722f2211" xml:space="preserve">
+    <value>Оригиналы бумажных документов</value>
+  </data>
+  <data name="Property_OriginalDocInVacation" xml:space="preserve">
+    <value>Отпуска</value>
+  </data>
+  <data name="Enum_OriginalDocInVacation_ElectronicDoc" xml:space="preserve">
+    <value>Не требуются</value>
+  </data>
+  <data name="Enum_OriginalDocInVacation_AllPaperDoc" xml:space="preserve">
+    <value>Требуются</value>
+  </data>
+  <data name="Property_PeoplePercentage" xml:space="preserve">
+    <value>Количество сотрудников подразделения, которые могут одновременно находиться в отпуске, в %</value>
+  </data>
+  <data name="Property_DaysCountBeforeVacationAlert" xml:space="preserve">
+    <value>За сколько дней до начала отпуска придет задание на подтверждение</value>
+  </data>
+  <data name="Property_RequiredOnePartDuration" xml:space="preserve">
+    <value>Требуемая продолжительность одной части основного вида отпуска, в днях</value>
+  </data>
+  <data name="Property_DaysCountVacationPay" xml:space="preserve">
+    <value>За сколько дней до начала отпуска необходимо выплатить отпускные</value>
+  </data>
+  <data name="Property_VacationPlaningDuration" xml:space="preserve">
+    <value>Количество дней для планирования отпуска сотрудником</value>
+  </data>
+  <data name="Property_VacationCheckDuration" xml:space="preserve">
+    <value>Количество дней для проверки отпусков руководителем подразделения</value>
+  </data>
+  <data name="Property_MonthOfVacationYearBorder" xml:space="preserve">
+    <value>По какой месяц можно оформить отпуск на следующий год</value>
+  </data>
+  <data name="Property_IsScheduleUsed" xml:space="preserve">
+    <value>В организации используется график отпусков</value>
+  </data>
+  <data name="ControlGroup_278e292fe230491d8007fb3d6c9ac60f" xml:space="preserve">
+    <value>Отпуска</value>
+  </data>
+  <data name="Property_VacationScheduleAcquaintance" xml:space="preserve">
+    <value>Количество дней для ознакомления с графиком отпусков</value>
+  </data>
+  <data name="Enum_MonthOfVacationYearBorder_January" xml:space="preserve">
+    <value>Январь</value>
+  </data>
+  <data name="Enum_MonthOfVacationYearBorder_February" xml:space="preserve">
+    <value>Февраль</value>
+  </data>
+  <data name="Enum_MonthOfVacationYearBorder_March" xml:space="preserve">
+    <value>Март</value>
+  </data>
+  <data name="Enum_MonthOfVacationYearBorder_April" xml:space="preserve">
+    <value>Апрель</value>
+  </data>
+  <data name="Enum_MonthOfVacationYearBorder_July" xml:space="preserve">
+    <value>Июль</value>
+  </data>
+  <data name="Enum_MonthOfVacationYearBorder_September" xml:space="preserve">
+    <value>Сентябрь</value>
+  </data>
+  <data name="Enum_MonthOfVacationYearBorder_October" xml:space="preserve">
+    <value>Октябрь</value>
+  </data>
+  <data name="Enum_MonthOfVacationYearBorder_August" xml:space="preserve">
+    <value>Август</value>
+  </data>
+  <data name="Enum_MonthOfVacationYearBorder_December" xml:space="preserve">
+    <value>Декабрь</value>
+  </data>
+  <data name="Enum_MonthOfVacationYearBorder_November" xml:space="preserve">
+    <value>Ноябрь</value>
+  </data>
+  <data name="Enum_MonthOfVacationYearBorder_May" xml:space="preserve">
+    <value>Май</value>
+  </data>
+  <data name="Enum_MonthOfVacationYearBorder_June" xml:space="preserve">
+    <value>Июнь</value>
+  </data>
+  <data name="Property_IsVacationAcquaintanceNeeded" xml:space="preserve">
+    <value>Требуется ознакомление с графиком отпусков</value>
+  </data>
+  <data name="Property_MainVacationKind" xml:space="preserve">
+    <value>Основной вид отпуска</value>
+  </data>
+  <data name="Property_NeedAdvancedSign" xml:space="preserve">
+    <value>Требовать у сотрудников усиленную подпись</value>
+  </data>
+</root>

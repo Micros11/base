@@ -1,0 +1,199 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "0d41dd0b-da75-4e89-a09e-21c44caba9f7",
+  "Name": "PersonelUI",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "DirRX.PersonelUI.Client",
+  "ClientBaseAssemblyName": "DirRX.PersonelUI.ClientBase",
+  "ClientBaseNamespace": "DirRX.PersonelUI.ClientBase",
+  "ClientNamespace": "DirRX.PersonelUI.Client",
+  "Code": "PersUI",
+  "CompanyCode": "DirRX",
+  "Cover": {
+    "NameGuid": "d7d623fd-f41d-46db-a949-bcaca63921e9",
+    "Actions": [
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "17982db0-6d0f-464c-82eb-cfb1aa7fba98",
+        "Name": "StartTransferTaskAsEmployee",
+        "FunctionName": "StartTransferTaskAsEmployee",
+        "GroupId": "69ccdeee-d9fb-4e8a-b2da-e8e69a72fcd7"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "186f495d-20c4-49a5-9fb5-c74c61e91975",
+        "Name": "CreateSettingsReport",
+        "FunctionName": "CreateSettingsReport",
+        "GroupId": "4e87df15-9569-4aab-a3cd-30707c417e62",
+        "PreviousItemGuid": "f42f0e8d-43c3-4269-bcd6-c7da929183b2"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "194ca94a-b1c2-4c55-8812-2eb651959fc4",
+        "Name": "StartHiringTask",
+        "FunctionName": "CreateNewHiringTask",
+        "GroupId": "33b4ab28-728c-4727-a1ee-05768f009717"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "4a59f82e-71a6-4200-8e83-de2a2555748d",
+        "Name": "ExportDocuments",
+        "FunctionName": "ExportDocuments",
+        "GroupId": "7dbec782-141f-498c-99cb-5e1c0a791425"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "7afde8ed-20f7-4ef7-9e26-5288e26d8035",
+        "Name": "StartDismissalTask",
+        "FunctionName": "CreateNewDismissalTask",
+        "GroupId": "69ccdeee-d9fb-4e8a-b2da-e8e69a72fcd7",
+        "PreviousItemGuid": "17982db0-6d0f-464c-82eb-cfb1aa7fba98"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "809a97f9-5734-4693-80c0-2b0921113da9",
+        "Name": "ModuleSettings",
+        "EntityTypeId": "ca65e0f4-759e-4056-9ed5-6f2990ed839c",
+        "GroupId": "4e87df15-9569-4aab-a3cd-30707c417e62"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "e4259a54-70f7-4911-bc48-c89fe8757ec4",
+        "Name": "StartTransferTaskAsManager",
+        "FunctionName": "StartTransferTaskAsManager",
+        "GroupId": "33b4ab28-728c-4727-a1ee-05768f009717",
+        "PreviousItemGuid": "194ca94a-b1c2-4c55-8812-2eb651959fc4"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "f42f0e8d-43c3-4269-bcd6-c7da929183b2",
+        "Name": "RoleSettings",
+        "FunctionName": "ConfigureRolesByCompany",
+        "GroupId": "4e87df15-9569-4aab-a3cd-30707c417e62",
+        "PreviousItemGuid": "809a97f9-5734-4693-80c0-2b0921113da9"
+      }
+    ],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "6d9bae46-d82a-4a1a-9fb3-25fb6b42de7d",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [
+      {
+        "NameGuid": "69ccdeee-d9fb-4e8a-b2da-e8e69a72fcd7",
+        "Name": "PersonnelChanges",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconPersonnelChanges_69ccdeeed9fb4e8ab2dae8e69a72fcd7.png"
+      },
+      {
+        "NameGuid": "33b4ab28-728c-4727-a1ee-05768f009717",
+        "Name": "Recruitment",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconRecruitment_33b4ab28728c4727a1ee05768f009717.png",
+        "PreviousItemGuid": "69ccdeee-d9fb-4e8a-b2da-e8e69a72fcd7"
+      },
+      {
+        "NameGuid": "7dbec782-141f-498c-99cb-5e1c0a791425",
+        "Name": "ExportDocument",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconExportDocument_7dbec782141f498c99cb5e1c0a791425.png",
+        "PreviousItemGuid": "33b4ab28-728c-4727-a1ee-05768f009717"
+      },
+      {
+        "NameGuid": "4e87df15-9569-4aab-a3cd-30707c417e62",
+        "Name": "Setting",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconSetting_4e87df1595694aaba3cd30707c417e62.png",
+        "PreviousItemGuid": "7dbec782-141f-498c-99cb-5e1c0a791425"
+      }
+    ],
+    "Header": {
+      "NameGuid": "4b05141e-aeb0-4a5d-a00a-25d41a12a44e",
+      "BackgroundPosition": "Stretch",
+      "IconName": "HeaderIcon_4b05141eaeb04a5da00a25d41a12a44e.png"
+    }
+  },
+  "Dependencies": [
+    {
+      "Id": "5dec8ad1-8148-4d42-a54b-3f9a04e68cf0",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    },
+    {
+      "Id": "857518ef-9a4d-4c25-99d7-20e20d05cfc4",
+      "MaxVersion": "",
+      "MinVersion": "1.4.4000.0"
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "c135fb43-9561-45ad-9628-85459f8cf26e",
+      "PreviousItemId": "5890fbe9-1786-4074-bdcd-1c0bd269c591"
+    },
+    {
+      "ItemId": "0d279f0b-8cd2-4dda-be34-85aacd7b8b93",
+      "PreviousItemId": "c135fb43-9561-45ad-9628-85459f8cf26e"
+    },
+    {
+      "ItemId": "5890fbe9-1786-4074-bdcd-1c0bd269c591",
+      "PreviousItemId": "0d279f0b-8cd2-4dda-be34-85aacd7b8b93"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "DirRX.PersonelUI",
+  "Overridden": [
+    "IsLicensed"
+  ],
+  "PublicConstants": [
+    {
+      "Name": "ModuleGuid",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"0d41dd0b-da75-4e89-a09e-21c44caba9f7\")"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "DirRX.PersonelUI",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "DirRX.PersonelUI.Server",
+  "ServerNamespace": "DirRX.PersonelUI.Server",
+  "SharedAssemblyName": "DirRX.PersonelUI.Shared",
+  "SharedNamespace": "DirRX.PersonelUI.Shared",
+  "SpecialFolders": [
+    {
+      "NameGuid": "5890fbe9-1786-4074-bdcd-1c0bd269c591",
+      "Name": "LNAList",
+      "DefaultContentType": "46d21cdd-d7f9-4a32-be0e-07f21769037d",
+      "DisplayType": "Module",
+      "FilterPanel": {
+        "NameGuid": "361a1f4f-64f4-41c3-9666-9a134929485d",
+        "Name": "FilterPanel",
+        "Controls": []
+      },
+      "IsShow": true,
+      "Kind": "Computable",
+      "NeedShowMarkedCount": false
+    }
+  ],
+  "Version": "1.5.4227.3",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "$type": "Sungero.Metadata.ReportMetadata, Sungero.Reporting.Shared",
+  "NameGuid": "faf519e2-a00f-4346-a184-d00733d8ce86",
+  "Name": "AcquaintanceControlReport",
+  "AccessRightsMode": "NoRight",
+  "AssociatedGuid": "4cdd4742-2b9e-4b92-8c5b-9f5f451279d5",
+  "BaseGuid": "cef9a810-3f30-4eca-9fe3-30992af0b818",
+  "DataSources": [],
+  "DefaultExportFormat": "Word",
+  "ExportFormats": [
+    "Word"
+  ],
+  "HandledEvents": [
+    "AfterExecuteServer",
+    "BeforeExecuteServer",
+    "BeforeExecuteClient"
+  ],
+  "IconResourcesKeys": [],
+  "Overridden": [
+    "AccessRightsMode",
+    "PublicConstants",
+    "PublicStructures",
+    "Parameters",
+    "DataSources",
+    "ExportFormats",
+    "DefaultExportFormat",
+    "HandledEvents"
+  ],
+  "Parameters": [
+    {
+      "NameGuid": "e4f6db4c-093b-41f2-9a85-a5b42209aa02",
+      "Name": "AcquaintanceTask",
+      "EntityType": "4cdd4742-2b9e-4b92-8c5b-9f5f451279d5",
+      "InternalDataTypeName": "DirRX.HRLite.IAcquaintanceTask, Sungero.Domain.Interfaces",
+      "IsRequired": true
+    },
+    {
+      "NameGuid": "cfc6e36a-23f3-4c36-9b0a-846187d5ff4a",
+      "Name": "ReportSessionId",
+      "InternalDataTypeName": "System.String",
+      "IsRequired": true
+    },
+    {
+      "NameGuid": "dc6328d6-211a-4d83-bcd5-700d4b2edd18",
+      "Name": "Document",
+      "InternalDataTypeName": "System.String",
+      "IsRequired": true
+    },
+    {
+      "NameGuid": "2736d5e7-088c-455f-8496-d24ffe9da0a2",
+      "Name": "AddendaList",
+      "InternalDataTypeName": "System.String"
+    },
+    {
+      "NameGuid": "4f6833ac-34fb-49a4-bc64-5540be595039",
+      "Name": "Departments",
+      "EntityType": "61b1c19f-26e2-49a5-b3d3-0d3618151e12",
+      "InternalDataTypeName": "Sungero.Company.IDepartment, Sungero.Domain.Interfaces",
+      "IsCollection": true
+    },
+    {
+      "NameGuid": "3d458253-1c65-4dc9-bdcf-84e0653e93d7",
+      "Name": "ExcludeSigned",
+      "InternalDataTypeName": "System.Boolean",
+      "IsRequired": true,
+      "IsSimpleDataType": true
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [
+    "AcquaintanceSigned",
+    "AcquaintanceNotPerformed",
+    "AcquaintanceRefused",
+    "AddendaSubTitile",
+    "BusinessUnit"
+  ],
+  "Versions": []
+}

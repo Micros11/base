@@ -1,0 +1,56 @@
+{
+  "$type": "Sungero.Metadata.ReportMetadata, Sungero.Reporting.Shared",
+  "NameGuid": "8bcda50d-1aad-4a60-90bd-bfb2f169cb8a",
+  "Name": "VacationScheduleReport",
+  "AssociatedGuid": "857518ef-9a4d-4c25-99d7-20e20d05cfc4",
+  "BaseGuid": "cef9a810-3f30-4eca-9fe3-30992af0b818",
+  "DataSources": [
+    {
+      "NameGuid": "4dea8c39-be9f-46c9-9a81-96ff86918599",
+      "Name": "Vacation",
+      "EntityType": "e9716199-d89f-47c0-9d3c-40b78afd22e9"
+    }
+  ],
+  "DefaultExportFormat": "Pdf",
+  "ExportFormats": [
+    "Pdf"
+  ],
+  "HandledEvents": [
+    "BeforeExecuteServer"
+  ],
+  "IconResourcesKeys": [],
+  "Overridden": [
+    "PublicConstants",
+    "PublicStructures",
+    "DisplayName",
+    "Description",
+    "DataSources",
+    "Parameters",
+    "HandledEvents"
+  ],
+  "Parameters": [
+    {
+      "NameGuid": "428a9021-4c99-4e58-a3f9-fefd4e4021af",
+      "Name": "BuisnessUnit",
+      "EntityType": "eff95720-181f-4f7d-892d-dec034c7b2ab",
+      "InternalDataTypeName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+    },
+    {
+      "NameGuid": "2c0e4bb0-c8a9-4bbe-9ce9-071fdf93f7e8",
+      "Name": "Year",
+      "InternalDataTypeName": "System.DateTime",
+      "IsSimpleDataType": true
+    },
+    {
+      "NameGuid": "b7dfefd2-19ec-4a06-85b5-34906aafb8a0",
+      "Name": "CEOName",
+      "InternalDataTypeName": "System.String"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [
+    "VacationSchedule",
+    "Year"
+  ],
+  "Versions": []
+}

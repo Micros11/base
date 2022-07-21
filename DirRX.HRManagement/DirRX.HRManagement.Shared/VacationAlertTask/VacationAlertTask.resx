@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VacationAlertTaskSubject" xml:space="preserve">
+    <value>Confirm scheduled vacation {0} from {1} to {2}</value>
+  </data>
+  <data name="VacationApprovalAssignmentSubject" xml:space="preserve">
+    <value>Confirm vacation dates from {0} to {1}</value>
+  </data>
+  <data name="VacationApprovalAssignmentInstruction" xml:space="preserve">
+    <value>Review the notice:
+1. Make sure that the specified dates are correct.
+2. Check the substitute specified in the "Substitute" field and change it if necessary. 
+3. Complete the assignment with the "Confirm" result. The notice will be signed automatically.
+4. If you need to change the dates of the vacation, complete the assignment with the "Change Vacation Dates" result.</value>
+  </data>
+  <data name="AccounterAssignmentInstruction" xml:space="preserve">
+    <value>Do the necessary financial operations related to the vacation of the employee and complete the assignment.</value>
+  </data>
+  <data name="AccounterAssignmentSubject" xml:space="preserve">
+    <value>Take necessary actions on vacation: {0}</value>
+  </data>
+  <data name="ShiftTaskAbortingReasons" xml:space="preserve">
+    <value>The task to change vacation dates was aborted automatically as the change was not approved in due time.</value>
+  </data>
+  <data name="AccounterAssignmentAbortingInstruction" xml:space="preserve">
+    <value>The change of vacation dates was canceled. The scheduled vacation dates were not changed.</value>
+  </data>
+  <data name="AccounterAssignmentShiftExpiredInstruction" xml:space="preserve">
+    <value>The change of vacation dates was not approved in due time. The scheduled vacation dates were not changed.</value>
+  </data>
+  <data name="ManagerNoticeSubject" xml:space="preserve">
+    <value>Confirm scheduled vacation {0} from {1} to {2}</value>
+  </data>
+  <data name="SubstitutionChangeSubject" xml:space="preserve">
+    <value>Specify substitute</value>
+  </data>
+  <data name="EmployeeFieldName" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="SubstitutionWillBeChanged" xml:space="preserve">
+    <value>The substitution will be corrected.</value>
+  </data>
+  <data name="VacationApprovedSubject" xml:space="preserve">
+    <value>Vacation of {0} from {1} to {2} confirmed</value>
+  </data>
+  <data name="Vacation" xml:space="preserve">
+    <value>Vacation</value>
+  </data>
+  <data name="VacationApprovedInstruction" xml:space="preserve">
+    <value>The substitute for the vacation period is {0}. If necessary, change the substitution by clicking "Change Substitution".</value>
+  </data>
+  <data name="SubstitutionWillBeCreated" xml:space="preserve">
+    <value>The substitution will be created.</value>
+  </data>
+  <data name="SubstitutionWillBeDeleted" xml:space="preserve">
+    <value>The substitution will be deleted.</value>
+  </data>
+  <data name="SignPaperDocAssignmentSubject" xml:space="preserve">
+    <value>Make sure {0} prints and signs notice on vacation beginning</value>
+  </data>
+  <data name="SignPaperDocAssignmentInstruction" xml:space="preserve">
+    <value>1. Review and confirm the notice on vacation beginning.
+2. Complete the assignment.</value>
+  </data>
+  <data name="VacationApprovalAssignmentAllPaperInstruction" xml:space="preserve">
+    <value>Review the notice:
+1. Make sure that the specified dates are correct.
+2. Check the substitute specified in the "Substitute" field and change it if necessary.
+3. Print out and sign the notice. Submit the signed notice to the responsible employee.
+4. Complete the assignment with the "Confirm" result.
+5. If you need to change the dates of the vacation, complete the assignment with the "Change Vacation Dates" result.</value>
+  </data>
+  <data name="PrintAndSingPaperVacationAlertSubject" xml:space="preserve">
+    <value>Print out notice on vacation beginning and submit it to responsible employee</value>
+  </data>
+  <data name="SignVacationAlertShiftDeadlineDocInstruction" xml:space="preserve">
+    <value>The change of vacation dates was not approved in due time. The scheduled vacation dates were not changed.
+1. Print out and sign the notice. Submit the signed notice to the responsible employee.
+2. Complete the assignment.</value>
+  </data>
+  <data name="SignVacationAlertShiftCanceledDocInstruction" xml:space="preserve">
+    <value>The change of vacation dates was canceled. The scheduled vacation dates were not changed.
+Print out and sign the notice and submit it to the employee responsible for vacations.
+Complete the assignment.</value>
+  </data>
+  <data name="VacationApprovedWithoutSubstitutionInstruction" xml:space="preserve">
+    <value>A substitute for the vacation period is not specified. If necessary, specify the substitute by clicking "Change Substitution".</value>
+  </data>
+</root>

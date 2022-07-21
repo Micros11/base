@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HiringTaskSubject" xml:space="preserve">
+    <value>Трудоустройство сотрудника: {0}</value>
+  </data>
+  <data name="PreparingAssignmentSubject" xml:space="preserve">
+    <value>Выполните необходимые работы в связи с трудоустройством сотрудника: {0}</value>
+  </data>
+  <data name="HRRegistrationNoPersAgreementInstruction" xml:space="preserve">
+    <value>1. Занесите в систему все необходимые сведения о новом сотруднике, после чего по кнопке "Создать документы" сформируйте кадровые документы.
+2. Распечатайте и организуйте подписание в бумажном виде новым сотрудником согласия на обработку персональных данных и заявления о присоединении к соглашению об электронном взаимодействии.
+3. Выполните задание.</value>
+  </data>
+  <data name="SignAllPaperDocAssignmentSubject" xml:space="preserve">
+    <value>Организуйте подписание в бумажном виде трудового договора и приказа о приеме сотрудника: {0}</value>
+  </data>
+  <data name="ManagerAssignmentInstruction" xml:space="preserve">
+    <value>Организуйте встречу нового сотрудника и подключение к работе. Выполните задание.</value>
+  </data>
+  <data name="SignPaperEmploymentContractAssignmentInstruction" xml:space="preserve">
+    <value>Распечатайте трудовой договор и организуйте его подписание в бумажном виде директором по персоналу и новым сотрудником. Выполните задание.</value>
+  </data>
+  <data name="SignAllPaperDocAssignmentInstruction" xml:space="preserve">
+    <value>1. Распечатайте трудовой договор, приказ и организуйте их подписание в бумажном виде директором по персоналу.
+2. Организуйте подписание в бумажном виде трудового договора и ознакомление с приказом под подпись новым сотрудником.
+3. Выполните задание.</value>
+  </data>
+  <data name="ITResponsibleAssignmentInstruction" xml:space="preserve">
+    <value>1. Создайте учетную запись для нового сотрудника.
+2. Создайте право подписи, при необходимости выдайте сертификат ЭП и выполните задание.</value>
+  </data>
+  <data name="SecurityResponsibleAssignmentInstruction" xml:space="preserve">
+    <value>Подготовьте и выдайте пропуск новому сотруднику. Выполните задание.</value>
+  </data>
+  <data name="SupplyResponsibleAssignmentInstruction" xml:space="preserve">
+    <value>Подготовьте рабочее место для нового сотрудника и выполните задание.</value>
+  </data>
+  <data name="SignPaperEmploymentContractAssignmentSubject" xml:space="preserve">
+    <value>Организуйте подписание в бумажном виде трудового договора с сотрудником: {0}</value>
+  </data>
+  <data name="SignSeoOrderAndEmploymentContractAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с трудовым договором и приказом:
+1. Если нет замечаний, то выполните задание с результатом "Подписать" (трудовой договор и приказ будут подписаны автоматически при выполнении задания).
+2. Если есть замечания, то зафиксируйте их в тексте задания и выполните задание с результатом "На доработку".</value>
+  </data>
+  <data name="SignEmploymentDocsSubject" xml:space="preserve">
+    <value>Ознакомьтесь с ЛНА, подпишите ЭП трудовой договор и приказ о приеме</value>
+  </data>
+  <data name="ReWorkDocsAssignmentInstruction" xml:space="preserve">
+    <value>Скорректируйте документы в соответствии с замечаниями и выполните задание с результатом "Исправлено".</value>
+  </data>
+  <data name="ReWorkDocsAssignmentSubject" xml:space="preserve">
+    <value>Доработайте документы по трудоустройству сотрудника: {0}</value>
+  </data>
+  <data name="SignEmploymentContractAssignmentInstruction" xml:space="preserve">
+    <value>1. Ознакомьтесь с локальными нормативными актами, трудовым договором и приказом.
+2. Выполните задание с результатом "Подписать" (трудовой договор и приказ будут подписаны автоматически при выполнении задания).</value>
+  </data>
+  <data name="HRRegistrationInstruction" xml:space="preserve">
+    <value>1. Занесите в систему все необходимые сведения о новом сотруднике, после чего по кнопке "Создать документы" сформируйте кадровые документы.
+2. Распечатайте и организуйте подписание в бумажном виде новым сотрудником заявления о присоединении к соглашению об электронном взаимодействии.
+3. Выполните задание.</value>
+  </data>
+  <data name="AbortNotice" xml:space="preserve">
+    <value>Прекращено трудоустройство сотрудника: {0}</value>
+  </data>
+  <data name="HiringTaskActiveText" xml:space="preserve">
+    <value>Прошу оформить нового сотрудника.</value>
+  </data>
+  <data name="SignSeoEmploymentDocsSubject" xml:space="preserve">
+    <value>Подпишите ЭП трудовой договор и приказ о приеме нового сотрудника: {0}</value>
+  </data>
+  <data name="ErrorTextReWorkNoActiveText" xml:space="preserve">
+    <value>Перед выполнением задания с результатом "На доработку" укажите замечания в тексте задания.</value>
+  </data>
+</root>

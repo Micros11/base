@@ -1,0 +1,228 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "5236c6f5-9620-46bf-afdd-61448633a93d",
+  "Name": "PaymentCalendar",
+  "Actions": [
+    {
+      "NameGuid": "a16e3a95-3011-43d4-a6da-f6ec876d62cd",
+      "Name": "FillDate",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_Fill_large_a16e3a95301143d4a6daf6ec876d62cd.png",
+      "SmallIconName": "Action_Fill_small_a16e3a95301143d4a6daf6ec876d62cd.png"
+    }
+  ],
+  "BaseGuid": "04581d26-0780-4cfd-b3cd-c2cafc5798b0",
+  "CanBeNavigationPropertyType": true,
+  "Code": "PayCalendar",
+  "CreationAreaMetadata": {
+    "NameGuid": "f7766750-eee2-4fcd-8003-5c06a90d1f44",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true
+  },
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "b0125fbd-3b91-4dbb-914a-689276216404",
+    "Name": "FilterPanel",
+    "Controls": [],
+    "IsAncestorMetadata": true
+  },
+  "Forms": [
+    {
+      "$type": "Sungero.Metadata.StandaloneFormMetadata, Sungero.Metadata",
+      "NameGuid": "7e96f0c9-29f1-42f1-aa8e-474371d97039",
+      "Name": "Card",
+      "Controls": [
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "40ebf365-a112-4124-858b-c940b02feab3",
+          "Name": "ControlGroup",
+          "ColumnDefinitions": [
+            {
+              "Percentage": 66.48
+            },
+            {
+              "Percentage": 33.52
+            }
+          ]
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "7c420d8b-582b-4d1e-a79a-421174de7b9e",
+          "Name": "PaymentDays",
+          "ColumnNumber": 0,
+          "ColumnSpan": 2,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.GridControlToChildCollectionBinder",
+          "HeaderLocation": "None",
+          "ParentGuid": "40ebf365-a112-4124-858b-c940b02feab3",
+          "PropertyGuid": "1400bea8-e99d-4485-9420-4242e818158a",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": [
+            {
+              "Name": "NeedExpand",
+              "Value": true
+            }
+          ]
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "d2a14e48-e5df-4dde-a503-03050a6a414e",
+          "Name": "BusinessUnits",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.MultiLikeEditorToCollectionBinder",
+          "ParentGuid": "40ebf365-a112-4124-858b-c940b02feab3",
+          "PropertyGuid": "a096c162-8128-4fab-b97b-2f1b8e7cd397",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": [
+            {
+              "Name": "NavigationPropertyGuid",
+              "Value": "7f14c412-79b1-42f3-90c6-066211647a47"
+            },
+            {
+              "Name": "IsDuplicatesAllowed",
+              "Value": false
+            }
+          ]
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "47d35465-3db6-4ebe-9a0d-5cdfa0e5be55",
+          "Name": "Year",
+          "ColumnNumber": 1,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+          "ParentGuid": "40ebf365-a112-4124-858b-c940b02feab3",
+          "PropertyGuid": "1e7d6fdf-09c0-4f89-9f80-4ab7cb44fc21",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        }
+      ]
+    }
+  ],
+  "HandledEvents": [
+    "CreatedServer",
+    "BeforeSaveServer"
+  ],
+  "IconResourcesKeys": [],
+  "IsCacheable": true,
+  "IsVisible": false,
+  "OperationsClass": "",
+  "Overridden": [
+    "IsCacheable",
+    "IsVisible",
+    "HideFromCreationArea",
+    "HideFromNavigationEditorCreationArea"
+  ],
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "af4d6ffd-7313-4ccf-bde0-99dc0a79156a",
+      "Name": "Name",
+      "Code": "Name",
+      "IsDisplayValue": true,
+      "IsQuickSearchAllowed": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "1dcedc29-5140-4770-ac92-eabc212326a1"
+    },
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "1400bea8-e99d-4485-9420-4242e818158a",
+      "Name": "Calendar",
+      "Code": "PaymentCalenda",
+      "EntityGuid": "bc42bfc0-7081-4621-bf1d-49da1c2cde9f",
+      "IsRequired": true,
+      "IsShowedInList": false,
+      "PreviousPropertyGuid": "af4d6ffd-7313-4ccf-bde0-99dc0a79156a"
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "1e7d6fdf-09c0-4f89-9f80-4ab7cb44fc21",
+      "Name": "Year",
+      "Code": "Year",
+      "DateTimeFormat": "Year",
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "1400bea8-e99d-4485-9420-4242e818158a"
+    },
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "a096c162-8128-4fab-b97b-2f1b8e7cd397",
+      "Name": "BusinessUnits",
+      "Code": "PaymentCalend1",
+      "EntityGuid": "8e20874d-2500-4b43-ba36-221dce286937",
+      "IsShowedInList": false,
+      "PreviousPropertyGuid": "1e7d6fdf-09c0-4f89-9f80-4ab7cb44fc21"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "95ba5c0e-cb76-4e09-ba7b-756a105e1629",
+      "Name": "BusinessUnitNames",
+      "Code": "BusUnitNames",
+      "IsEnabled": false,
+      "IsVisibility": false,
+      "Length": 500,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "a096c162-8128-4fab-b97b-2f1b8e7cd397"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [
+    "DuplicateDate",
+    "IncorrectYear",
+    "DuplicateYear",
+    "DuplicateYearAndBusinessUnit",
+    "PaymentCalendarName"
+  ],
+  "RibbonCardMetadata": {
+    "NameGuid": "d2840325-3a16-4858-8629-9579882466d6",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "f7fbb4b0-1906-421f-8a66-adb3788d6fdb",
+        "Name": "FillButton",
+        "ActionGuid": "a16e3a95-3011-43d4-a6da-f6ec876d62cd",
+        "Index": 0,
+        "ParentGuid": "de2a05f4-cfe5-428f-8254-4df4576cb4ad"
+      }
+    ],
+    "Groups": [
+      {
+        "NameGuid": "de2a05f4-cfe5-428f-8254-4df4576cb4ad",
+        "Name": "ActionGroup",
+        "IconName": null,
+        "Index": 21,
+        "ParentGuid": "21a31627-5f58-4416-8c4a-90f538ee2e57",
+        "SmallIconName": null
+      }
+    ],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "fa1ff960-7bbe-45ef-a610-e4443bc47219",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 9
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 2
+    }
+  ]
+}

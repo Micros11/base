@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Document Management</value>
+  </data>
+  <data name="CoverTitle" xml:space="preserve">
+    <value>Document Management</value>
+  </data>
+  <data name="CoverGroup_Setting" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="CoverGroup_CreateDocumentGroup" xml:space="preserve">
+    <value>Create Documents</value>
+  </data>
+  <data name="CoverDescription_ImportOrgStructure" xml:space="preserve">
+    <value>Import organization structure.</value>
+  </data>
+  <data name="CoverAction_ImportOrgStructure" xml:space="preserve">
+    <value>Import organization structure</value>
+  </data>
+  <data name="CoverDescription_ShowAllLRD" xml:space="preserve">
+    <value>Show all local regulation documents.</value>
+  </data>
+  <data name="CoverAction_ShowAllLRD" xml:space="preserve">
+    <value>Local regulation documents</value>
+  </data>
+  <data name="CoverDescription_ShowAllBilaterial" xml:space="preserve">
+    <value>Show all bilaterial documents.</value>
+  </data>
+  <data name="CoverAction_ShowAllBilaterial" xml:space="preserve">
+    <value>HR bilaterial documents</value>
+  </data>
+  <data name="CoverDescription_ShowAllPersonnel" xml:space="preserve">
+    <value>Show all personnel documents.</value>
+  </data>
+  <data name="CoverAction_ShowAllPersonnel" xml:space="preserve">
+    <value>Personnel documents</value>
+  </data>
+  <data name="CoverGroup_InformingGroup" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="CoverAction_CreateInformingTask" xml:space="preserve">
+    <value>Send Notification</value>
+  </data>
+  <data name="CoverDescription_CreateInformingTask" xml:space="preserve">
+    <value>Send an information message to employees.</value>
+  </data>
+  <data name="CoverAction_ShowRoles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="CoverDescription_ShowRoles" xml:space="preserve">
+    <value>Include employees in roles.</value>
+  </data>
+  <data name="CoverDescription" xml:space="preserve">
+    <value>This module is where you can automate HR document management.</value>
+  </data>
+  <data name="JobDisplayName_518fb541327043a48c7f387b05049628" xml:space="preserve">
+    <value>HR Pro. Documents. Send notices on upcoming deadline for acquaintance tasks</value>
+  </data>
+  <data name="JobDescription_518fb541327043a48c7f387b05049628" xml:space="preserve">
+    <value>Monitor tasks to acquaintant employees with HR documents and company regulations and send notices on upcoming deadline to task initiators.</value>
+  </data>
+  <data name="JobDisplayName_71e7f067ec7b4730aafa3fc4d4d1317e" xml:space="preserve">
+    <value>HR Pro. Documents. Send notices on upcoming deadline for tasks to sign HR contractual documents</value>
+  </data>
+  <data name="JobDescription_71e7f067ec7b4730aafa3fc4d4d1317e" xml:space="preserve">
+    <value>Monitor tasks to sign HR contractual documents and send notices on upcoming deadline to task initiators.</value>
+  </data>
+  <data name="sf_b79b323f_c627_43d0_b9d0_88651df98924" xml:space="preserve">
+    <value>To Control</value>
+  </data>
+  <data name="sf_7cf49851_f819_4ab4_b530_2ff5fd0edbcd" xml:space="preserve">
+    <value>HR tasks</value>
+  </data>
+  <data name="FilterPanel_TaskTypeGroup_b6a8a81ac8e44ad7b98885bb7ed9deb9" xml:space="preserve">
+    <value>Task Type</value>
+  </data>
+  <data name="FilterPanel_TaskTypeFlagsList_8a25fbdaa2364221a066afd084ea6e0c" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FilterPanel_AcquaintanceTask_4bd8d601b97d407d99402bc54b49d924" xml:space="preserve">
+    <value>Acquaintance</value>
+  </data>
+  <data name="FilterPanel_InformingTask_49722ff4c93a41fc9eb2b3f2d4421b27" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="FilterPanel_SignTask_a42c04c032fb48b7a8868bc0e17183af" xml:space="preserve">
+    <value>Signing</value>
+  </data>
+  <data name="FilterPanel_StartDateGroup_5efa7361ee574a7d8430319bb9c7a22a" xml:space="preserve">
+    <value>Sent in the Last</value>
+  </data>
+  <data name="FilterPanel_Today_ad5e8177e1b14f15b7492eed0c3a6108" xml:space="preserve">
+    <value>1 Day</value>
+  </data>
+  <data name="FilterPanel_ThirtyDays_afd5d4b17ddb4fcaa8b5cc95748f97e2" xml:space="preserve">
+    <value>30 Days</value>
+  </data>
+  <data name="FilterPanel_NinetyDays_bd1e09e53fb64d7eb4bf7106ee9fedc5" xml:space="preserve">
+    <value>90 Days</value>
+  </data>
+  <data name="FilterPanel_OneHundretEightyDays_efb1dc6ba8f94fb09c998458b60fdb38" xml:space="preserve">
+    <value>180 Days</value>
+  </data>
+  <data name="FilterPanel_InitiatorGroup_b5920816b2d243f68d3a10bbda136f1d" xml:space="preserve">
+    <value>Taks</value>
+  </data>
+  <data name="FilterPanel_MyTasks_b77fc1878d8e44cda2a6807353ce235e" xml:space="preserve">
+    <value>Sent by Me</value>
+  </data>
+  <data name="FilterPanel_AllInitiatorsTasks_ccc9f320bb2e447ba345eada252e9cd5" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="FilterPanel_StatusGroup_73c0667e1bef4d469537f5bb3cac4179" xml:space="preserve">
+    <value>STATUS</value>
+  </data>
+  <data name="FilterPanel_InProcess_fea464de59f744e4b8133a845a98a817" xml:space="preserve">
+    <value>In process</value>
+  </data>
+  <data name="FilterPanel_Completed_e9f0347683e345d0a82f1ab956a4edb8" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="CoverGroup_LinksGroup" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="CoverAction_BusinessUnits" xml:space="preserve">
+    <value>Business units</value>
+  </data>
+  <data name="CoverDescription_BusinessUnits" xml:space="preserve">
+    <value>Open business units.</value>
+  </data>
+  <data name="CoverAction_Departments" xml:space="preserve">
+    <value>Departments</value>
+  </data>
+  <data name="CoverDescription_Departments" xml:space="preserve">
+    <value>Open departments.</value>
+  </data>
+  <data name="CoverAction_Employees" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="CoverDescription_Employees" xml:space="preserve">
+    <value>Open employees.</value>
+  </data>
+  <data name="CoverAction_CreateDocument" xml:space="preserve">
+    <value>Create document</value>
+  </data>
+  <data name="CoverDescription_CreateDocument" xml:space="preserve">
+    <value>Create a hr or simple type of document.</value>
+  </data>
+  <data name="AsyncHandler_Description_34fb41b68e404a10bc87f07ae608d4b8" xml:space="preserve">
+    <value>Update the Acquaintance List in the document version</value>
+  </data>
+  <data name="AsyncHandler_Description_bee72d3af26242c098184cdcc22b1c5d" xml:space="preserve">
+    <value>Import organization structure</value>
+  </data>
+  <data name="CoverAction_StatementsSetting" xml:space="preserve">
+    <value>Settings of Applications</value>
+  </data>
+  <data name="CoverDescription_StatementsSetting" xml:space="preserve">
+    <value>Specify settings of employees' applications.</value>
+  </data>
+  <data name="AsyncHandler_Description_b5b56e4ebcaf4dc39c3bba6fd2c66af8" xml:space="preserve">
+    <value>Send notice with attachment.</value>
+  </data>
+  <data name="CoverAction_TaskSettings" xml:space="preserve">
+    <value>Configure Approval and Signing</value>
+  </data>
+  <data name="CoverDescription_TaskSettings" xml:space="preserve">
+    <value>Configure parameters of document approval and signing.</value>
+  </data>
+  <data name="AsyncHandler_Description_0eed5d8269b3499fb7307aa7976b1fa0" xml:space="preserve">
+    <value>Create substitutions for all employees of person.</value>
+  </data>
+  <data name="CoverGroup_Statements" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="CoverAction_CreateStatement" xml:space="preserve">
+    <value>Create statement</value>
+  </data>
+  <data name="CoverDescription_CreateStatement" xml:space="preserve">
+    <value>Create and send an application.</value>
+  </data>
+  <data name="CoverAction_MyStatements" xml:space="preserve">
+    <value>Sent Applications</value>
+  </data>
+  <data name="CoverDescription_MyStatements" xml:space="preserve">
+    <value>Show the list of sent applications.</value>
+  </data>
+  <data name="CoverDescription_ShowAllStatements" xml:space="preserve">
+    <value>View all employees' applications.</value>
+  </data>
+  <data name="CoverAction_ShowAllStatements" xml:space="preserve">
+    <value>Employees' Applications</value>
+  </data>
+  <data name="AsyncHandler_Description_dea5c6af48854c0a8e4b2e0eb342f85b" xml:space="preserve">
+    <value>Refresh the "Consent for Digital HR Document Management" field in employee's card</value>
+  </data>
+  <data name="CoverAction_ConsentToKEDO" xml:space="preserve">
+    <value>Send Consent for Digital HR Document Management</value>
+  </data>
+  <data name="CoverDescription_ConsentToKEDO" xml:space="preserve">
+    <value>Send Consent for Digital HR Document Management to employees for singning.</value>
+  </data>
+  <data name="AsyncHandler_Description_61836113355048ba91d35b89bd618a94" xml:space="preserve">
+    <value>Send the Consent for Digital HR Document Management to employee</value>
+  </data>
+</root>

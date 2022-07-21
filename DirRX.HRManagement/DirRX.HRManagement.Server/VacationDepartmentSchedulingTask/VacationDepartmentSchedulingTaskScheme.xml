@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<RouteScheme xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MaxBlockId="9">
+  <Blocks>
+    <BlockBase xsi:type="StartBlock">
+      <Id>1</Id>
+    </BlockBase>
+    <BlockBase xsi:type="FinishBlock">
+      <Id>2</Id>
+      <UnderReview>false</UnderReview>
+      <ReviewAssignmentId>0</ReviewAssignmentId>
+    </BlockBase>
+    <BlockBase xsi:type="AssignmentBlock">
+      <Id>3</Id>
+      <Title>Планирование отпуска сотрудниками</Title>
+      <Text />
+      <GroupsAttachmentsRights />
+      <CustomProperties />
+      <TypeGuid>e45eb79f-e3ef-44c9-b17b-549e61dfcf2f</TypeGuid>
+      <CreatedEntitiesIds />
+      <Performers />
+      <IsStopped>false</IsStopped>
+      <IsParallel>true</IsParallel>
+      <AbsoluteDeadline>0001-01-01T00:00:00</AbsoluteDeadline>
+      <RelativeDeadline>3.00:00:00</RelativeDeadline>
+      <RelativeDeadlineDays>3</RelativeDeadlineDays>
+      <RelativeDeadlineHours>0</RelativeDeadlineHours>
+      <RelativeDeadlineTimeBase xsi:nil="true" />
+      <AbsoluteStopAssignmentsDeadline>0001-01-01T00:00:00</AbsoluteStopAssignmentsDeadline>
+      <RelativeStopAssignmentsDeadline>00:00:00</RelativeStopAssignmentsDeadline>
+      <RelativeStopDeadlineDays xsi:nil="true" />
+      <RelativeStopDeadlineHours xsi:nil="true" />
+      <AbsoluteStopAssignmentsDeadlineInternal>0001-01-01T00:00:00</AbsoluteStopAssignmentsDeadlineInternal>
+    </BlockBase>
+    <BlockBase xsi:type="AssignmentBlock">
+      <Id>5</Id>
+      <Title>Проверка отпусков руководителем</Title>
+      <GroupsAttachmentsRights />
+      <CustomProperties />
+      <TypeGuid>f1abe646-8f93-4623-b943-f3232849c870</TypeGuid>
+      <CreatedEntitiesIds />
+      <Performers />
+      <IsStopped>false</IsStopped>
+      <IsParallel>false</IsParallel>
+      <AbsoluteDeadline>0001-01-01T00:00:00</AbsoluteDeadline>
+      <RelativeDeadline>3.00:00:00</RelativeDeadline>
+      <RelativeDeadlineDays>3</RelativeDeadlineDays>
+      <RelativeDeadlineHours>0</RelativeDeadlineHours>
+      <RelativeDeadlineTimeBase xsi:nil="true" />
+      <AbsoluteStopAssignmentsDeadline>0001-01-01T00:00:00</AbsoluteStopAssignmentsDeadline>
+      <RelativeStopAssignmentsDeadline>00:00:00</RelativeStopAssignmentsDeadline>
+      <RelativeStopDeadlineDays xsi:nil="true" />
+      <RelativeStopDeadlineHours xsi:nil="true" />
+      <AbsoluteStopAssignmentsDeadlineInternal>0001-01-01T00:00:00</AbsoluteStopAssignmentsDeadlineInternal>
+    </BlockBase>
+    <BlockBase xsi:type="NoticeBlock">
+      <Id>8</Id>
+      <Title>Уведомление сотрудникам об отпусках</Title>
+      <GroupsAttachmentsRights />
+      <CustomProperties />
+      <TypeGuid>a84e9f66-32c5-4773-a039-4da179a3f10f</TypeGuid>
+      <CreatedEntitiesIds />
+      <Performers />
+    </BlockBase>
+    <BlockBase xsi:type="NoticeBlock">
+      <Id>9</Id>
+      <Title>Уведомление ответственному о завершении</Title>
+      <GroupsAttachmentsRights />
+      <CustomProperties />
+      <TypeGuid>ef79164b-2ce7-451b-9ba6-eb59dd9a4a74</TypeGuid>
+      <CreatedEntitiesIds />
+      <Performers />
+    </BlockBase>
+  </Blocks>
+  <Edges>
+    <Edge>
+      <Id>1</Id>
+      <Source>1</Source>
+      <Target>3</Target>
+    </Edge>
+    <Edge>
+      <Id>2</Id>
+      <Source>3</Source>
+      <Target>5</Target>
+    </Edge>
+    <Edge>
+      <Id>3</Id>
+      <Source>5</Source>
+      <Target>8</Target>
+    </Edge>
+    <Edge>
+      <Id>5</Id>
+      <Source>8</Source>
+      <Target>9</Target>
+    </Edge>
+    <Edge>
+      <Id>6</Id>
+      <Source>9</Source>
+      <Target>2</Target>
+    </Edge>
+  </Edges>
+  <Layout>
+    <BlocksLayout>
+      <BlockLayout>
+        <BlockId>1</BlockId>
+        <Bounds>
+          <Location>
+            <X>5</X>
+            <Y>-322.751</Y>
+          </Location>
+          <Size>
+            <Width>48</Width>
+            <Height>48</Height>
+          </Size>
+          <X>5</X>
+          <Y>-322.751</Y>
+          <Width>48</Width>
+          <Height>48</Height>
+        </Bounds>
+      </BlockLayout>
+      <BlockLayout>
+        <BlockId>2</BlockId>
+        <Bounds>
+          <Location>
+            <X>5</X>
+            <Y>200.24900000000002</Y>
+          </Location>
+          <Size>
+            <Width>48</Width>
+            <Height>48</Height>
+          </Size>
+          <X>5</X>
+          <Y>200.24900000000002</Y>
+          <Width>48</Width>
+          <Height>48</Height>
+        </Bounds>
+      </BlockLayout>
+      <BlockLayout>
+        <BlockId>3</BlockId>
+        <Bounds>
+          <Location>
+            <X>-96</X>
+            <Y>-242.75099999999998</Y>
+          </Location>
+          <Size>
+            <Width>250</Width>
+            <Height>70</Height>
+          </Size>
+          <X>-96</X>
+          <Y>-242.75099999999998</Y>
+          <Width>250</Width>
+          <Height>70</Height>
+        </Bounds>
+      </BlockLayout>
+      <BlockLayout>
+        <BlockId>5</BlockId>
+        <Bounds>
+          <Location>
+            <X>-96</X>
+            <Y>-130.75099999999998</Y>
+          </Location>
+          <Size>
+            <Width>250</Width>
+            <Height>70</Height>
+          </Size>
+          <X>-96</X>
+          <Y>-130.75099999999998</Y>
+          <Width>250</Width>
+          <Height>70</Height>
+        </Bounds>
+      </BlockLayout>
+      <BlockLayout>
+        <BlockId>8</BlockId>
+        <Bounds>
+          <Location>
+            <X>-96</X>
+            <Y>-19.750999999999976</Y>
+          </Location>
+          <Size>
+            <Width>250</Width>
+            <Height>70</Height>
+          </Size>
+          <X>-96</X>
+          <Y>-19.750999999999976</Y>
+          <Width>250</Width>
+          <Height>70</Height>
+        </Bounds>
+      </BlockLayout>
+      <BlockLayout>
+        <BlockId>9</BlockId>
+        <Bounds>
+          <Location>
+            <X>-96</X>
+            <Y>90.249000000000024</Y>
+          </Location>
+          <Size>
+            <Width>250</Width>
+            <Height>70</Height>
+          </Size>
+          <X>-96</X>
+          <Y>90.249000000000024</Y>
+          <Width>250</Width>
+          <Height>70</Height>
+        </Bounds>
+      </BlockLayout>
+    </BlocksLayout>
+    <EdgesLayout>
+      <EdgeLayout>
+        <DestinationAnchor>3</DestinationAnchor>
+        <EdgeId>1</EdgeId>
+        <EndPoint>
+          <X>29</X>
+          <Y>-242.75099999999998</Y>
+        </EndPoint>
+        <OriginAnchor>3</OriginAnchor>
+        <Points>
+          <Point>
+            <X>29</X>
+            <Y>-274.751</Y>
+          </Point>
+          <Point>
+            <X>29</X>
+            <Y>-242.75099999999998</Y>
+          </Point>
+          <Point>
+            <X>29</X>
+            <Y>-242.75099999999998</Y>
+          </Point>
+        </Points>
+        <StartPoint>
+          <X>29</X>
+          <Y>-274.751</Y>
+        </StartPoint>
+      </EdgeLayout>
+      <EdgeLayout>
+        <DestinationAnchor>3</DestinationAnchor>
+        <EdgeId>2</EdgeId>
+        <EndPoint>
+          <X>29</X>
+          <Y>-130.75099999999998</Y>
+        </EndPoint>
+        <OriginAnchor>10</OriginAnchor>
+        <Points>
+          <Point>
+            <X>29</X>
+            <Y>-172.75099999999998</Y>
+          </Point>
+          <Point>
+            <X>29</X>
+            <Y>-130.75099999999998</Y>
+          </Point>
+          <Point>
+            <X>29</X>
+            <Y>-130.75099999999998</Y>
+          </Point>
+        </Points>
+        <StartPoint>
+          <X>29</X>
+          <Y>-172.75099999999998</Y>
+        </StartPoint>
+      </EdgeLayout>
+      <EdgeLayout>
+        <DestinationAnchor>3</DestinationAnchor>
+        <EdgeId>3</EdgeId>
+        <EndPoint>
+          <X>29</X>
+          <Y>-19.750999999999976</Y>
+        </EndPoint>
+        <OriginAnchor>10</OriginAnchor>
+        <Points>
+          <Point>
+            <X>29</X>
+            <Y>-60.750999999999976</Y>
+          </Point>
+          <Point>
+            <X>29</X>
+            <Y>-19.750999999999976</Y>
+          </Point>
+          <Point>
+            <X>29</X>
+            <Y>-19.750999999999976</Y>
+          </Point>
+        </Points>
+        <StartPoint>
+          <X>29</X>
+          <Y>-60.750999999999976</Y>
+        </StartPoint>
+      </EdgeLayout>
+      <EdgeLayout>
+        <DestinationAnchor>3</DestinationAnchor>
+        <EdgeId>5</EdgeId>
+        <EndPoint>
+          <X>29</X>
+          <Y>90.249000000000024</Y>
+        </EndPoint>
+        <OriginAnchor>10</OriginAnchor>
+        <Points>
+          <Point>
+            <X>29</X>
+            <Y>50.249000000000024</Y>
+          </Point>
+          <Point>
+            <X>29</X>
+            <Y>90.249000000000024</Y>
+          </Point>
+          <Point>
+            <X>29</X>
+            <Y>90.249000000000024</Y>
+          </Point>
+        </Points>
+        <StartPoint>
+          <X>29</X>
+          <Y>50.249000000000024</Y>
+        </StartPoint>
+      </EdgeLayout>
+      <EdgeLayout>
+        <DestinationAnchor>1</DestinationAnchor>
+        <EdgeId>6</EdgeId>
+        <EndPoint>
+          <X>29</X>
+          <Y>200.24900000000002</Y>
+        </EndPoint>
+        <OriginAnchor>10</OriginAnchor>
+        <Points>
+          <Point>
+            <X>29</X>
+            <Y>160.24900000000002</Y>
+          </Point>
+          <Point>
+            <X>29</X>
+            <Y>200.24900000000002</Y>
+          </Point>
+          <Point>
+            <X>29</X>
+            <Y>200.24900000000002</Y>
+          </Point>
+        </Points>
+        <StartPoint>
+          <X>29</X>
+          <Y>160.24900000000002</Y>
+        </StartPoint>
+      </EdgeLayout>
+    </EdgesLayout>
+  </Layout>
+</RouteScheme>

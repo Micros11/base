@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ManagerAssignmentSubject" xml:space="preserve">
+    <value>Подтвердите готовность к рассмотрению кандидата: {0}</value>
+  </data>
+  <data name="ManagerAssignmentInstruction" xml:space="preserve">
+    <value>1. Ознакомьтесь с отчетом по кандидату.
+2. Укажите в тексте задания готовность рассматривать кандидата на трудоустройство в ваше подразделение.
+3. Выполните задание.</value>
+  </data>
+  <data name="PlanMeetingHRAssignmentSubject" xml:space="preserve">
+    <value>Зафиксируйте результаты после встречи руководителей с кандидатом: {0}</value>
+  </data>
+  <data name="PlanMeetingHRAssignmentInstruction" xml:space="preserve">
+    <value>Если есть руководители, готовые рассмотреть кандидата:
+1. Организуйте встречу руководителей с кандидатом. По результатам встречи зафиксируйте информацию в отчете по кандидату.
+2. Укажите участников встречи в соответствующем поле и выполните задание с результатом "Выполнить".
+
+Если нет руководителей, готовых рассмотреть кандидата, или необходимо прекратить работы по рассмотрению кандидата, выполните задание с результатом "Отказать".</value>
+  </data>
+  <data name="ManagerReportAssignmentInstruction" xml:space="preserve">
+    <value>1. Ознакомьтесь с отчетом по кандидату.
+2. Зафиксируйте информацию по результатам встречи в отчете по кандидату и примите решение по трудоустройству кандидата в ваше подразделение.
+3. Выполните задание.</value>
+  </data>
+  <data name="ManagerReportAssignmentSubject" xml:space="preserve">
+    <value>Зафиксируйте информацию и примите решение по трудоустройству кандидата: {0}</value>
+  </data>
+  <data name="SeoReportAssignmentSubject" xml:space="preserve">
+    <value>Утвердите трудоустройство кандидата: {0}</value>
+  </data>
+  <data name="SeoReportAssignmentInstruction" xml:space="preserve">
+    <value>Примите решение по трудоустройству кандидата:
+1. Если принято положительное решение по трудоустройству кандидата, то выполните задание с результатом "Утвердить".
+2. Если принято отрицательное решение по трудоустройству кандидата, то выполните задание с результатом "Отказать".</value>
+  </data>
+  <data name="PlanSecurityAssignmentSubject" xml:space="preserve">
+    <value>Запросите необходимые документы и сведения у кандидата: {0}</value>
+  </data>
+  <data name="PlanSecurityAssignmentInstruction" xml:space="preserve">
+    <value>1. Запросите и получите от кандидата необходимые документы для службы безопасности.
+2. При необходимости отправьте кандидату для подписания согласие на обработку персональных данных и проконтролируйте его возврат.
+3. Выполните задание с результатом "Выполнить".
+
+Если необходимо прекратить работы по рассмотрению кандидата, то выполните задание с результатом "Отказать".</value>
+  </data>
+  <data name="SecurityAssignmentSubject" xml:space="preserve">
+    <value>Проверьте сведения о кандидате: {0}</value>
+  </data>
+  <data name="SecurityAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с информацией по кандидату и зафиксируйте рекомендации и комментарии в тексте задания. Выполните задание.</value>
+  </data>
+  <data name="PrepareHiringAssignmentSubject" xml:space="preserve">
+    <value>Выполните необходимые действия по дальнейшей работе с кандидатом: {0}</value>
+  </data>
+  <data name="PrepareHiringAssignmentInstruction" xml:space="preserve">
+    <value>Выполните необходимые действия по дальнейшей работе с кандидатом:
+1. Если необходимо инициировать работы по приему кандидата, то нажмите на кнопку "Принять на работу", заполните поля и стартуйте задачу.
+2. Если инициировать работы по приему кандидата необходимо позже, а на текущий момент необходимо завершить работы по рассмотрению кандидата, то выполните задание с результатом "Перевести в резерв".
+3. Если необходимо прекратить работы по рассмотрению кандидата, то выполните задание с результатом "Отказать".</value>
+  </data>
+  <data name="TaskSubject" xml:space="preserve">
+    <value>Рассмотрение кандидата: {0}</value>
+  </data>
+  <data name="AbortNotice" xml:space="preserve">
+    <value>Завершено рассмотрение кандидата: {0}</value>
+  </data>
+  <data name="PlanSeoAssignmentSubject" xml:space="preserve">
+    <value>Зафиксируйте решение по трудоустройству кандидата: {0}</value>
+  </data>
+  <data name="PlanSeoAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с отчетом по кандидату:
+1. Если имеются руководители, готовые к трудоустройству кандидата, то, при необходимости обсудите вопросы с руководителями и зафиксируйте решение в тексте задания.
+2. Если нет руководителей, готовых к трудоустройству кандидата, выполните задание с результатом "Отказать".</value>
+  </data>
+  <data name="ActiveTextOnCreate" xml:space="preserve">
+    <value>Прошу рассмотреть кандидата.</value>
+  </data>
+</root>

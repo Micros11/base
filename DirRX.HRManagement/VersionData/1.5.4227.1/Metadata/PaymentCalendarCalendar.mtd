@@ -1,0 +1,83 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "bc42bfc0-7081-4621-bf1d-49da1c2cde9f",
+  "Name": "PaymentCalendarCalendar",
+  "AccessRightsMode": "NoRight",
+  "BaseGuid": "a3d38bf5-0414-41f6-bb33-a4621d2e5a60",
+  "CanBeNavigationPropertyType": true,
+  "Code": "PaymentCalenda",
+  "ExtraSearchProperties": [],
+  "IsChildEntity": true,
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "02ed15ab-804e-4080-94cf-77c8f2452b8b",
+      "Name": "PaymentCalendar",
+      "CanBeSearch": false,
+      "Code": "PayCalendar",
+      "EntityGuid": "5236c6f5-9620-46bf-afdd-61448633a93d",
+      "IsReferenceToRootEntity": true,
+      "IsShowedInList": false
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "6ebe7a0a-14e7-41f3-bd69-3429f4c58d07",
+      "Name": "Date",
+      "CanBeSearch": false,
+      "Code": "Date",
+      "HandledEvents": [
+        "ChangedShared"
+      ],
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "02ed15ab-804e-4080-94cf-77c8f2452b8b"
+    },
+    {
+      "$type": "Sungero.Metadata.BooleanPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "1d20bf4b-4227-4f04-9a0e-d4a35bbbd2df",
+      "Name": "IsPayment",
+      "CanBeSearch": false,
+      "Code": "IsPayment",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.BooleanEditorToBooleanBinder",
+      "PreviousPropertyGuid": "2fdf4c98-5e22-4c8e-8c5a-00e76ed9e5ab"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "af5cfcd9-ee36-43d0-83a8-7fa4c8f70648",
+      "Name": "DayOfWeek",
+      "CanBeSearch": false,
+      "Code": "DayOfWeek",
+      "IsEnabled": false,
+      "IsRequired": true,
+      "Length": 3,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "1d20bf4b-4227-4f04-9a0e-d4a35bbbd2df"
+    }
+  ],
+  "PublicStructures": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "b77c224e-c084-41cc-be18-8b94734837af",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "976a83c0-6ca3-48b3-bb10-f6c0bf7e4ac1",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 11
+    }
+  ]
+}

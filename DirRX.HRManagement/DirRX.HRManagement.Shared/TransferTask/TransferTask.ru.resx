@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbortNotice" xml:space="preserve">
+    <value>Прекращен перевод сотрудника: {0}</value>
+  </data>
+  <data name="ApprovalAssignmentSubject" xml:space="preserve">
+    <value>Согласуйте изменение условий труда сотрудника: {0}</value>
+  </data>
+  <data name="CheckDocAssignmentInstruction" xml:space="preserve">
+    <value>Проверьте приказ и дополнительное соглашение. При необходимости скорректируйте документы. После проверки документов выполните задание.</value>
+  </data>
+  <data name="CheckDocAssignmentSubject" xml:space="preserve">
+    <value>Проверьте документы по изменению условий труда сотрудника: {0}</value>
+  </data>
+  <data name="SignAssignmentSubject" xml:space="preserve">
+    <value>Подпишите ЭП документы по изменению условий труда сотрудника: {0}</value>
+  </data>
+  <data name="SignSeoAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с  документами: 
+1. Если замечаний нет, выполните задание с результатом "Подписать" (доп. соглашение и приказ будут подписаны автоматически при выполнении задания).
+2. Если есть замечания, укажите их в тексте задания и выполните его с результатом "На доработку".</value>
+  </data>
+  <data name="SignEmployeeAssignmenInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с документами и выполните задание с результатом "Подписать". Доп. соглашение и приказ будут подписаны автоматически при выполнении задания.</value>
+  </data>
+  <data name="ReWorkDocsAssignmentSubject" xml:space="preserve">
+    <value>Доработайте документы по изменению условий труда сотрудника: {0}</value>
+  </data>
+  <data name="ReWorkDocsAssignmentInstruction" xml:space="preserve">
+    <value>Скорректируйте документы в соответствии с замечаниями и выполните задание с результатом "Исправлено".</value>
+  </data>
+  <data name="PreparingAssignmentSubject" xml:space="preserve">
+    <value>Выполните необходимые работы в связи с переводом сотрудника: {0}</value>
+  </data>
+  <data name="TransferTaskSubject" xml:space="preserve">
+    <value>Изменение условий труда сотрудника: {0}</value>
+  </data>
+  <data name="HRApprovalAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с параметрами заявления:
+1. Если есть замечания, то скорректируйте необходимые параметры заявления и выполните задание с результатом "Согласовать".
+2. Если нет замечаний, убедитесь, что поле "Дата перевода" заполнено, и выполните задание с результатом "Согласовать".
+3. Если необходимо отказать в согласовании, то укажите причину в тексте задания и выполните задание с результатом "Отказать".</value>
+  </data>
+  <data name="SignStatementAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь со сформированным заявлением:
+1. Если нет замечаний, то выполните задание с результатом "Подписать" (заявление будет подписано автоматически при выполнении задания).
+2. Если есть замечания, то укажите их в тексте задания и выполните задание с результатом "На повторное согласование".</value>
+  </data>
+  <data name="SignStatementAssignmentSubject" xml:space="preserve">
+    <value>Проверьте и подпишите ЭП заявление на перевод</value>
+  </data>
+  <data name="HRManagerApprovalAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с параметрами заявления:
+1. Если нет замечаний, то выполните задание с результатом "Согласовать".
+2. Если есть замечания или необходимо отказать в согласовании, то выполните задание с результатом "Отказать".</value>
+  </data>
+  <data name="DeniedNoticeSubject" xml:space="preserve">
+    <value>Прекращен процесс изменения условий труда сотрудника: {0}</value>
+  </data>
+  <data name="SignAllPaperDocAssignmentInstruction" xml:space="preserve">
+    <value>1. Распечатайте доп. соглашение, приказ и организуйте их подписание в бумажном виде директором по персоналу.
+2. Организуйте подписание сотрудником в бумажном виде доп. соглашения. Ознакомьте под подпись сотрудника с приказом. Выполните задание.</value>
+  </data>
+  <data name="SignAllPaperDocAssignmentSubject" xml:space="preserve">
+    <value>Организуйте подписание документов в бумажном виде с сотрудником: {0}</value>
+  </data>
+  <data name="SignPaperAddAgreementAssignmentSubject" xml:space="preserve">
+    <value>Организуйте подписание доп. соглашения в бумажном виде с сотрудником: {0}</value>
+  </data>
+  <data name="SignPaperAddAgreementAssignmentInstruction" xml:space="preserve">
+    <value>1. Распечатайте доп. соглашение и организуйте его подписание в бумажном виде директором по персоналу.
+2. Организуйте подписание в бумажном виде доп. соглашения сотрудником. Выполните задание.</value>
+  </data>
+  <data name="ErrorTextReWorkNoActiveText" xml:space="preserve">
+    <value>Перед выполнением задания с результатом "На доработку" укажите замечания в тексте задания.</value>
+  </data>
+  <data name="ErrorTextRefuseNoActiveText" xml:space="preserve">
+    <value>Перед выполнением задания с результатом "Отказать" укажите причину в тексте задания.</value>
+  </data>
+  <data name="CurrentManagerApprovalAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с запросом на изменение условий труда сотрудника: 
+1. Если изменение условий труда связано с переводом в другое подразделение, установите флажок "Перевод в другое подразделение".  
+2. Если замечаний нет, укажите дату изменений условий труда и выполните задание с результатом "Согласовать".
+3. Если есть замечания, укажите их в тексте задания и выполните его с результатом "На доработку".
+4. Если необходимо отказать в согласовании, укажите причину в тексте задания и выполните его с результатом "Отказать".</value>
+  </data>
+  <data name="NewManagerApprovalAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с параметрами перевода: 
+1. Если параметры указаны корректно, выполните задание с результатом "Согласовать".
+2. Если замечания есть, укажите их в тексте задания и выполните его с результатом "На доработку".
+3. Если необходимо отказать в переводе, укажите причину в тексте задания и выполните его с результатом "Отказать".</value>
+  </data>
+  <data name="AccountResponsibleAssignmentInstruction" xml:space="preserve">
+    <value>Осуществите необходимые финансовые операции и выполните задание.</value>
+  </data>
+  <data name="ErrorTextReApproveNoActiveText" xml:space="preserve">
+    <value>Перед выполнением задания с результатом "На повторное согласование" укажите замечания в тексте задания.</value>
+  </data>
+  <data name="ActiveTextOnCreate" xml:space="preserve">
+    <value>Прошу согласовать перевод сотрудника.</value>
+  </data>
+  <data name="SignEmployeeAssignmentSubject" xml:space="preserve">
+    <value>Подпишите ЭП документы по изменению условий труда</value>
+  </data>
+  <data name="NeedGenerateOrderAndAgreement" xml:space="preserve">
+    <value>Перед стартом задачи сформируйте кадровые документы.</value>
+  </data>
+  <data name="EmptyActiveTextError" xml:space="preserve">
+    <value>Укажите желаемые изменения условий труда в тексте задачи.</value>
+  </data>
+  <data name="TransferTaskStartRoleError" xml:space="preserve">
+    <value>Инициатор задачи на изменение условий труда сотрудника не может одновременно являться руководителем и {0}.</value>
+  </data>
+  <data name="SupplyResponsibleAssignmentInstruction" xml:space="preserve">
+    <value>Обеспечьте сотрудника необходимыми материальными ценностями и выполните задание.</value>
+  </data>
+  <data name="SecurityResponsibleAssignmentInstruction" xml:space="preserve">
+    <value>Обеспечьте необходимые уровни допуска и права доступа в соответствии с переводом и выполните задание.</value>
+  </data>
+  <data name="ITResponsibleAssignmentInstruction" xml:space="preserve">
+    <value>1. Выдайте сотруднику необходимые права доступа.
+2. Актуализируйте информацию о подразделении и должности сотрудника.
+3. Обеспечьте сотрудника необходимыми техническими и программными ценностями. 
+4. Выполните задание.</value>
+  </data>
+  <data name="TransferStartError" xml:space="preserve">
+    <value>Перевод в другое подразделение возможен только по согласованию с сотрудником.</value>
+  </data>
+  <data name="TranferTaskStartedManagersNotice" xml:space="preserve">
+    <value>Инициировано изменение условий труда сотрудника: {0}</value>
+  </data>
+  <data name="EmployeeStatemantAssignmentSubject" xml:space="preserve">
+    <value>Согласуйте изменение условий труда</value>
+  </data>
+  <data name="ManagersReworkNotice" xml:space="preserve">
+    <value>Доработаны изменения условий труда сотрудника: {0}</value>
+  </data>
+  <data name="ReWorkPrepareDocAssignmentSubject" xml:space="preserve">
+    <value>Доработайте документы по изменению условий труда сотрудника: {0}</value>
+  </data>
+  <data name="TransferApprovednotice" xml:space="preserve">
+    <value>Согласовано изменение условий труда сотрудника: {0}</value>
+  </data>
+  <data name="TransferTaskStartedNotice" xml:space="preserve">
+    <value>Инициировано изменение условий труда</value>
+  </data>
+  <data name="TransferReWorkSubject" xml:space="preserve">
+    <value>Доработайте желаемые изменения условий труда</value>
+  </data>
+  <data name="EmployeeDeniedNoticeSubject" xml:space="preserve">
+    <value>{0} отказался от изменения условий труда</value>
+  </data>
+  <data name="HRTaskInstruction" xml:space="preserve">
+    <value>1. Укажите параметры изменения условий труда сотрудника.
+2. Если изменение условий труда не требует согласования с сотрудником, установите флажок "Согласование с сотрудником не требуется".
+3. Если изменение условий труда сотрудника связано с переводом в другое подразделение, установите флажок "Перевод в другое подразделение" и заполните поля "Новое подразделение", "Должность".
+4. Сформируйте доп. соглашение и приказ об изменении условий труда по кнопке "Создать документы". При необходимости скорректируйте их содержание. </value>
+  </data>
+  <data name="ManagerTaskInstruction" xml:space="preserve">
+    <value>1. Укажите параметры изменения условий труда сотрудника. Дополнительную информацию укажите в тексте задачи.
+2. Если изменение условий труда сотрудника связано с переводом в другое подразделение, установите флажок "Перевод в другое подразделение" и заполните поля "Новое подразделение", "Должность".</value>
+  </data>
+  <data name="EmployeeTaskInstruction" xml:space="preserve">
+    <value>Укажите желаемые изменения условий труда в тексте задачи. </value>
+  </data>
+  <data name="TransferDateError" xml:space="preserve">
+    <value>Дата изменений должна быть больше сегодняшней даты.</value>
+  </data>
+  <data name="EmployeeReWorkInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с замечаниями, доработайте желаемые изменения условий труда и выполните задание. </value>
+  </data>
+  <data name="EmployeeStetementInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с документами из области вложений:
+1. Если замечания по предложенным изменениям отсутствуют, выполните задание с результатом "Согласовать".
+2. Если есть замечания, укажите их в тексте задания и выполните его с результатом "На доработку".
+3. Если не согласны с изменениями условий труда, укажите причину в тексте задания и выполните его с результатом "Прекратить".</value>
+  </data>
+  <data name="RePrepareDocAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с замечаниями, скорректируйте документы и выполните задание. </value>
+  </data>
+  <data name="EmployeeSelfStartStetementInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с документами из области вложений:
+1. Если замечаний по предложенным изменениям нет, выполните задание с результатом "Согласовать".
+2. Если замечания есть, укажите их в тексте задания и выполните его с результатом "На доработку".
+3. Если вы не согласны с предложенными изменениями, укажите причину в тексте задания и выполните его с результатом "Прекратить".</value>
+  </data>
+  <data name="NewManagerReApprovalAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с доработанными изменениями условий труда сотрудника:
+1. Если замечаний нет, выполните задание с результатом "Согласовать".
+2. Если замечания есть, укажите их в тексте задания и выполните его с результатом "На доработку".
+3. Если необходимо отказать в согласовании, укажите причину в тексте задания и выполните его с результатом "Отказать".</value>
+  </data>
+  <data name="ManagerReWorkInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с замечаниями:
+1. Доработайте параметры изменения условий труда и документы из области вложений. Выполните задание с результатом "Исправлено".
+2. Если необходимо прекратить процесс изменения условий труда, укажите причину в тексте задания и выполните его с результатом "Прекратить".</value>
+  </data>
+  <data name="TransferManagerReWorkSubject" xml:space="preserve">
+    <value>Доработайте параметры изменений условий труда сотрудника: {0}</value>
+  </data>
+  <data name="ReApprovalAssignmentSubject" xml:space="preserve">
+    <value>Согласуйте изменения условий труда сотрудника: {0}</value>
+  </data>
+  <data name="CurrentManagerReApprovalAssignmentInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с доработанными изменениями условий труда сотрудника:
+1. Если замечаний нет, укажите необходимые параметры и выполните задание с результатом "Согласовать".
+2. Если замечания есть, укажите их в тексте задания и выполните его с результатом "На доработку".
+3. Если необходимо отказать в согласовании, укажите причину в тексте задания и выполните его с результатом "Отказать".</value>
+  </data>
+  <data name="NewManagerApprovalAssignmentSubject" xml:space="preserve">
+    <value>Согласуйте параметры перевода сотрудника: {0}</value>
+  </data>
+  <data name="HRReWorkInstruction" xml:space="preserve">
+    <value>Ознакомьтесь с замечаниями:
+1. Доработайте параметры изменения условий труда и документы из области вложений по замечаниям. Выполните задание с результатом "Исправлено".
+2. Если необходимо прекратить процесс изменения условий труда, укажите причину в тексте задания и выполните его с результатом "Отказать".</value>
+  </data>
+</root>

@@ -1,0 +1,91 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "5dec8ad1-8148-4d42-a54b-3f9a04e68cf0",
+  "Name": "HRSolution",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "DirRX.HRSolution.Client",
+  "ClientBaseAssemblyName": "DirRX.HRSolution.ClientBase",
+  "ClientBaseNamespace": "DirRX.HRSolution.ClientBase",
+  "ClientNamespace": "DirRX.HRSolution.Client",
+  "Code": "HRSolut",
+  "CompanyCode": "DirRX",
+  "Cover": {
+    "NameGuid": "a6c15abc-b0d1-4188-9e11-ceb8b1f2df7a",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "672887dd-ad8d-4da5-971a-120aa45f4445",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "06af049f-68b8-4d80-8577-92df6076bcd6",
+      "BackgroundPosition": "Stretch"
+    }
+  },
+  "Dependencies": [
+    {
+      "Id": "459fa497-ee5b-49a4-9980-de00cada9b7a",
+      "MaxVersion": "4.2.99.9999",
+      "MinVersion": "4.2.27.0"
+    },
+    {
+      "Id": "179a8916-3b1e-4363-92c4-c27e038ff6c6",
+      "MaxVersion": "",
+      "MinVersion": "1.4.4227.1"
+    }
+  ],
+  "DesktopViews": [],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "8b428796-4edd-4b44-890a-879d803926ef"
+    },
+    {
+      "ItemId": "d38b1dfd-687d-40d6-a955-cc62137723b5",
+      "PreviousItemId": "8b428796-4edd-4b44-890a-879d803926ef"
+    },
+    {
+      "ItemId": "9ab0cf62-039d-4d86-ab02-670a71ec2376",
+      "PreviousItemId": "d38b1dfd-687d-40d6-a955-cc62137723b5"
+    }
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "DirRX.HRSolution",
+  "OrderedSpecialFolders": [
+    {
+      "NameGuid": "b79b323f-c627-43d0-b9d0-88651df98924",
+      "ParentFolderId": "eb72a985-606c-4647-ba0c-1389928a4e17"
+    },
+    {
+      "NameGuid": "7cf49851-f819-4ab4-b530-2ff5fd0edbcd",
+      "ParentFolderId": "201bcad8-a5c4-4ef4-ba90-55334e02dd29"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "DirRX.HRSolution",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "DirRX.HRSolution.Server",
+  "ServerNamespace": "DirRX.HRSolution.Server",
+  "SharedAssemblyName": "DirRX.HRSolution.Shared",
+  "SharedNamespace": "DirRX.HRSolution.Shared",
+  "SpecialFolders": [],
+  "Version": "1.5.4227.3",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

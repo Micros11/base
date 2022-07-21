@@ -1,0 +1,75 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "62bc9e30-f047-4ab1-acc5-45260ff6683d",
+  "Name": "HRSettingsTemplateSettings",
+  "AccessRightsMode": "NoRight",
+  "BaseGuid": "a3d38bf5-0414-41f6-bb33-a4621d2e5a60",
+  "CanBeNavigationPropertyType": true,
+  "Code": "TemplateSet",
+  "ExtraSearchProperties": [],
+  "IsChildEntity": true,
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "d20d9176-3622-4343-8cd9-94c98d9e9080",
+      "Name": "HRSettings",
+      "CanBeSearch": false,
+      "Code": "HRSettings",
+      "EntityGuid": "ca65e0f4-759e-4056-9ed5-6f2990ed839c",
+      "IsReferenceToRootEntity": true,
+      "IsShowedInList": false
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "43c87be8-896e-454b-9832-6d3c2e5696a3",
+      "Name": "DocKind",
+      "CanBeSearch": false,
+      "Code": "DocKind",
+      "EntityGuid": "14a59623-89a2-4ea8-b6e9-2ad4365f358c",
+      "FlatListInStandaloneLookup": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "d20d9176-3622-4343-8cd9-94c98d9e9080"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "88d92794-a949-4eba-b8c4-e58472a65c1b",
+      "Name": "Template",
+      "CanBeSearch": false,
+      "Code": "Template",
+      "EntityGuid": "9abcf1b7-f630-4a82-9912-7f79378ab199",
+      "FlatListInStandaloneLookup": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "43c87be8-896e-454b-9832-6d3c2e5696a3"
+    }
+  ],
+  "PublicStructures": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "6e4d805b-305c-4732-9fa3-f89a9cd5d097",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "763d3fa5-98db-46c2-98f1-82d7e2ff65c7",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 9
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 2
+    }
+  ]
+}
